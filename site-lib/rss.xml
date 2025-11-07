@@ -1,4 +1,29 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[$\bar{Ben}$]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>$\bar{Ben}$</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 05 Nov 2025 00:03:38 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 05 Nov 2025 00:03:35 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[פונקציית דלטא של דיראק ובניו]]></title><description><![CDATA[a.
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[$\bar{Ben}$]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>$\bar{Ben}$</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 07 Nov 2025 21:05:20 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 07 Nov 2025 21:05:19 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[לגרנזיאן]]></title><description><![CDATA[נחלק ב: נציב את משוואה (1) לחישוב של האנרגיה הקינטית:
+נגזור ב: ניזכר שוב במשוואה (1):סידור קל שמותר לנו לעשות בגלל שהאינדקס של הוקטור לא קשור לסכימה הפנימית ואז יהיה לנו קל לראות משהו חשוב:
+מריח כמו תנע!
+נחזור לזה אחר כך, אנחנו יודעים שתחת אילוצים הולונומיים(כלומר שהתנועה תלויה רק במיקום ולא במהירות או בתאוצה) מתקיימת משוואה (1).
+אם לא היו לנו את האילוצים האלה היה עוד איבר שמה.
+בקיצר:
+לאחר צמצום נקודות נראה כי:
+נחשב את הנגזרות המופיעות במשוואת לגראנז׳:נשנה את סדר הגזירה ונזכר שוב שמתחבא לנו פה תנע:
+משום שהקוארדינטות הן בלתי תלויות ובנגזרת חלקית אנחנו מתייחסים לשאר המשתנים הבלתי תלויים כקבועים, אם נחליף בין סדר הגזירה לסכום נקבל כי רק איבר אחד בסכום יתן לנו תוצאה מסויימת וכל השאר יתאפסו. לכן:
+]]></description><link>מכניקה-אנליטית/שיעורי-בית/לגרנזיאן.html</link><guid isPermaLink="false">מכניקה אנליטית/שיעורי בית/לגרנזיאן.md</guid><pubDate>Fri, 07 Nov 2025 21:04:48 GMT</pubDate></item><item><title><![CDATA[לגרנזיאן]]></title><description><![CDATA[הפרש בין אנרגיה קינטית לפוטנציאלית
+נבחן שרשרת אינסופית של מסות נקודתיות זהות המוחברות ביניהן בקפיצים זהים
+המשקל אותו דבר בכולם המקדם קפיץ אותו דבר בכולם המרחק מכל אחת אותו דבר.
+נגדיר כהעתקת המסה מנקודת שיווי המשקל שלה.
+יש לציין שהאנרגיה הפוטנציאלית פרופורציונלית לריבוע מתיחות הקפיץ.]]></description><link>מכניקה-אנליטית/תרגולים/לגרנזיאן.html</link><guid isPermaLink="false">מכניקה אנליטית/תרגולים/לגרנזיאן.md</guid><pubDate>Fri, 07 Nov 2025 18:19:11 GMT</pubDate></item><item><title><![CDATA[מד״ח עם הפרדת משתנים]]></title><description><![CDATA[
+בוחרים מערכת קוארדינטות מתאימה לתנאי שפה
+ננחש פתרון בצורה של הפרדת משתנים: תנאי שפה: נניח פתרון בצורת הפרדת משתנים:
+נציב במשוואת החום:
+מאחר ושני האגפים אינם תלויים זה בזה משמע ששניהם קבועים.
+כדי שלא נתבדר:
+נחזור לחלק המרחבי:
+נראה כי חייב להתקיים:
+במקרה הכי כללי מדומה ולכן:
+פתרון המשוואה:
+עם הצבות עניינים נקבל כי:
+נציב במקרה שלנו:
+]]></description><link>ממפיס-3/תרגולים/מד״ח-עם-הפרדת-משתנים.html</link><guid isPermaLink="false">ממפיס 3/תרגולים/מד״ח עם הפרדת משתנים.md</guid><pubDate>Wed, 05 Nov 2025 15:11:20 GMT</pubDate></item><item><title><![CDATA[פונקציית דלטא של דיראק ובניו]]></title><description><![CDATA[a.
 יהי פונקציית מבחן
 נציב לכן שני פונקציות ההתפלגות שוות.(שמנו את בערך מוחלט כדי להשאיר את הסדר של הגבולות)b.
 נחשב את התוחלת של שני הצדדים:לכן משתמע כי:
