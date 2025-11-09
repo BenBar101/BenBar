@@ -1,18 +1,25 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[$\bar{Ben}$]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>$\bar{Ben}$</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 08 Nov 2025 16:56:16 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 08 Nov 2025 16:56:14 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[לגרנזיאן]]></title><description><![CDATA[נחלק ב: נציב את משוואה (1) לחישוב של האנרגיה הקינטית:
-נגזור ב: ניזכר שוב במשוואה (1):סידור קל שמותר לנו לעשות בגלל שהאינדקס של הוקטור לא קשור לסכימה הפנימית ואז יהיה לנו קל לראות משהו חשוב:
-מריח כמו תנע!
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[$\bar{Ben}$]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>$\bar{Ben}$</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 09 Nov 2025 11:10:35 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 09 Nov 2025 11:10:33 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[לגרנזיאן]]></title><description><![CDATA[נחלק ב: נציב את משוואה (1) לחישוב של האנרגיה הקינטית:
+מאחר ויש לנו רק דרגה אחת של חופש נראה כי: נגזור ב: ניזכר שוב במשוואה (1):נשים לב כי מתחבא פה תנע
 נחזור לזה אחר כך, אנחנו יודעים שתחת אילוצים הולונומיים(כלומר שהתנועה תלויה רק במיקום ולא במהירות או בתאוצה) מתקיימת משוואה (1).
-אם לא היו לנו את האילוצים האלה היה עוד איבר שמה.
-בקיצר:
+אם לא היו לנו את האילוצים הללו היו עוד איברים בביטוי.
+בכל אופן נגזור את משוואה (1) ב-:
 לאחר צמצום נקודות נראה כי:
 נחשב את הנגזרות המופיעות במשוואת לגראנז׳:נשנה את סדר הגזירה ונזכר שוב שמתחבא לנו פה תנע:
-משום שהקוארדינטות הן בלתי תלויות ובנגזרת חלקית אנחנו מתייחסים לשאר המשתנים הבלתי תלויים כקבועים, אם נחליף בין סדר הגזירה לסכום נקבל כי רק איבר אחד בסכום יתן לנו תוצאה מסויימת וכל השאר יתאפסו. לכן:
 א.
 צריך דרגה אחת של חופש והיא הזווית. משום שבזכות האילוצים של הקיר הרצפה והאורך הקבוע של הסולם אני אוכל לתאר את המערכת רק בזכות לדעת מהי הזווית.ב. היא הקוארדינטה משום ש: כאשר זה המרחק של הנקודה מהחלק של הסולם שנוגע ברצפה.ג.
 נמצא את האנרגיה הקינטית בסולם.
 נגדיר את להיות המרחק של הנקודה מהחלק של הסולם שנוגע ברצפה.
 נמצא את המהירויות בקוארדינטות הקרטיזיות: ועכשיו נמצא את המהירות הכוללת:
-אנחנו יודעים כי אנחנו יכולים לסכום את האנרגיה קינטית של כל חלקיק בסולם: אצלנו הסולם הוא רציף ולכן: ד. ציר כלפי מעלה וציר כלפי שמאל ]]></description><link>מכניקה-אנליטית/שיעורי-בית/לגרנזיאן.html</link><guid isPermaLink="false">מכניקה אנליטית/שיעורי בית/לגרנזיאן.md</guid><pubDate>Sat, 08 Nov 2025 16:50:14 GMT</pubDate></item><item><title><![CDATA[לגרנזיאן 2025-11-08 16.27.51]]></title><link>excalidraw/לגרנזיאן-2025-11-08-16.27.51.excalidraw.html</link><guid isPermaLink="false">Excalidraw/לגרנזיאן 2025-11-08 16.27.51.excalidraw.md</guid><pubDate>Sat, 08 Nov 2025 14:28:37 GMT</pubDate></item><item><title><![CDATA[לגרנזיאן]]></title><description><![CDATA[הפרש בין אנרגיה קינטית לפוטנציאלית
+אנחנו יודעים כי אנחנו יכולים לסכום את האנרגיה קינטית של כל חלקיק בסולם: אצלנו הסולם הוא רציף ולכן: ד. ציר כלפי מעלה וציר כלפי שמאל
+למדנו במכניקה שמאחר והצפיפות מסה בסולם היא אחידה נוכל לחשב את את האנרגיה הפוטנציאלית של מרכז הסולם בתור האנרגיה הפוטנציאלית של כלל הסולם:
+נחשב את איברי משוואת אוילר-לגרנאז בנפרד:
+נציב הכל בחזרה למשוואת אוילר-לגראנז:
+נחלק בקבועים שאינם שווים לאפס:
+ה.
+יש לנו שני כוחות מאלצים: הכוח מהקיר הכוח מהרצפה.
+כלומר: הם עובדים בשני נקודות: נציב את הכוחות והנקודות בהתאמה במשוואה:
+ו.
+אם נציב את כל מה שמצאנו נראה שמתקיימת משוואת לגראנז משום ש- התאפס.]]></description><link>מכניקה-אנליטית/שיעורי-בית/לגרנזיאן.html</link><guid isPermaLink="false">מכניקה אנליטית/שיעורי בית/לגרנזיאן.md</guid><pubDate>Sun, 09 Nov 2025 11:10:21 GMT</pubDate></item><item><title><![CDATA[לגרנזיאן 2025-11-08 16.27.51]]></title><link>excalidraw/לגרנזיאן-2025-11-08-16.27.51.excalidraw.html</link><guid isPermaLink="false">Excalidraw/לגרנזיאן 2025-11-08 16.27.51.excalidraw.md</guid><pubDate>Sat, 08 Nov 2025 14:28:37 GMT</pubDate></item><item><title><![CDATA[לגרנזיאן]]></title><description><![CDATA[הפרש בין אנרגיה קינטית לפוטנציאלית
 נבחן שרשרת אינסופית של מסות נקודתיות זהות המוחברות ביניהן בקפיצים זהים
 המשקל אותו דבר בכולם המקדם קפיץ אותו דבר בכולם המרחק מכל אחת אותו דבר.
 נגדיר כהעתקת המסה מנקודת שיווי המשקל שלה.
