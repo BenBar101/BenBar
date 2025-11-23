@@ -11,39 +11,52 @@ on:
 jobs:
   add-mathjax:
     runs-on: ubuntu-latest
-    
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Add MathJax to HTML files
         run: |
-          # Find all HTML files and add MathJax to their head section
           find . -name "*.html" -type f | while read file; do
-            # Check if MathJax is already in the file
             if ! grep -q "mathjax" "$file"; then
-              # Create a temporary file with MathJax script injected
-              temp_file="${file}.tmp"
-              
-              # Insert MathJax script before </head>
-              sed '/<\/head>/i\    <script>\n      MathJax = {\n        tex: {\n          inlineMath: [['\''$'\'', '\''$'\''], ['\''\\\\('\'', '\''\\\\)'\'']],\n          displayMath: [['\''$$'\'', '\''$$'\''], ['\''\\\\['\'', '\''\\\\]'\'']]\n        }\n      };\n    <\/script>\n    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"><\/script>' "$file" > "$temp_file"
-              
-              mv "$temp_file" "$file"
-              echo "Added MathJax to: $file"
+              python3 << 'EOF'
+          import sys
+          import re
+          
+          file_path = "$file"
+          with open(file_path, 'r', encoding='utf-8') as f:
+              content = f.read()
+          
+          mathjax_script = '''    <script>
+              MathJax = {
+                tex: {
+                  inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],
+                  displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']]
+                }
+              };
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>'''
+          
+          content = re.sub(r'</head>', mathjax_script + '\n</head>', content, flags=re.IGNORECASE)
+          
+          with open(file_path, 'w', encoding='utf-8') as f:
+              f.write(content)
+          
+          print(f"Added MathJax to: {file_path}")
+          EOF
             else
               echo "MathJax already present in: $file"
             fi
           done
-      
+
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
           git commit -m "chore: inject MathJax into HTML files" || echo "No changes to commit"
-      
+
       - name: Push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.LATEX }}
-        run: |
-          git remote set-url origin https://x-access-token:${{ secrets.LATEX }}@github.com/${{ github.repository }}.git
-          git push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.LATEX }}
+          branch: ${{ github.ref }}
