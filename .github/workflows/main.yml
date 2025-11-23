@@ -42,4 +42,8 @@ jobs:
           git commit -m "chore: inject MathJax into HTML files" || echo "No changes to commit"
       
       - name: Push changes
-        run: git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.LATEX }}
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.LATEX }}@github.com/${{ github.repository }}.git
+          git push
