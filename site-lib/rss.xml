@@ -1,118 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[BenBar]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>BenBar</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 29 Dec 2025 17:02:07 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 29 Dec 2025 17:01:36 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[סיכום הרצאות]]></title><description><![CDATA[
-מבוסס על הקורס של פרופ' אריק גרוסמן והספר Analytical Mechanics מאת Hand &amp; Finch <a data-href="#1. מבוא למכניקה אנליטית" href="מכניקה-אנליטית/סיכום-הרצאות.html#1._מבוא_למכניקה_אנליטית_0" class="internal-link" target="_self" rel="noopener nofollow">1. מבוא למכניקה אנליטית</a>
-<br><a data-href="#2. אילוצים ומערכות קואורדינטות" href="מכניקה-אנליטית/סיכום-הרצאות.html#2._אילוצים_ומערכות_קואורדינטות_0" class="internal-link" target="_self" rel="noopener nofollow">2. אילוצים ומערכות קואורדינטות</a>
-<br><a data-href="#3. עקרון העבודה הווירטואלית ועקרון דאלמבר" href="מכניקה-אנליטית/סיכום-הרצאות.html#3._עקרון_העבודה_הווירטואלית_ועקרון_דאלמבר_0" class="internal-link" target="_self" rel="noopener nofollow">3. עקרון העבודה הווירטואלית ועקרון דאלמבר</a>
-<br><a data-href="#4. הלגרנז'יאן ומשוואות אוילר-לגרנז'" href="מכניקה-אנליטית/סיכום-הרצאות.html#4._הלגרנז'יאן_ומשוואות_אוילר-לגרנז'_0" class="internal-link" target="_self" rel="noopener nofollow">4. הלגרנז'יאן ומשוואות אוילר-לגרנז'</a>
-<br><a data-href="#5. חשבון וריאציות" href="מכניקה-אנליטית/סיכום-הרצאות.html#5._חשבון_וריאציות_0" class="internal-link" target="_self" rel="noopener nofollow">5. חשבון וריאציות</a>
-<br><a data-href="#5.5 סימטריות וחוקי שימור (משפט נתר)" href="מכניקה-אנליטית/סיכום-הרצאות.html#5.5_סימטריות_וחוקי_שימור_(משפט_נתר)_0" class="internal-link" target="_self" rel="noopener nofollow">5.5 סימטריות וחוקי שימור (משפט נתר)</a>
-<br><a data-href="#6. כופלי לגרנז' ואילוצים" href="מכניקה-אנליטית/סיכום-הרצאות.html#6._כופלי_לגרנז'_ואילוצים_0" class="internal-link" target="_self" rel="noopener nofollow">6. כופלי לגרנז' ואילוצים</a>
-<br><a data-href="#7. גאודזיות ומשטחים מינימליים" href="מכניקה-אנליטית/סיכום-הרצאות.html#7._גאודזיות_ומשטחים_מינימליים_0" class="internal-link" target="_self" rel="noopener nofollow">7. גאודזיות ומשטחים מינימליים</a>
-<br><a data-href="#8. יישומים - מטוטלת ואוסילטור הרמוני" href="מכניקה-אנליטית/סיכום-הרצאות.html#8._יישומים_-_מטוטלת_ואוסילטור_הרמוני_0" class="internal-link" target="_self" rel="noopener nofollow">8. יישומים - מטוטלת ואוסילטור הרמוני</a>
-<br><a data-href="#8.5 ניתוח מערכות חד-ממדיות באמצעות אנרגיה" href="מכניקה-אנליטית/סיכום-הרצאות.html#8.5_ניתוח_מערכות_חד-ממדיות_באמצעות_אנרגיה_0" class="internal-link" target="_self" rel="noopener nofollow">8.5 ניתוח מערכות חד-ממדיות באמצעות אנרגיה</a>
-<br><a data-href="#9. בעיית הכוח המרכזי" href="מכניקה-אנליטית/סיכום-הרצאות.html#9._בעיית_הכוח_המרכזי_0" class="internal-link" target="_self" rel="noopener nofollow">9. בעיית הכוח המרכזי</a>
-<br><a data-href="#10. חוקי קפלר וחתכי חרוט" href="מכניקה-אנליטית/סיכום-הרצאות.html#10._חוקי_קפלר_וחתכי_חרוט_0" class="internal-link" target="_self" rel="noopener nofollow">10. חוקי קפלר וחתכי חרוט</a>
-<br><a data-href="#11. תנודות קטנות ומודים נורמליים" href="מכניקה-אנליטית/סיכום-הרצאות.html#11._תנודות_קטנות_ומודים_נורמליים_0" class="internal-link" target="_self" rel="noopener nofollow">11. תנודות קטנות ומודים נורמליים</a>
-<br><a data-href="#12. מכניקה המילטונית" href="מכניקה-אנליטית/סיכום-הרצאות.html#12._מכניקה_המילטונית_0" class="internal-link" target="_self" rel="noopener nofollow">12. מכניקה המילטונית</a>
-<br><a data-href="#13. מרחב הפאזה ומשוואות המילטון" href="מכניקה-אנליטית/סיכום-הרצאות.html#13._מרחב_הפאזה_ומשוואות_המילטון_0" class="internal-link" target="_self" rel="noopener nofollow">13. מרחב הפאזה ומשוואות המילטון</a> הפניה לספר: Hand &amp; Finch, Chapter 1, Section 1.1
-המכניקה האנליטית מציעה גישה שונה מהמכניקה הניוטונית הקלאסית. בעוד ניוטון עובד עם וקטורים (כוחות, מיקומים, מהירויות), הגישה האנליטית עובדת עם סקלרים - האנרגיות.למה הקורס הזה חשוב?
-הקורס הזה לא בא ללמד מכניקה חדשה - הוא מלמד שפה חדשה. השפה הזו היא הבסיס לכל הפיזיקה המודרנית: מכניקת קוונטים, תורת השדות, יחסות כללית ועוד. בלי להבין את השפה הזו, לא תוכלו להבין את הקורסים המתקדמים. פשטות במערכות מורכבות - במקום לפתור משוואות וקטוריות עם כוחות אילוץ, עובדים עם משוואות סקלריות
-בחירה חופשית של קואורדינטות - ניתן לבחור קואורדינטות מוכללות המתאימות לבעיה
-טיפול אלגנטי באילוצים - אילוצים נכנסים באופן טבעי לפורמליזם
-קשר לפיזיקה מודרנית - הפורמליזם הלגרנז'יאני והמילטוני הם הבסיס לתורת השדות ומכניקת הקוונטים הפניה לספר: Hand &amp; Finch, Chapter 1, Section 1.2-1.3
-אילוץ הולונומי ניתן לביטוי כמשוואה אלגברית של הקואורדינטות והזמן:
-דוגמאות:
-חרוז על חוט: מטוטלת פשוטה: (אורך קבוע)
-mRµxyConstraint:x2+y2=R2אילוצים שלא ניתן לבטא כמשוואות אלגבריות של הקואורדינטות. לרוב כוללים נגזרות:
-דוגמה קלאסית: גלגל מתגלגל ללא החלקהR!v=!Rv=0Non-holonomic:_x=R_µאילוצים שאינם תלויים בזמן במפורש:
-אילוצים התלויים בזמן במפורש: הפניה לספר: Hand &amp; Finch, Chapter 1, Section 1.4
-מספר דרגות החופש של מערכת:
-כאשר: = מספר החלקיקים = מספר האילוצים ההולונומיים הבלתי תלויים
-m1m2l1l2µ1µ2Generalizedcoords:µ1;µ2
-הפניה לספר: Hand &amp; Finch, Chapter 1, Section 1.5
-העתקה וירטואלית היא העתקה אינפיניטסימלית דמיונית העקבית עם האילוצים ברגע נתון (ללא מעבר זמן).העבודה הווירטואלית: הפניה לספר: Hand &amp; Finch, Chapter 1, Section 1.6
-עקרון דאלמבר מרחיב את עקרון העבודה הווירטואלית לדינמיקה:משמעות: כוחות האילוץ לא מבצעים עבודה בהעתקות וירטואליות.m~F(a)~F(c)¡mÄ~r±~r~F(c)?±~r)~F(c)¢±~r=0כוח מוכלל המשויך לקואורדינטה מוכללת :
-הפניה לספר: Hand &amp; Finch, Chapter 1, Section 1.7-1.8
-הלגרנז'יאן מוגדר כהפרש בין האנרגיה הקינטית לאנרגיה הפוטנציאלית:כאשר: = האנרגיה הקינטית = האנרגיה הפוטנציאלית
-אינטואיציה
-הלגרנז'יאן מייצג את ה"מאמץ" של המערכת - ההבדל בין תנועה (אנרגיה קינטית) לבין "עלות" של להיות במיקום מסוים (אנרגיה פוטנציאלית). הטבע "בוחר" את המסלול שממזער את האינטגרל של הלגרנז'יאן לאורך הזמן. הפניה לספר: Hand &amp; Finch, Chapter 1, Section 1.9
-עבור כל קואורדינטה מוכללת :שלב 1: נגדיר את התנע המוכלל (תנע קנוני):
-שלב 2: הכוח המוכלל:
-שלב 3: משוואת התנועה:
-שלבי הפתרון זהה את דרגות החופש - כמה קואורדינטות בלתי תלויות יש?
-בחר קואורדינטות מוכללות - בחר קואורדינטות שמתאימות לסימטריה של הבעיה
-כתוב את האנרגיה הקינטית - בטרמינים של הקואורדינטות המוכללות
-כתוב את האנרגיה הפוטנציאלית - בטרמינים של הקואורדינטות המוכללות
-חשב את הלגרנז'יאן הצב במשוואות אוילר-לגרנז' ופתור mlµmgT^µ^rלגרנז'יאן:
-משוואת אוילר-לגרנז': הפניה לספר: Hand &amp; Finch, Chapter 2, Section 2.1-2.2
-פונקציונל הוא פונקציה של פונקציה - הוא מקבל פונקציה ומחזיר מספר.tqAB±S=0Physicalpath:S=Rt2t1Ldtstationary
-הפניה לספר: Hand &amp; Finch, Chapter 2, Section 2.3
-הפעולה (Action) מוגדרת כ:
-עקרון המילטון: המסלול הפיזיקלי הוא זה שעבורו הפעולה היא סטציונרית:
-הערה חשובה
-"סטציונרי" לא בהכרח אומר מינימום! זה יכול להיות גם מקסימום או נקודת אוכף. לכן השם "עקרון הפעולה המינימלית" הוא לא מדויק - השם הנכון הוא "עקרון הפעולה הסטציונרית".
-נניח שינוי קטן במסלול: כאשר (נקודות הקצה קבועות).מכיוון ש- שרירותי: הפניה לספר: Hand &amp; Finch, Chapter 2, Section 2.7
-קואורדינטה מוכללת נקראת ציקלית (או נסתרת) אם הלגרנז'יאן לא תלוי בה במפורש:משמעות: התנע הקנוני המתאים נשמר! רעיון מרכזי: לכל סימטריה רציפה של הלגרנז'יאן מתאים גודל שמור. הקואורדינטה היא ציקלית (לא מופיעה ב-)
-לכן: (תנע זוויתי סביב ) הפניה לספר: Hand &amp; Finch, Chapter 2, Section 2.4
-כאשר יש אילוצים הולונומיים מהצורה:
-כאשר הם כופלי לגרנז'.כופלי לגרנז' קשורים לכוחות האילוץ!דוגמה - מטוטלת פשוטה:
-אילוץ: כופל לגרנז': (המתיחות בחוט!) הפניה לספר: Hand &amp; Finch, Chapter 2, Section 2.5
-גאודזה היא הקו הקצר ביותר בין שתי נקודות על משטח.ABGeodesicsonsphere=greatcircles
-הפניה לספר: Hand &amp; Finch, Chapter 2, Section 2.6
-מציאת העקומה שלאורכה חלקיק מחליק מנקודה A לנקודה B בזמן מינימלי.xyABStraightlineCycloid~gהזמן:
-הפתרון: ציקלואידה (Cycloid)x-axisy=c¢cosh¡xc¢Minimalsurface:Catenoid
-הפניה לספר: Hand &amp; Finch, Chapter 1, Section 1.10
-®Mmlµsקואורדינטות מוכללות: - מיקום העגלה לאורך המישור - זווית המטוטלת מהאנך
-מיקום המסה :
-אנרגיה קינטית:
-לאחר פיתוח:
-אנרגיה פוטנציאלית:
-לגרנז'יאן: הפניה לספר: Hand &amp; Finch, Chapter 3, Section 3.1
-mxx=0kלגרנז'יאן:
-משוואת התנועה:
-פתרון: הפניה לספר: Hand &amp; Finch, Chapter 1, Section 1.11
-במערכות סקלרונומיות (ללא תלות מפורשת בזמן), האנרגיה הכוללת נשמרת:
-תובנה מרכזית: מהשימור הזה נובע שאפשר לבטא את המהירות כפונקציה של המיקום: מגרף הפוטנציאל ניתן להסיק את כל מאפייני התנועה:אזורים מותרים ואסורים:
-תנועה אפשרית רק כאשר אזורים בהם הם אזורים אסורים קלאסית
-נקודות פנייה (Turning Points):
-נקודות בהן ולכן החלקיק "מתהפך" בנקודות אלה
-סוגי שיווי משקל:
-| סוג | תנאי | יציבות |
-|-----|------|--------|
-| מינימום של | , | יציב |
-| מקסימום של | , | לא יציב |
-| נקודת פיתול | , | נייטרלי |סוגי תנועות:
-תנועה מחזורית - כאשר החלקיק כלוא בין שתי נקודות פנייה
-תנועה בלתי חסומה - כאשר החלקיק יכול לברוח לאינסוף
-שיווי משקל - כאשר בדיוק
-qV(q)E1E2q1q2oscillationstablestableunstableforbiddenעבור תנועה מחזורית בין נקודות פנייה ו-:
-הפניה לספר: Hand &amp; Finch, Chapter 5, Section 5.1-5.2
-כוח מרכזי הוא כוח הפועל לאורך הקו המחבר את מקור הכוח לחלקיק:
-m1m2~r1~r2O~r=~r2¡~r1CMReducedmass:¹=m1m2m1+m2
-הפניה לספר: Hand &amp; Finch, Chapter 5, Section 5.3 הפניה לספר: Hand &amp; Finch, Chapter 5, Section 5.4-5.5
-עבור פוטנציאל כבידתי:
-כאשר: - הפרמטר - האקסצנטריות
-Circle:e=0Ellipse:0&lt;e&lt;1Parabola:e=1Hyperbola:e&gt;1חוק ראשון: מסלולי כוכבי הלכת הם אליפסות כשהשמש במוקד אחד.חוק שני (חוק השטחים):
-SunfastslowA1A2A1=A2inequaltimeintervalsחוק שלישי: הפניה לספר: Hand &amp; Finch, Chapter 3, Section 3.2-3.3
-נקודת שיווי משקל מקיימת: הפניה לספר: Hand &amp; Finch, Chapter 3, Section 3.4-3.5
-k1m1kcm2k2x1x2מניחים פתרון: בעיית ערכים עצמיים:
-Mode1:OutofphaseMode2:Inphase
-הפניה לספר: Hand &amp; Finch, Chapter 6, Section 6.1-6.2
-התמרת לג'נדר מאפשרת מעבר מפונקציה של משתנה אחד לפונקציה של המשתנה הצמוד לו.xyf(x)slopep¡g(p)xg(p)=px¡f(x)wherep=dfdxהתנע הקנוני:
-ההמילטוניאן:
-הקשר בין לגרנז' להמילטון לגרנז'יאן: פונקציה של - מיקום ומהירות
-המילטוניאן: פונקציה של - מיקום ותנע המעבר ביניהם נעשה באמצעות התמרת לג'נדר - טריק מתמטי שמחליף משתנה בנגזרת שלו.
-עבור מערכות רבות (כאשר הומוגנית מדרגה 2 ב- ו- לא תלוי ב-):
-מתי ההמילטוניאן לא שווה לאנרגיה? כאשר יש אילוצים תלויי זמן (ריאונומיים)
-כאשר יש פוטנציאלים תלויי מהירות (כמו כוח לורנץ)
-כאשר הקואורדינטות עצמן תלויות בזמן הפניה לספר: Hand &amp; Finch, Chapter 6, Section 6.3-6.4
-xpE1E2E3EquilibriumH=p22m+12kx2=Eמסקנה: אם לא תלוי בזמן במפורש, נשמר!
-הפניה לספר: Hand &amp; Finch, Chapter 6, Section 6.5
-אבולוציה בזמן:
-בחירת קואורדינטות בחר קואורדינטות שמתאימות לסימטריה של הבעיה
-קואורדינטות שמבטלות אילוצים הן הכי טובות
-חפש קואורדינטות ציקליות - הן נותנות גדלים שמורים בחינם! בדיקת התוצאה בדוק יחידות בכל שלב
-בדוק מקרי קצה (מסה אפסית, אורך אינסופי, וכו')
-ודא שמשוואות התנועה הן מסדר 2 בזמן סיכום זה נכתב על בסיס תמלולי ההרצאות והספר Analytical Mechanics מאת Hand &amp; Finch]]></description><link>מכניקה-אנליטית/סיכום-הרצאות.html</link><guid isPermaLink="false">מכניקה אנליטית/סיכום הרצאות.md</guid><pubDate>Mon, 29 Dec 2025 17:00:47 GMT</pubDate></item><item><title><![CDATA[טרנספורמי פורייה 2]]></title><description><![CDATA[a.
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[BenBar]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>BenBar</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 29 Dec 2025 18:32:37 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 29 Dec 2025 18:32:34 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[טרנספורמי פורייה 2]]></title><description><![CDATA[a.
 נניח אות בעל תחום תדרים סופי ותדר מקסימלי טרנספורם הפורייה שלו: הצגתו בתור טור פורייה:
 b. c.
 אנחנו יודעים שכל שייך לשלמים ולכן הsinc יתאפס.
@@ -133,9 +19,202 @@ d.
 כלומר כמות החלקיקים היא: b.
 הסבר קטן לצעדים הבאים:
 קונבולוציה היא הכפלה בין שטחי הפונקציות וסכימה של השונות שלהןc.a.
-נניח כי היא טרנספורמציית סיבוב בזווית אינפיניטיסמלית סביב ציר כך ש-כלומר:
-b.
-]]></description><link>ממפיס-3/שיעורי-בית/טרנספורמי-פורייה-2.html</link><guid isPermaLink="false">ממפיס 3/שיעורי בית/טרנספורמי פורייה 2.md</guid><pubDate>Mon, 29 Dec 2025 16:55:26 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[טרנספורמציות קנוניות]]></title><description><![CDATA[להמילטוניין יש יתרון על הלגרגנזיאן כי הוא מתאר את הבעיה באופן סימטרי
+נניח כי היא טרנספורמציית סיבוב בזווית אינפיניטיסימלית סביב ציר כך ש-כלומר:
+b. טור טיילור: נשים לב כי זה נראה בדיוק כמו טורי טיילור של סינוס וקוסינוס! ולכן:
+c.]]></description><link>ממפיס-3/שיעורי-בית/טרנספורמי-פורייה-2.html</link><guid isPermaLink="false">ממפיס 3/שיעורי בית/טרנספורמי פורייה 2.md</guid><pubDate>Mon, 29 Dec 2025 18:31:54 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[סיכום הרצאות]]></title><description><![CDATA[
+מבוסס על הקורס של פרופ' אריק גרוסמן והספר Analytical Mechanics מאת Hand &amp; Finch
+📚 הספר המודגש
+הקישורים בקובץ זה מפנים לגרסה מודגשת של הספר: Analytical mechanics - Highlighted.pdf
+כל הסעיפים הרלוונטיים מסומנים בצהוב לנוחיותך!
+📝 תרגילים
+בסוף כל נושא יש רשימת תרגילים מומלצים מהספר לתרגול. התרגילים מסומנים ברמת קושי: ⭐ (קל) עד ⭐⭐⭐ (מאתגר).
+תרגילים עם * הם מומלצים במיוחד. <a data-href="#1. מבוא למכניקה אנליטית" href="מכניקה-אנליטית/סיכום-הרצאות.html#1._מבוא_למכניקה_אנליטית_0" class="internal-link" target="_self" rel="noopener nofollow">1. מבוא למכניקה אנליטית</a>
+<br><a data-href="#2. אילוצים ומערכות קואורדינטות" href="מכניקה-אנליטית/סיכום-הרצאות.html#2._אילוצים_ומערכות_קואורדינטות_0" class="internal-link" target="_self" rel="noopener nofollow">2. אילוצים ומערכות קואורדינטות</a>
+<br><a data-href="#3. עקרון העבודה הווירטואלית ועקרון דאלמבר" href="מכניקה-אנליטית/סיכום-הרצאות.html#3._עקרון_העבודה_הווירטואלית_ועקרון_דאלמבר_0" class="internal-link" target="_self" rel="noopener nofollow">3. עקרון העבודה הווירטואלית ועקרון דאלמבר</a>
+<br><a data-href="#4. הלגרנז'יאן ומשוואות אוילר-לגרנז'" href="מכניקה-אנליטית/סיכום-הרצאות.html#4._הלגרנז'יאן_ומשוואות_אוילר-לגרנז'_0" class="internal-link" target="_self" rel="noopener nofollow">4. הלגרנז'יאן ומשוואות אוילר-לגרנז'</a>
+<br><a data-href="#5. חשבון וריאציות" href="מכניקה-אנליטית/סיכום-הרצאות.html#5._חשבון_וריאציות_0" class="internal-link" target="_self" rel="noopener nofollow">5. חשבון וריאציות</a>
+<br><a data-href="#5.5 סימטריות וחוקי שימור (משפט נתר)" href="מכניקה-אנליטית/סיכום-הרצאות.html#5.5_סימטריות_וחוקי_שימור_(משפט_נתר)_0" class="internal-link" target="_self" rel="noopener nofollow">5.5 סימטריות וחוקי שימור (משפט נתר)</a>
+<br><a data-href="#6. כופלי לגרנז' ואילוצים" href="מכניקה-אנליטית/סיכום-הרצאות.html#6._כופלי_לגרנז'_ואילוצים_0" class="internal-link" target="_self" rel="noopener nofollow">6. כופלי לגרנז' ואילוצים</a>
+<br><a data-href="#7. גאודזיות ומשטחים מינימליים" href="מכניקה-אנליטית/סיכום-הרצאות.html#7._גאודזיות_ומשטחים_מינימליים_0" class="internal-link" target="_self" rel="noopener nofollow">7. גאודזיות ומשטחים מינימליים</a>
+<br><a data-href="#8. יישומים - מטוטלת ואוסילטור הרמוני" href="מכניקה-אנליטית/סיכום-הרצאות.html#8._יישומים_-_מטוטלת_ואוסילטור_הרמוני_0" class="internal-link" target="_self" rel="noopener nofollow">8. יישומים - מטוטלת ואוסילטור הרמוני</a>
+<br><a data-href="#8.5 ניתוח מערכות חד-ממדיות באמצעות אנרגיה" href="מכניקה-אנליטית/סיכום-הרצאות.html#8.5_ניתוח_מערכות_חד-ממדיות_באמצעות_אנרגיה_0" class="internal-link" target="_self" rel="noopener nofollow">8.5 ניתוח מערכות חד-ממדיות באמצעות אנרגיה</a>
+<br><a data-href="#9. בעיית הכוח המרכזי" href="מכניקה-אנליטית/סיכום-הרצאות.html#9._בעיית_הכוח_המרכזי_0" class="internal-link" target="_self" rel="noopener nofollow">9. בעיית הכוח המרכזי</a>
+<br><a data-href="#10. חוקי קפלר וחתכי חרוט" href="מכניקה-אנליטית/סיכום-הרצאות.html#10._חוקי_קפלר_וחתכי_חרוט_0" class="internal-link" target="_self" rel="noopener nofollow">10. חוקי קפלר וחתכי חרוט</a>
+<br><a data-href="#11. תנודות קטנות ומודים נורמליים" href="מכניקה-אנליטית/סיכום-הרצאות.html#11._תנודות_קטנות_ומודים_נורמליים_0" class="internal-link" target="_self" rel="noopener nofollow">11. תנודות קטנות ומודים נורמליים</a>
+<br><a data-href="#12. מכניקה המילטונית" href="מכניקה-אנליטית/סיכום-הרצאות.html#12._מכניקה_המילטונית_0" class="internal-link" target="_self" rel="noopener nofollow">12. מכניקה המילטונית</a>
+<br><a data-href="#13. מרחב הפאזה ומשוואות המילטון" href="מכניקה-אנליטית/סיכום-הרצאות.html#13._מרחב_הפאזה_ומשוואות_המילטון_0" class="internal-link" target="_self" rel="noopener nofollow">13. מרחב הפאזה ומשוואות המילטון</a>
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=2" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=2" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=2" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 1, Section 1.1</a>
+📖 חפש: "Example and Review of Newton's Mechanics: A Block on an Inclined Plane"
+המכניקה האנליטית מציעה גישה שונה מהמכניקה הניוטונית הקלאסית. בעוד ניוטון עובד עם וקטורים (כוחות, מיקומים, מהירויות), הגישה האנליטית עובדת עם סקלרים - האנרגיות.למה הקורס הזה חשוב?
+הקורס הזה לא בא ללמד מכניקה חדשה - הוא מלמד שפה חדשה. השפה הזו היא הבסיס לכל הפיזיקה המודרנית: מכניקת קוונטים, תורת השדות, יחסות כללית ועוד. בלי להבין את השפה הזו, לא תוכלו להבין את הקורסים המתקדמים. פשטות במערכות מורכבות - במקום לפתור משוואות וקטוריות עם כוחות אילוץ, עובדים עם משוואות סקלריות
+בחירה חופשית של קואורדינטות - ניתן לבחור קואורדינטות מוכללות המתאימות לבעיה
+טיפול אלגנטי באילוצים - אילוצים נכנסים באופן טבעי לפורמליזם
+קשר לפיזיקה מודרנית - הפורמליזם הלגרנז'יאני והמילטוני הם הבסיס לתורת השדות ומכניקת הקוונטים
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=4" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=4" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=4" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 1, Section 1.2-1.3</a>
+📖 חפש: "Equation (1.7) determines the motion of the inclined plane"
+אילוץ הולונומי ניתן לביטוי כמשוואה אלגברית של הקואורדינטות והזמן:
+דוגמאות:
+חרוז על חוט: מטוטלת פשוטה: (אורך קבוע)
+mRµxyConstraint:x2+y2=R2אילוצים שלא ניתן לבטא כמשוואות אלגבריות של הקואורדינטות. לרוב כוללים נגזרות:
+דוגמה קלאסית: גלגל מתגלגל ללא החלקהR!v=!Rv=0Non-holonomic:_x=R_µאילוצים שאינם תלויים בזמן במפורש:
+אילוצים התלויים בזמן במפורש:
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=12" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=12" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=12" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 1, Section 1.4</a>
+📖 חפש: "1.4 Degrees of Freedom and Types of Constraints"
+מספר דרגות החופש של מערכת:
+כאשר: = מספר החלקיקים = מספר האילוצים ההולונומיים הבלתי תלויים
+m1m2l1l2µ1µ2Generalizedcoords:µ1;µ2<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=5" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=5" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=5" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 1, Section 1.2</a>
+📖 חפש: "In mechanics, work is defined to be the line integral" (עמוד 6)
+העתקה וירטואלית היא העתקה אינפיניטסימלית דמיונית העקבית עם האילוצים ברגע נתון (ללא מעבר זמן).העבודה הווירטואלית:
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=20" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=20" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=20" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 1, Section 1.7</a>
+📖 חפש: "The virtual work and kinetic energy" ומשוואה (1.52)
+עקרון דאלמבר מרחיב את עקרון העבודה הווירטואלית לדינמיקה:משמעות: כוחות האילוץ לא מבצעים עבודה בהעתקות וירטואליות.m~F(a)~F(c)¡mÄ~r±~r~F(c)?±~r)~F(c)¢±~r=0כוח מוכלל המשויך לקואורדינטה מוכללת :<br>
+<a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=32" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=32" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=32" class="internal-link" target="_self" rel="noopener nofollow">Problems from Chapter 1, page 32</a>
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=18" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=18" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=18" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 1, Section 1.7-1.8</a>
+📖 חפש: "1.7 Generalized Forces" ומשוואה (1.46)
+הלגרנז'יאן מוגדר כהפרש בין האנרגיה הקינטית לאנרגיה הפוטנציאלית:כאשר: = האנרגיה הקינטית = האנרגיה הפוטנציאלית
+אינטואיציה
+הלגרנז'יאן מייצג את ה"מאמץ" של המערכת - ההבדל בין תנועה (אנרגיה קינטית) לבין "עלות" של להיות במיקום מסוים (אנרגיה פוטנציאלית). הטבע "בוחר" את המסלול שממזער את האינטגרל של הלגרנז'יאן לאורך הזמן.
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=23" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=23" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=23" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 1, Section 1.9</a>
+📖 חפש: "1.9 The Euler-Lagrange Equations" ומשוואה (1.60)
+עבור כל קואורדינטה מוכללת :שלב 1: נגדיר את התנע המוכלל (תנע קנוני):
+שלב 2: הכוח המוכלל:
+שלב 3: משוואת התנועה:
+שלבי הפתרון זהה את דרגות החופש - כמה קואורדינטות בלתי תלויות יש?
+בחר קואורדינטות מוכללות - בחר קואורדינטות שמתאימות לסימטריה של הבעיה
+כתוב את האנרגיה הקינטית - בטרמינים של הקואורדינטות המוכללות
+כתוב את האנרגיה הפוטנציאלית - בטרמינים של הקואורדינטות המוכללות
+חשב את הלגרנז'יאן הצב במשוואות אוילר-לגרנז' ופתור mlµmgT^µ^rלגרנז'יאן:
+משוואת אוילר-לגרנז':
+<br>
+<a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=36" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=36" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=36" class="internal-link" target="_self" rel="noopener nofollow">Problems from Chapter 1, pages 36-42</a>
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=52" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=52" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=52" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 2, Section 2.1-2.2</a>
+📖 חפש: "Chapter 2: Variational Calculus and its Application to Mechanics"
+פונקציונל הוא פונקציה של פונקציה - הוא מקבל פונקציה ומחזיר מספר.tqAB±S=0Physicalpath:S=Rt2t1Ldtstationary<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=59" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=59" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=59" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 2, Section 2.3</a>
+📖 חפש: "Hamilton's Principle" ומשוואה (2.15)
+הפעולה (Action) מוגדרת כ:
+עקרון המילטון: המסלול הפיזיקלי הוא זה שעבורו הפעולה היא סטציונרית:
+הערה חשובה
+"סטציונרי" לא בהכרח אומר מינימום! זה יכול להיות גם מקסימום או נקודת אוכף. לכן השם "עקרון הפעולה המינימלית" הוא לא מדויק - השם הנכון הוא "עקרון הפעולה הסטציונרית".
+נניח שינוי קטן במסלול: כאשר (נקודות הקצה קבועות).מכיוון ש- שרירותי:
+<br>
+<a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=75" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=75" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=75" class="internal-link" target="_self" rel="noopener nofollow">Problems from Chapter 2, pages 75-83</a>
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=65" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=65" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=65" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 2, Section 2.7</a>
+📖 חפש: משוואה (2.27) ו-FIGURE 2.4
+קואורדינטה מוכללת נקראת ציקלית (או נסתרת) אם הלגרנז'יאן לא תלוי בה במפורש:משמעות: התנע הקנוני המתאים נשמר! רעיון מרכזי: לכל סימטריה רציפה של הלגרנז'יאן מתאים גודל שמור. הקואורדינטה היא ציקלית (לא מופיעה ב-)
+לכן: (תנע זוויתי סביב )
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=62" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=62" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=62" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 2, Section 2.4</a>
+📖 חפש: "2.4 Lagrange Multipliers and Constraints"
+כאשר יש אילוצים הולונומיים מהצורה:
+כאשר הם כופלי לגרנז'.כופלי לגרנז' קשורים לכוחות האילוץ!דוגמה - מטוטלת פשוטה:
+אילוץ: כופל לגרנז': (המתיחות בחוט!)
+<br>
+<a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=65" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=65" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=65" class="internal-link" target="_self" rel="noopener nofollow">Problems with Explicit Holonomic Constraints, page 65</a><br>
+<a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=82" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=82" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=82" class="internal-link" target="_self" rel="noopener nofollow">Problem 14 - Rolling hoop, page 82</a>
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=59" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=59" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=59" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 2, Section 2.3</a>
+📖 חפש: "2.3 Geodesics" ו-"In a curved space, such as the surface of the Earth"
+גאודזה היא הקו הקצר ביותר בין שתי נקודות על משטח.ABGeodesicsonsphere=greatcircles<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=52" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=52" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=52" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 2 Overview</a>
+📖 חפש: "Brachistochrone Problem" (בעיית הזמן הקצר ביותר)
+מציאת העקומה שלאורכה חלקיק מחליק מנקודה A לנקודה B בזמן מינימלי.xyABStraightlineCycloid~gהזמן:
+הפתרון: ציקלואידה (Cycloid)x-axisy=c¢cosh¡xc¢Minimalsurface:Catenoid<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=25" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=25" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=25" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 1, Section 1.10</a>
+📖 חפש: "1.10 Definition of the Hamiltonian" ומשוואה (1.65)
+®Mmlµsקואורדינטות מוכללות: - מיקום העגלה לאורך המישור - זווית המטוטלת מהאנך
+מיקום המסה :
+אנרגיה קינטית:
+לאחר פיתוח:
+אנרגיה פוטנציאלית:
+לגרנז'יאן:
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=92" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=92" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=92" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 3, Section 3.1</a>
+📖 חפש: "3.1 Stable or Unstable Equilibrium?"
+mxx=0kלגרנז'יאן:
+משוואת התנועה:
+פתרון:
+<br>
+<a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=124" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=124" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=124" class="internal-link" target="_self" rel="noopener nofollow">Problems from Chapter 3, pages 124-131</a>
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=26" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=26" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=26" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 1, Section 1.11</a>
+📖 חפש: "1.11 Proof that H = T + V" ומשוואה (1.69)
+במערכות סקלרונומיות (ללא תלות מפורשת בזמן), האנרגיה הכוללת נשמרת:
+תובנה מרכזית: מהשימור הזה נובע שאפשר לבטא את המהירות כפונקציה של המיקום: מגרף הפוטנציאל ניתן להסיק את כל מאפייני התנועה:אזורים מותרים ואסורים:
+תנועה אפשרית רק כאשר אזורים בהם הם אזורים אסורים קלאסית
+נקודות פנייה (Turning Points):
+נקודות בהן ולכן החלקיק "מתהפך" בנקודות אלה
+סוגי שיווי משקל:
+| סוג | תנאי | יציבות |
+|-----|------|--------|
+| מינימום של | , | יציב |
+| מקסימום של | , | לא יציב |
+| נקודת פיתול | , | נייטרלי |סוגי תנועות:
+תנועה מחזורית - כאשר החלקיק כלוא בין שתי נקודות פנייה
+תנועה בלתי חסומה - כאשר החלקיק יכול לברוח לאינסוף
+שיווי משקל - כאשר בדיוק
+qV(q)E1E2q1q2oscillationstablestableunstableforbiddenעבור תנועה מחזורית בין נקודות פנייה ו-:<br>
+<a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=168" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=168" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=168" class="internal-link" target="_self" rel="noopener nofollow">Phase Portraits, pages 168-170</a>
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=133" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=133" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=133" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 4, Section 4.1-4.2</a>
+📖 חפש: "Chapter 4: One-Dimensional Systems: Central Forces and the Kepler Problem"
+כוח מרכזי הוא כוח הפועל לאורך הקו המחבר את מקור הכוח לחלקיק:
+m1m2~r1~r2O~r=~r2¡~r1CMReducedmass:¹=m1m2m1+m2<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=146" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=146" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=146" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 4, Section 4.3</a>
+📖 חפש: "4.3 The Reduced Mass and Relative Coordinate" ומשוואה (4.23)
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=151" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=151" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=151" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 4, Section 4.4-4.5</a>
+📖 חפש: "4.5 Orbits from the Effective Potential" ומשוואה (4.42)
+עבור פוטנציאל כבידתי:
+כאשר: - הפרמטר - האקסצנטריות
+Circle:e=0Ellipse:0&lt;e&lt;1Parabola:e=1Hyperbola:e&gt;1חוק ראשון: מסלולי כוכבי הלכת הם אליפסות כשהשמש במוקד אחד.חוק שני (חוק השטחים):
+SunfastslowA1A2A1=A2inequaltimeintervalsחוק שלישי:
+<br>
+<a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=168" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=168" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=168" class="internal-link" target="_self" rel="noopener nofollow">Central Force Problems, pages 168-178</a>
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=97" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=97" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=97" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 3, Section 3.2-3.3</a>
+📖 חפש: "3.2 Small Oscillations About Equilibrium" ומשוואה (3.17)
+נקודת שיווי משקל מקיימת:
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=104" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=104" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=104" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 3, Section 3.4-3.5</a>
+📖 חפש: "3.4 Damped and Driven Oscillations" וTABLE 3.1
+k1m1kcm2k2x1x2מניחים פתרון: בעיית ערכים עצמיים:
+Mode1:OutofphaseMode2:Inphase<br>
+<a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=396" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=396" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=396" class="internal-link" target="_self" rel="noopener nofollow">Small Vibrations Problems, pages 396-403</a>
+<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=187" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=187" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=187" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 5, Section 5.4</a>
+📖 חפש: "5.4 The Legendre Transformation" ומשוואה (5.16)
+התמרת לג'נדר מאפשרת מעבר מפונקציה של משתנה אחד לפונקציה של המשתנה הצמוד לו.xyf(x)slopep¡g(p)xg(p)=px¡f(x)wherep=dfdxהתנע הקנוני:
+ההמילטוניאן:
+הקשר בין לגרנז' להמילטון לגרנז'יאן: פונקציה של - מיקום ומהירות
+המילטוניאן: פונקציה של - מיקום ותנע המעבר ביניהם נעשה באמצעות התמרת לג'נדר - טריק מתמטי שמחליף משתנה בנגזרת שלו.
+עבור מערכות רבות (כאשר הומוגנית מדרגה 2 ב- ו- לא תלוי ב-):
+מתי ההמילטוניאן לא שווה לאנרגיה? כאשר יש אילוצים תלויי זמן (ריאונומיים)
+כאשר יש פוטנציאלים תלויי מהירות (כמו כוח לורנץ)
+כאשר הקואורדינטות עצמן תלויות בזמן <br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=191" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=191" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=191" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 5, Section 5.5</a>
+📖 חפש: "5.5 Hamilton's Equations" ומשוואה (5.27)
+xpE1E2E3EquilibriumH=p22m+12kx2=Eמסקנה: אם לא תלוי בזמן במפורש, נשמר!<br>
+הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=232" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=232" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=232" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 6, Section 6.3</a>
+📖 חפש: "6.3 Poisson Brackets" ומשוואה (6.36)
+אבולוציה בזמן:
+<br>
+<a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=209" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=209" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=209" class="internal-link" target="_self" rel="noopener nofollow">Constants of Motion, pages 209-215</a><br>
+<a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=256" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=256" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=256" class="internal-link" target="_self" rel="noopener nofollow">Canonical Transformations &amp; Poisson Brackets, pages 256-264</a>
+בחירת קואורדינטות בחר קואורדינטות שמתאימות לסימטריה של הבעיה
+קואורדינטות שמבטלות אילוצים הן הכי טובות
+חפש קואורדינטות ציקליות - הן נותנות גדלים שמורים בחינם! בדיקת התוצאה בדוק יחידות בכל שלב
+בדוק מקרי קצה (מסה אפסית, אורך אינסופי, וכו')
+ודא שמשוואות התנועה הן מסדר 2 בזמן סיכום זה נכתב על בסיס תמלולי ההרצאות והספר Analytical Mechanics מאת Hand &amp; Finch]]></description><link>מכניקה-אנליטית/סיכום-הרצאות.html</link><guid isPermaLink="false">מכניקה אנליטית/סיכום הרצאות.md</guid><pubDate>Mon, 29 Dec 2025 18:31:30 GMT</pubDate></item><item><title><![CDATA[Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted]]></title><link>מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html</link><guid isPermaLink="false">מכניקה אנליטית/Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf</guid><pubDate>Mon, 29 Dec 2025 18:25:12 GMT</pubDate></item><item><title><![CDATA[טרנספורמציות קנוניות]]></title><description><![CDATA[להמילטוניין יש יתרון על הלגרגנזיאן כי הוא מתאר את הבעיה באופן סימטרי
 עם זאת, להימלטוניין יש מעין חיסרון: אם נרצה לעבור מקוארדינטות קרטזיות לפולאריות:
 אז נצטרך לשנות את שני הקוארדינטות: וזה לא תמיד קל.בקוארדינטות פולריות:בלה בלה בלה יוצא מגעיל אז נשתמש ב:
 טרנספורמציה נקודתית טרנספורמציית מגע כאשר המטרה היא למצוא:
