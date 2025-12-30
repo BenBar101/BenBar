@@ -1,4 +1,99 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[BenBar]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>BenBar</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 29 Dec 2025 19:36:10 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 29 Dec 2025 19:36:07 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[סיכום הרצאות]]></title><description><![CDATA[
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[BenBar]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>BenBar</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 30 Dec 2025 12:01:43 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 30 Dec 2025 12:01:35 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[בעיות כוח מרכזי]]></title><description><![CDATA[הערת המרצה: בעיית כוח מרכזי היא למעשה בעיה חד-מימדית (ברדיוס) עם פוטנציאל אפקטיבי!חוק קפלר השני: שטחים שווים בזמנים שווים גוזרים לפי :
+סיווג המסלולים לפי האקסצנטריות :
+| | סוג המסלול | אנרגיה |
+|---|---|---|
+| | מעגל | |
+| | אליפסה | |
+| | פרבולה | |
+| | היפרבולה | |הערת המרצה: האנרגיה קובעת את סוג המסלול! = מסלול כבול (אליפסה/מעגל), = מסלול פתוח (פרבולה/היפרבולה)
+אנחנו רואים שהזמן מחזור תלוי רק ב- וקבועים!
+הגענו למשוואה שלישית של קפלר שזמן מחזור בריבוע פורפוציוני ל- בשלישית. אינגטרל עדיין מגעיל אז נעשה החלפת משתנים:
+אנחנו יכולים לחשב את המיקום של כוכב רחוק עם זמן מחזור ממש גדול, נראה כמה היא זזה אחרי שלושה זמנים שונים ומהשלושה משוואות נוכל למצוא מהו ה ומהו ה.במקרה ההיפרבולי: חתך פעולה דיפרנציאלי: עבור שטף:
+קשור: <a data-tooltip-position="top" aria-label="מרכז מסה" data-href="מרכז מסה" href="מכניקה-אנליטית/הרצאות/מרכז-מסה.html" class="internal-link" target="_self" rel="noopener nofollow">מרכז מסה</a>, <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:כוח-מרכזי" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#כוח-מרכזי">#כוח-מרכזי</a> הערת המרצה: ניסוי רתרפורד הוא אחד הניסויים החשובים ביותר בפיזיקה - הוא הוכיח שהאטום מורכב מגרעין קטן וצפוף.פוטנציאל קולון דוחה: כאשר (דחייה)פרמטר האימפקט כפונקציה של זווית הפיזור:
+חתך פעולה דיפרנציאלי של רתרפורד:
+הערות חשובות מההרצאה:
+חתך הפעולה הכולל מתבדר! (בגלל טווח אינסופי של כוח קולון)
+כאשר (פיזור קדימה), חתך הפעולה מתבדר
+כאשר (פיזור לאחור), חתך הפעולה מינימלי אך סופי
+הנוסחה נכונה גם לפוטנציאל מושך () וגם לדוחה ()
+]]></description><link>מכניקה-אנליטית/הרצאות/בעיות-כוח-מרכזי.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/בעיות כוח מרכזי.md</guid><pubDate>Tue, 30 Dec 2025 11:48:38 GMT</pubDate></item><item><title><![CDATA[דינמיקה המילטונית]]></title><description><![CDATA[הערת המרצה: למה לעבור להמילטוניין?
+במרחב הפאזה יש סימטריה יפה בין מיקום לתנע
+משוואות התנועה הן מסדר ראשון (ולא שני כמו אוילר-לגרנז')
+הפורמליזם מתאים יותר למכניקה קוונטית ומכניקה סטטיסטית
+קל יותר לזהות גדלים שמורים - התנע המוכלל (Generalized Momentum) איבדנו מידע ולכן לא טוב לכן נניח פונקציה
+דורשים: ננחש פונקציה אשר עונה על הנדרש: הטרנספורמציה לא מאבדת מידע כי אם נפעיל על לגרנזיאן נקבל המילטניאן ולהפך.קשור: <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a>, <a data-tooltip-position="top" aria-label="1" data-href="1" href="מכניקה-אנליטית/הרצאות/1.html" class="internal-link" target="_self" rel="noopener nofollow">נושאי הקורס</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:המילטוניאן" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#המילטוניאן">#המילטוניאן</a>נתון: משוואות תנועה חדשות: מכאן מקבלים את משוואות התנועה כי כל איבר בנפרד צריך להתאפס.הערת המרצה: במערכות רבות, ההמילטוניין שווה לאנרגיה הכוללת:
+אבל זה לא תמיד נכון! התנאים:
+הקשר בין ל- לא תלוי בזמן באופן מפורש (מערכת סקלרונומית)
+האנרגיה הקינטית ריבועית ב-
+אם לא תלוי מפורשות בזמן:
+כלומר ההמילטוניין נשמר (וזהו למעשה שימור אנרגיה במקרים רבים).משוואות התנועה בצורה אלגנטית:
+הערת המרצה: סוגריים של פואסון חשובים מאוד במעבר למכניקה קוונטית!]]></description><link>מכניקה-אנליטית/הרצאות/דינמיקה-המילטונית.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/דינמיקה המילטונית.md</guid><pubDate>Tue, 30 Dec 2025 11:48:38 GMT</pubDate></item><item><title><![CDATA[וריאציה]]></title><description><![CDATA[הערת המרצה: חשבון וריאציות הוא הבסיס המתמטי של כל המכניקה האנליטית. במקום למצוא נקודת קיצון של פונקציה, אנחנו מחפשים פונקציה שמקצינה פונקציונל.פונקציונל = "פונקציה של פונקציות" - מקבל פונקציה ומחזיר מספר.כאשר ה- זה הוריאציה, בקצוות ערך הווריאציה צריך להתלכד עם ערכי הפונקציה.דוגמא: = נהפוך מבדיד לרציף:
+נשים לב כי לפי הגדרה:
+דוגמא:
+עוד דוגמא:
+דוגמא קריטית:
+הגענו למשוואת אוילר-לגרנז':
+הערת המרצה: זוהי המשוואה הבסיסית ביותר במכניקה אנליטית! כל משוואות התנועה נגזרות ממנהניזכר כי:
+רק עבור בלתי תלויים:
+דוגמא לבעיה עם שני משתנים:
+המסלול הכי קצר בין שני נקודות על ספרה:
+אורך של מקטע :
+נציב הכל ונקבלקשור: <a data-tooltip-position="top" aria-label="אחרי לגרנזיאן" data-href="אחרי לגרנזיאן" href="מכניקה-אנליטית/הרצאות/אחרי-לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">אחרי לגרנזיאן</a>, <a data-tooltip-position="top" aria-label="בנק/משוואת אוילר לגרנז" data-href="בנק/משוואת אוילר לגרנז" href="בנק/משוואת-אוילר-לגרנז.html" class="internal-link" target="_self" rel="noopener nofollow">משוואת אוילר לגרנז</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:וריאציות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#וריאציות">#וריאציות</a>
+אילוץ:
+האיבר האמצעי נופל מאחר ולמדה קבוע לא תלוי באיקס לכן נגזרת לפי למדה תאג היא 0.
+מאחר ו- נציב במשוואה ונראה כי:
+דוגמא מסלולים גיאודזייםאילוץ:
+למען הנוחות:
+משוואת אוילר לגרנז:
+]]></description><link>מכניקה-אנליטית/הרצאות/וריאציה.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/וריאציה.md</guid><pubDate>Tue, 30 Dec 2025 11:48:38 GMT</pubDate></item><item><title><![CDATA[טרנספורמציות קנוניות]]></title><description><![CDATA[להמילטוניין יש יתרון על הלגרנז'יאן כי הוא מתאר את הבעיה באופן סימטרי.
+עם זאת, להמילטוניין יש מעין חיסרון: אם נרצה לעבור מקואורדינטות קרטזיות לפולריות,
+נצטרך לשנות את שני הקואורדינטות: וגם , וזה לא תמיד קל.הערת המרצה - מהי טרנספורמציה קנונית?
+טרנספורמציה מ- נקראת קנונית אם היא משמרת את צורת משוואות המילטון:
+למה זה חשוב?
+מאפשר לבחור קואורדינטות שמפשטות את הבעיה
+אם נמצא קואורדינטות שבהן לא תלוי בהן - נקבל גדלים שמורים
+המטרה האולטימטיבית: למצוא קואורדינטות שבהן או קבוע!
+בקוארדינטות פולריות:בלה בלה בלה יוצא מגעיל אז נשתמש ב:
+טרנספורמציה נקודתית טרנספורמציית מגע כאשר המטרה היא למצוא:
+הערת המרצה: פונקציות יוצרות הן הכלי המתמטי לבניית טרנספורמציות קנוניות.ישנם 4 סוגי פונקציות יוצרות:דוגמה חשובה - טרנספורמציית הזהות: נותנת , דוגמה - החלפת תפקידים: נותנת , (מיקום ותנע מחליפים תפקידים!)הערה: אם לא תלויה בזמן מפורשות, אז (אותו ערך מספרי, רק מבוטא בקואורדינטות אחרות)$]]></description><link>מכניקה-אנליטית/הרצאות/טרנספורמציות-קנוניות.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/טרנספורמציות קנוניות.md</guid><pubDate>Tue, 30 Dec 2025 11:48:38 GMT</pubDate></item><item><title><![CDATA[מערכות חד מימדיות]]></title><description><![CDATA[הערת המרצה: מערכות חד מימדיות הן הבסיס להבנת מערכות מורכבות יותר. בבעיה סקלרונומית (ללא תלות מפורשת בזמן) - האנרגיה נשמרת.
+קבוע תנועה = גודל שנשמר לאורך כל התנועה. האנרגיה היא קבוע תנועה כי המערכת סקלרונומית.הערה חשובה: מרחב הפאזה הוא ייצוג גרפי של מצב המערכת כפונקציה של או . כל נקודה במרחב הפאזה מייצגת מצב מסוים של המערכת
+מסלולים במרחב הפאזה לא יכולים להיחתך (כי משוואות התנועה דטרמיניסטיות)
+עקומות סגורות מייצגות תנועה מחזורית
+דוגמא: באיזור ההרמוני: דוגמא מטוטלת:
+חישוב זמן מחזורנניח שהפוטנציאל סימטרי:
+בגלל שהפוטנציאל סימטרי:הערת המרצה - תלות המחזור באמפליטודה:
+באוסילטור הרמוני: המחזור לא תלוי באמפליטודה
+באוסילטור אנהרמוני: המחזור כן תלוי באמפליטודה! אם (פוטנציאל "קשה") - המחזור קטן עם הגדלת האמפליטודה
+אם (פוטנציאל "רך") - המחזור גדל עם הגדלת האמפליטודה דוגמה פיזית: במטוטלת, המחזור גדל עם הגדלת הזווית ההתחלתית (בניגוד לקירוב הזוויות הקטנות)]]></description><link>מכניקה-אנליטית/הרצאות/מערכות-חד-מימדיות.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/מערכות חד מימדיות.md</guid><pubDate>Tue, 30 Dec 2025 11:48:38 GMT</pubDate></item><item><title><![CDATA[מרכז מסה]]></title><description><![CDATA[הערת המרצה: הטרנספורמציה למרכז מסה מפרידה בעיה של שני גופים לשתי בעיות נפרדות! - קואורדינטת מרכז המסה - קואורדינטה יחסית (וקטור מגוף 2 לגוף 1) - המסה הכוללת - המסה המצומצמת (Reduced Mass)הערת המרצה - משמעות המסה המצומצמת:
+אם : (החלקיק הקל "מרגיש" את כל התנועה)
+אם : תמיד מתקיים: מאחר והאנרגיה היא קבועה.
+נחלק את המשוואה ב-שזאת משוואה של אוסילטור הרמוני עם כוח חיצוניקשור: <a data-tooltip-position="top" aria-label="בעיות כוח מרכזי" data-href="בעיות כוח מרכזי" href="מכניקה-אנליטית/הרצאות/בעיות-כוח-מרכזי.html" class="internal-link" target="_self" rel="noopener nofollow">בעיות כוח מרכזי</a>, <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:מרכז-מסה" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מרכז-מסה">#מרכז-מסה</a>]]></description><link>מכניקה-אנליטית/הרצאות/מרכז-מסה.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/מרכז מסה.md</guid><pubDate>Tue, 30 Dec 2025 11:48:38 GMT</pubDate></item><item><title><![CDATA[משפט ליוביל]]></title><description><![CDATA[הערת המרצה: משפט ליוביל הוא אחד המשפטים החשובים ביותר במכניקה המילטונית, והוא הבסיס למכניקה סטטיסטית!נפח במרחב הפאזה נשמר לאורך התפתחות המילטונית.מתמטית: אם ניקח "ענן" של נקודות במרחב הפאזה ונעקוב אחריהן לאורך זמן, הנפח הכולל של הענן נשמר (למרות שהצורה יכולה להשתנות).כאשר היא צפיפות הנקודות במרחב הפאזה.או בצורה מפורשת:
+הערת המרצה:
+שימור מידע: אין אובדן מידע באבולוציה המילטונית - אפשר תמיד לחזור אחורה בזמן
+אי-דחיסות: הזרימה במרחב הפאזה היא כמו נוזל בלתי דחיס
+קשר למכניקה סטטיסטית: צפיפות ההסתברות נשמרת לאורך המסלול טרנספורמציות קנוניות משמרות נפח במרחב הפאזה (היעקוביאן שווה 1)
+מערכות המילטוניות הן הפיכות בזמן
+אנטרופיה (במובן של גיבס) נשמרת במערכות סגורות
+קשור: <a data-tooltip-position="top" aria-label="דינמיקה המילטונית" data-href="דינמיקה המילטונית" href="מכניקה-אנליטית/הרצאות/דינמיקה-המילטונית.html" class="internal-link" target="_self" rel="noopener nofollow">דינמיקה המילטונית</a>, <a data-tooltip-position="top" aria-label="טרנספורמציות קנוניות" data-href="טרנספורמציות קנוניות" href="מכניקה-אנליטית/הרצאות/טרנספורמציות-קנוניות.html" class="internal-link" target="_self" rel="noopener nofollow">טרנספורמציות קנוניות</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:משפט-ליוביל" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#משפט-ליוביל">#משפט-ליוביל</a>]]></description><link>מכניקה-אנליטית/הרצאות/משפט-ליוביל.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/משפט ליוביל.md</guid><pubDate>Tue, 30 Dec 2025 11:48:38 GMT</pubDate></item><item><title><![CDATA[משפט נתר]]></title><description><![CDATA[המשפט בפשטות: לכל סימטריה שנוכל למצוא בחוקי הפיזיקה, קיים חוק שימור המייצג גודל שאינו משתנה עם התפתחות המערכת הפיזיקלית.בעוד יותר פשטות: על כל סימטריה רציפה -&gt; יש גודל שמורהערת המרצה - סימטריות רציפות vs דיסקרטיות:
+סימטריה רציפה: ניתן לבצע טרנספורמציה אינפיניטסימלית (כמו הזזה או סיבוב קטן) → יש גודל שמור (משפט נתר)
+סימטריה דיסקרטית: טרנספורמציה "חדה" בלבד (כמו שיקוף ) → אין גודל שמור מובטח ממשפט נתר
+טבלת סימטריות וגדלים שמורים:
+| סימטריה | טרנספורמציה | גודל שמור |
+|---|---|---|
+| הזזה במרחב | | תנע לינארי |
+| סיבוב | | תנע זוויתי |
+| הזזה בזמן | | אנרגיה (המילטוניין) |
+סימטריה להזזות - שימור תנע סימטריה לסיבוב - שימור תנע זוויתי סימטריה לשיקוף: <a data-href="משוואת אוילר לגרנז" href="בנק/משוואת-אוילר-לגרנז.html" class="internal-link" target="_self" rel="noopener nofollow">משוואת אוילר לגרנז</a>:
+עבור חלקיק חופשי:
+סיבוב אינפיטיסימלי: לכן:
+<br><a data-href="משוואת אוילר לגרנז" href="בנק/משוואת-אוילר-לגרנז.html" class="internal-link" target="_self" rel="noopener nofollow">משוואת אוילר לגרנז</a>:
+<br>קשור: <a data-tooltip-position="top" aria-label="אחרי משפט נתר" data-href="אחרי משפט נתר" href="מכניקה-אנליטית/הרצאות/אחרי-משפט-נתר.html" class="internal-link" target="_self" rel="noopener nofollow">אחרי משפט נתר</a>, <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:משפט-נתר" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#משפט-נתר">#משפט-נתר</a>קוארדינטות: עבור הזזה: עבור כל : כלומר: זהו תנאי הסימטריה.
+נחשב עוד קצת כי למה לא:
+<br>
+<a data-href="משוואת אוילר לגרנז" href="בנק/משוואת-אוילר-לגרנז.html" class="internal-link" target="_self" rel="noopener nofollow">משוואת אוילר לגרנז</a>: הערת המרצה - משמעות פיזית:
+הגודל השמור הוא "הטנה המוכלל המשויך לכיוון הסימטריה"
+אם הלגרנז'יאן לא תלוי בקואורדינטה ("קואורדינטה מחיקה") → התנע המוכלל שמור
+זהו מקרה פרטי של משפט נתר כאשר הסימטריה היא דוגמה מההרצאה: בבעיית כוח מרכזי, הלגרנז'יאן לא תלוי בזווית (סימטריה לסיבוב סביב ציר) → התנע הזוויתי שמור]]></description><link>מכניקה-אנליטית/הרצאות/משפט-נתר.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/משפט נתר.md</guid><pubDate>Tue, 30 Dec 2025 11:48:38 GMT</pubDate></item><item><title><![CDATA[סיכום הרצאות]]></title><description><![CDATA[
 מבוסס על הקורס של פרופ' אריק גרוסמן והספר Analytical Mechanics מאת Hand &amp; Finch
 📚 הספר המודגש
 הקישורים בקובץ זה מפנים לגרסה מודגשת של הספר: Analytical mechanics - Highlighted.pdf
@@ -20,9 +115,15 @@
 <br><a data-href="#10. חוקי קפלר וחתכי חרוט" href="מכניקה-אנליטית/סיכום-הרצאות.html#10._חוקי_קפלר_וחתכי_חרוט_0" class="internal-link" target="_self" rel="noopener nofollow">10. חוקי קפלר וחתכי חרוט</a>
 <br><a data-href="#11. תנודות קטנות ומודים נורמליים" href="מכניקה-אנליטית/סיכום-הרצאות.html#11._תנודות_קטנות_ומודים_נורמליים_0" class="internal-link" target="_self" rel="noopener nofollow">11. תנודות קטנות ומודים נורמליים</a>
 <br><a data-href="#12. מכניקה המילטונית" href="מכניקה-אנליטית/סיכום-הרצאות.html#12._מכניקה_המילטונית_0" class="internal-link" target="_self" rel="noopener nofollow">12. מכניקה המילטונית</a>
-<br><a data-href="#13. מרחב הפאזה ומשוואות המילטון" href="מכניקה-אנליטית/סיכום-הרצאות.html#13._מרחב_הפאזה_ומשוואות_המילטון_0" class="internal-link" target="_self" rel="noopener nofollow">13. מרחב הפאזה ומשוואות המילטון</a>
-<br><a data-href="#נספח א': דוגמאות פתורות מפורטות" href="מכניקה-אנליטית/סיכום-הרצאות.html#נספח_א'_דוגמאות_פתורות_מפורטות_0" class="internal-link" target="_self" rel="noopener nofollow">נספח א': דוגמאות פתורות מפורטות</a>
-<br><a data-href="#נספח ב': נוסחאות מרכזיות" href="מכניקה-אנליטית/סיכום-הרצאות.html#נספח_ב'_נוסחאות_מרכזיות_0" class="internal-link" target="_self" rel="noopener nofollow">נספח ב': נוסחאות מרכזיות</a>
+<br><a data-href="#13. מרחב הפאזה ומשוואות המילטון" href="מכניקה-אנליטית/סיכום-הרצאות.html#13._מרחב_הפאזה_ומשוואות_המילטון_0" class="internal-link" target="_self" rel="noopener nofollow">13. מרחב הפאזה ומשוואות המילטון</a> <br><a data-href="#נספח א': דוגמאות פתורות מפורטות" href="מכניקה-אנליטית/סיכום-הרצאות.html#נספח_א'_דוגמאות_פתורות_מפורטות_0" class="internal-link" target="_self" rel="noopener nofollow">נספח א': דוגמאות פתורות מפורטות</a>
+<br><a data-href="#נספח ב': הוכחות מפורטות" href="מכניקה-אנליטית/סיכום-הרצאות.html#נספח_ב'_הוכחות_מפורטות_0" class="internal-link" target="_self" rel="noopener nofollow">נספח ב': הוכחות מפורטות</a>
+<br><a data-href="#נספח ג': אינטואיציה פיזיקלית" href="מכניקה-אנליטית/סיכום-הרצאות.html#נספח_ג'_אינטואיציה_פיזיקלית_0" class="internal-link" target="_self" rel="noopener nofollow">נספח ג': אינטואיציה פיזיקלית</a>
+<br><a data-href="#נספח ד': קשרים למכניקת קוונטים" href="מכניקה-אנליטית/סיכום-הרצאות.html#נספח_ד'_קשרים_למכניקת_קוונטים_0" class="internal-link" target="_self" rel="noopener nofollow">נספח ד': קשרים למכניקת קוונטים</a>
+<br><a data-href="#נספח ה': מפת דרכים לפתרון בעיות" href="מכניקה-אנליטית/סיכום-הרצאות.html#נספח_ה'_מפת_דרכים_לפתרון_בעיות_0" class="internal-link" target="_self" rel="noopener nofollow">נספח ה': מפת דרכים לפתרון בעיות</a>
+<br><a data-href="#נספח ו': בעיות מבחן לדוגמה" href="מכניקה-אנליטית/סיכום-הרצאות.html#נספח_ו'_בעיות_מבחן_לדוגמה_0" class="internal-link" target="_self" rel="noopener nofollow">נספח ו': בעיות מבחן לדוגמה</a>
+<br><a data-href="#נספח ז': דוגמאות נגדיות" href="מכניקה-אנליטית/סיכום-הרצאות.html#נספח_ז'_דוגמאות_נגדיות_0" class="internal-link" target="_self" rel="noopener nofollow">נספח ז': דוגמאות נגדיות</a>
+<br><a data-href="#נספח ח': מפת קונספט" href="מכניקה-אנליטית/סיכום-הרצאות.html#נספח_ח'_מפת_קונספט_0" class="internal-link" target="_self" rel="noopener nofollow">נספח ח': מפת קונספט</a>
+<br><a data-href="#נספח ט': נוסחאות מרכזיות" href="מכניקה-אנליטית/סיכום-הרצאות.html#נספח_ט'_נוסחאות_מרכזיות_0" class="internal-link" target="_self" rel="noopener nofollow">נספח ט': נוסחאות מרכזיות</a>
 <br><a data-href="#נספח: טעויות נפוצות וטיפים" href="מכניקה-אנליטית/סיכום-הרצאות.html#נספח_טעויות_נפוצות_וטיפים_0" class="internal-link" target="_self" rel="noopener nofollow">נספח: טעויות נפוצות וטיפים</a>
 <br>
 הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=2" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=2" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=2" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 1, Section 1.1</a><br>
@@ -46,15 +147,15 @@
 אילוץ הולונומי ניתן לביטוי כמשוואה אלגברית של הקואורדינטות והזמן:
 דוגמאות:
 חרוז על חוט: מטוטלת פשוטה: (אורך קבוע)
-mRµxyConstraint:x2+y2=R2אילוצים שלא ניתן לבטא כמשוואות אלגבריות של הקואורדינטות. לרוב כוללים נגזרות:
-דוגמה קלאסית: גלגל מתגלגל ללא החלקהR!v=!Rv=0Non-holonomic:_x=R_µאילוצים שאינם תלויים בזמן במפורש:
+mRxyאילוצים שלא ניתן לבטא כמשוואות אלגבריות של הקואורדינטות. לרוב כוללים נגזרות:
+דוגמה קלאסית: גלגל מתגלגל ללא החלקהRvv=0אילוצים שאינם תלויים בזמן במפורש:
 אילוצים התלויים בזמן במפורש:
 <br>
 הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=12" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=12" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=12" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 1, Section 1.4</a>
 📖 חפש: "1.4 Degrees of Freedom and Types of Constraints"
 מספר דרגות החופש של מערכת:
 כאשר: = מספר החלקיקים = מספר האילוצים ההולונומיים הבלתי תלויים
-m1m2l1l2µ1µ2Generalizedcoords:µ1;µ2<br>
+m1m2l1l2µ1gDOF=2<br>
 הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=5" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=5" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=5" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 1, Section 1.2</a><br>
 📖 חפש: "In mechanics, work is defined to be the line integral" (עמוד 6)
 🎬 בהרצאה: <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=DUI5PUHLIz0&amp;t=1500s" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.youtube.com/watch?v=DUI5PUHLIz0&amp;t=1500s" target="_self">הרצאה 2 @ 25:00</a> - עקרון דאלמבר והעתקות וירטואליות
@@ -105,7 +206,7 @@ m1m2l1l2µ1µ2Generalizedcoords:µ1;µ2<br>
 הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=52" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=52" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=52" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 2, Section 2.1-2.2</a><br>
 📖 חפש: "Chapter 2: Variational Calculus and its Application to Mechanics"
 🎬 בהרצאה: <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=3vRseP68uCA&amp;t=0s" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.youtube.com/watch?v=3vRseP68uCA&amp;t=0s" target="_self">הרצאה 4 @ 00:00</a> - מבוא לחשבון וריאציות
-פונקציונל הוא פונקציה של פונקציה - הוא מקבל פונקציה ומחזיר מספר.tqAB±S=0Physicalpath:S=Rt2t1Ldtstationary<br>
+פונקציונל הוא פונקציה של פונקציה - הוא מקבל פונקציה ומחזיר מספר.tqt1t2(t1;q1)(t2;q2)q(t)²´(t)´(t1)=´(t2)=0±S=0<br>
 הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=59" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=59" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=59" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 2, Section 2.3</a>
 📖 חפש: "Hamilton's Principle" ומשוואה (2.15)
 הפעולה (Action) מוגדרת כ:
@@ -150,7 +251,7 @@ m1m2l1l2µ1µ2Generalizedcoords:µ1;µ2<br>
 הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=59" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=59" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=59" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 2, Section 2.3</a><br>
 📖 חפש: "2.3 Geodesics" ו-"In a curved space, such as the surface of the Earth"
 🎬 בהרצאה: <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=GWpfPRgD_p0&amp;t=2700s" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.youtube.com/watch?v=GWpfPRgD_p0&amp;t=2700s" target="_self">הרצאה 5 @ 45:00</a> - גאודזות ומשטחים מינימליים
-גאודזה היא הקו הקצר ביותר בין שתי נקודות על משטח.ABGeodesicsonsphere=greatcircles<br>
+גאודזה היא הקו הקצר ביותר בין שתי נקודות על משטח.ABOnotgeodesicGeodesic=greatcircle(planethroughcenter)<br>
 הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=52" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=52" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=52" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 2 Overview</a>
 📖 חפש: "Brachistochrone Problem" (בעיית הזמן הקצר ביותר)
 מציאת העקומה שלאורכה חלקיק מחליק מנקודה A לנקודה B בזמן מינימלי.xyABStraightlineCycloid~gהזמן:
@@ -201,10 +302,14 @@ qV(q)E1E2q1q2oscillationstablestableunstableforbiddenעבור תנועה מחז�
 <br><a data-href="#10. חוקי קפלר וחתכי חרוט" href="מכניקה-אנליטית/סיכום-הרצאות.html#10._חוקי_קפלר_וחתכי_חרוט_0" class="internal-link" target="_self" rel="noopener nofollow">10. חוקי קפלר וחתכי חרוט</a> - סוגי המסלולים האפשריים
 <br><a data-href="#5.5 סימטריות וחוקי שימור (משפט נתר)" href="מכניקה-אנליטית/סיכום-הרצאות.html#5.5_סימטריות_וחוקי_שימור_(משפט_נתר)_0" class="internal-link" target="_self" rel="noopener nofollow">5.5 סימטריות וחוקי שימור (משפט נתר)</a> - למה תנע זוויתי נשמר? m1m2~r1~r2O~r=~r2¡~r1CMReducedmass:¹=m1m2m1+m2<br>
 הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=146" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=146" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=146" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 4, Section 4.3</a>
-📖 חפש: "4.3 The Reduced Mass and Relative Coordinate" ומשוואה (4.23) V_eff ↑ | ╱ (centrifugal ~ 1/r²) | ╱ E&gt;0 ─|──╱───────────────────── | ╱ |╱ ╲___________ E&lt;0 ─|─────●─────●─────────── | r_min r_max | ╲_____╱ (bound orbit) | r₀ (minimum) | +─────────────────────→ r ╲ ╲ (gravity ~ -1/r)
-הסבר הגרף:
-הקו הכחול: : נקודת מינימום (מסלול מעגלי יציב)
-: נקודות פנייה למסלול אליפטי
+📖 חפש: "4.3 The Reduced Mass and Relative Coordinate" ומשוואה (4.23)
+צורת הגרף
+הגרף של נראה כמו באר פוטנציאל: ב- קטן: עולה לאינסוף (מחסום צנטריפוגלי שולט)
+ב- גדול: שואף לאפס מלמטה (כבידה שולטת)
+יש מינימום ב- (מסלול מעגלי יציב) נקודות חשובות:
+🔴 = נקודת המינימום → מסלול מעגלי יציב
+🟣 = פריהליון (הנקודה הקרובה ביותר)
+🟣 = אפהליון (הנקודה הרחוקה ביותר)
 מהי מסה מצומצמת?
 היא מאפשרת לצמצם בעיית שני גופים לבעיית גוף אחד.
 למה תנע זוויתי נשמר בכוח מרכזי?
@@ -219,7 +324,7 @@ qV(q)E1E2q1q2oscillationstablestableunstableforbiddenעבור תנועה מחז�
 עבור פוטנציאל כבידתי:
 כאשר: - הפרמטר - האקסצנטריות
 Circle:e=0Ellipse:0&lt;e&lt;1Parabola:e=1Hyperbola:e&gt;1חוק ראשון: מסלולי כוכבי הלכת הם אליפסות כשהשמש במוקד אחד.חוק שני (חוק השטחים):
-SunfastslowA1A2A1=A2inequaltimeintervalsחוק שלישי:
+SunfastslowA1A2A1=A2inequaltimeחוק שלישי:
 <br>
 <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=168" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=168" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=168" class="internal-link" target="_self" rel="noopener nofollow">Central Force Problems, pages 168-178</a>
 מה משוואת המסלול בבעיית קפלר?
@@ -248,7 +353,7 @@ Mode1:OutofphaseMode2:Inphase<br>
 🎬 בהרצאה: <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=RBunpjkBvsc&amp;t=900s" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.youtube.com/watch?v=RBunpjkBvsc&amp;t=900s" target="_self">הרצאה 8 @ 15:00</a> - המעבר מלגרנז' להמילטון
 התמרת לג'נדר מאפשרת מעבר מפונקציה של משתנה אחד לפונקציה של המשתנה הצמוד לו.ראה גם <br><a data-href="#דוגמה 4: המילטוניאן של חלקיק בשדה מגנטי" href="מכניקה-אנליטית/סיכום-הרצאות.html#דוגמה_4_המילטוניאן_של_חלקיק_בשדה_מגנטי_0" class="internal-link" target="_self" rel="noopener nofollow">דוגמה 4: המילטוניאן של חלקיק בשדה מגנטי</a> - דוגמה מפורטת
 <br><a data-href="#4. הלגרנז'יאן ומשוואות אוילר-לגרנז'" href="מכניקה-אנליטית/סיכום-הרצאות.html#4._הלגרנז'יאן_ומשוואות_אוילר-לגרנז'_0" class="internal-link" target="_self" rel="noopener nofollow">4. הלגרנז'יאן ומשוואות אוילר-לגרנז'</a> - הפורמליזם המקורי
-<br><a data-href="#13. מרחב הפאזה ומשוואות המילטון" href="מכניקה-אנליטית/סיכום-הרצאות.html#13._מרחב_הפאזה_ומשוואות_המילטון_0" class="internal-link" target="_self" rel="noopener nofollow">13. מרחב הפאזה ומשוואות המילטון</a> - משוואות התנועה החדשות xyf(x)slopep¡g(p)xg(p)=px¡f(x)wherep=dfdxהתנע הקנוני:
+<br><a data-href="#13. מרחב הפאזה ומשוואות המילטון" href="מכניקה-אנליטית/סיכום-הרצאות.html#13._מרחב_הפאזה_ומשוואות_המילטון_0" class="internal-link" target="_self" rel="noopener nofollow">13. מרחב הפאזה ומשוואות המילטון</a> - משוואות התנועה החדשות _qyL(_q)(_q;L)slope=p¡H_qLH=p_q¡Lהתנע הקנוני:
 ההמילטוניאן:
 הקשר בין לגרנז' להמילטון לגרנז'יאן: פונקציה של - מיקום ומהירות
 המילטוניאן: פונקציה של - מיקום ותנע המעבר ביניהם נעשה באמצעות התמרת לג'נדר - טריק מתמטי שמחליף משתנה בנגזרת שלו.
@@ -259,7 +364,7 @@ Mode1:OutofphaseMode2:Inphase<br>
 הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=191" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=191" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=191" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 5, Section 5.5</a><br>
 📖 חפש: "5.5 Hamilton's Equations" ומשוואה (5.27)
 🎬 בהרצאה: <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=RBunpjkBvsc&amp;t=2400s" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.youtube.com/watch?v=RBunpjkBvsc&amp;t=2400s" target="_self">הרצאה 8 @ 40:00</a> - מרחב הפאזה וסוגריי פואסון
-xpE1E2E3EquilibriumH=p22m+12kx2=Eמסקנה: אם לא תלוי בזמן במפורש, נשמר!<br>
+xpE3E2E1stableIIIIIIIVH=p22m+12kx2=Eמסקנה: אם לא תלוי בזמן במפורש, נשמר!<br>
 הפניה לספר: <a data-tooltip-position="top" aria-label="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf > page=232" data-href="Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf#page=232" href="מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html#page=232" class="internal-link" target="_self" rel="noopener nofollow">Hand &amp; Finch, Chapter 6, Section 6.3</a>
 📖 חפש: "6.3 Poisson Brackets" ומשוואה (6.36)
 אבולוציה בזמן:
@@ -316,11 +421,93 @@ xpE1E2E3EquilibriumH=p22m+12kx2=Eמסקנה: אם לא תלוי בזמן במפ�
 שלב 4: המילטוניאן הסופי
 שים לב!
 ההמילטוניאן שווה לאנרגיה הקינטית, כי אין פוטנציאל סקלרי. השדה המגנטי לא עושה עבודה!
-בחירת קואורדינטות בחר קואורדינטות שמתאימות לסימטריה של הבעיה
+המטרה
+להראות שדרישת מובילה למשוואות אוילר-לגרנז'.
+נתון: הפעולה מוגדרת כ:
+שלב 1: הגדרת הווריאציהניקח מסלול ונוסיף לו הפרעה קטנה:
+כאשר היא פונקציה שרירותית שמקיימת (תנאי שפה קבועים).שלב 2: פיתוח הפעולהנפתח לסדר ראשון ב-:
+שלב 3: אינטגרציה בחלקיםאת האיבר השני נעביר באינטגרציה בחלקים:
+האיבר השפתי מתאפס כי .שלב 4: תנאי הקיצוןמכיוון ש- שרירותית, האינטגרנד חייב להתאפס:המשפט
+לכל סימטריה רציפה של הלגרנז'יאן קיים גודל שמור.
+הגדרה: סימטריה היא טרנספורמציה שתחתיה:
+(הלגרנז'יאן משתנה רק בנגזרת זמנית מלאה).הוכחה:שלב 1: נחשב את השינוי בלגרנז'יאן:
+שלב 2: נשתמש במשוואות אוילר-לגרנז' להחליף :
+שלב 3: נזהה נגזרת מלאה:
+שלב 4: לפי הגדרת הסימטריה , נקבל:
+מסקנה: הגודל השמור הוא:
+דוגמאות:הטענה
+אם (1) האילוצים סקלרונומיים, (2) ריבועית ב-, ו-(3) לא תלוי ב-, אז .
+הוכחה:שלב 1: ההמילטוניאן מוגדר כ:
+שלב 2: אם (ריבועית ב-):
+שלב 3: לפי משפט אוילר לפונקציות הומוגניות (דרגה 2):
+שלב 4: מכיוון ש- ו- לא תלוי ב-:
+מתי זה לא נכון? אילוצים ריאונומיים (תלויי זמן)
+פוטנציאלים תלויי מהירות (כמו כוח לורנץ) לא ריבועית ב- חוק ראשון: מסלולים אליפטיים<br>ראה <a data-href="#דוגמה 3: בעיית קפלר - מציאת מסלול" href="מכניקה-אנליטית/סיכום-הרצאות.html#דוגמה_3_בעיית_קפלר_-_מציאת_מסלול_0" class="internal-link" target="_self" rel="noopener nofollow">דוגמה 3: בעיית קפלר - מציאת מסלול</a> - הפתרון הוא משוואת חרוט.חוק שני: שטחים שווים בזמנים שוויםשלב 1: השטח שנסרק בזמן :
+שלב 2: מכיוון שתנע זוויתי שמור :
+חוק שלישי: שלב 1: השטח הכולל של אליפסה:
+שלב 2: הזמן המחזורי:
+שלב 3: משימוש ב-:
+עבור כבידה ו-:
+האינטואיציה
+חשוב על הפעולה כ"מחיר" של מסלול: תנועה עולה כסף: גבוה = מחיר גבוה
+פוטנציאל נמוך נותן הנחה: נמוך = בונוס (לכן מינוס) הטבע בוחר את המסלול הכי זול (פעולה מינימלית).
+דוגמה: כדור נופל
+במסלול אמיתי: גבוה למעלה, גבוה למעלה → מתאזנים
+במסלול "מהיר מדי": גבוה מאוד → יקר
+במסלול "איטי מדי": נשאר ב- גבוה זמן רב → יקר
+האינטואיציה
+כוחות אילוץ הם אורתוגונליים לתנועה האפשרית.
+דמיין חרוז על חוט: החוט מפעיל כוח ניצב לחוט.
+אם זזים לאורך החוט (העתקה וירטואלית), הכוח לא עושה עבודה!
+האינטואיציה
+התנע הקנוני הוא "כמה הלגרנז'יאן רגיש לשינוי במהירות".
+בקואורדינטות קרטזיות: ✓
+בקואורדינטות זוויתיות: (תנע זוויתי!)
+כלל אצבע: התנע הקנוני הוא הגודל השמור כשהקואורדינטה המתאימה ציקלית.האינטואיציה
+במרחב הפאזה : כל נקודה = מצב מלא של המערכת
+כל עקומה = היסטוריה של המערכת
+עקומות לא חותכות (דטרמיניזם!)
+שטח נשמר (משפט ליוביל) למה זה חשוב?
+הפורמליזם ההמילטוני הוא הגשר למכניקת קוונטים. הבנה טובה שלו מקלה מאוד על הקוונטים!
+דוגמה: אוסילטור הרמוני
+קלאסי: קוונטי: NewProblem1.CountDOF2.FindSymmetries3.ChooseCoords4.WriteL=T-V5.Euler-LagrangeSolve!
+ספרתי דרגות חופש נכון? (DOF = 3N - אילוצים הולונומיים)
+זיהיתי את כל האילוצים? (הולונומי/לא, סקלרונומי/ריאונומי)
+חיפשתי סימטריות? (הזזה, סיבוב, זמן)
+בחרתי קואורדינטות חכמות? (מנצלות סימטריה, מבטלות אילוצים)
+כתבתי T נכון? (כולל סיבובים, קואורדינטות יחסיות)
+V נכון? (בדקתי סימן, נקודת ייחוס)
+נתון: מטוטלת שאורכה משתנה לפי (החוט נמשך החוצה במהירות קבועה ).שאלות:
+כתוב את הלגרנז'יאן.
+האם האנרגיה שמורה? נמק.
+מצא את משוואת התנועה.
+פתרון:חלק 1: קואורדינטות: (זווית)
+חלק 2: האילוץ הוא ריאונומי (תלוי בזמן).
+→ האנרגיה לא שמורה!חלק 3: משוואת אוילר-לגרנז' עבור :
+נתון: שתי מסות ו- מחוברות בקפיץ (קבוע ) ונעות על ציר ללא חיכוך.שאלות:
+כמה דרגות חופש?
+כתוב את הלגרנז'יאן.
+מצא את התדירות הזוויתית של התנודות.
+פתרון:חלק 1: שתי מסות על ציר → 2 דרגות חופש ()חלק 2:
+חלק 3: נעבור לקואורדינטות מרכז מסה וקואורדינטה יחסית:
+הלגרנז'יאן הופך ל:
+כאשר ו-.תדירות התנודות:
+נתון: חלקיק מחליק ללא חיכוך בתוך משפך חרוטי (זווית חצי-קודקוד ) שצירו אנכי.שאלות:
+כתוב את האילוץ.
+מצא את הלגרנז'יאן.
+מצא את רדיוס המסלול המעגלי כפונקציה של תנע זוויתי .
+פתרון:חלק 1: בקואורדינטות גליליות : (אילוץ הולונומי)חלק 2: דרגות חופש: 2 → חלק 3: ציקלית → למסלול מעגלי: ממשוואת אוילר-לגרנז' עבור :
+דוגמה 1: חרוז על חישוק מסתובבהאילוץ ריאונומי (), לכן:
+דוגמה 2: חלקיק בשדה מגנטיהלגרנז'יאן כולל איבר ליניארי במהירות:
+לכן לא ריבועית טהורה ב-.דוגמה: גלגל מתגלגל ללא החלקהזה לא ניתן לאינטגרציה לצורה כי:
+תלוי בנתיב (בכמה סיבובים הגלגל עשה).מבחן: אם האילוץ כולל ולא ניתן לאינטגרציה → לא-הולונומי.
+כוחות דיסיפטיביים (חיכוך) → צריך פונקציית דיסיפציה של ריילי
+כוחות לא-פוטנציאליים → צריך כוחות מוכללים אילוצים לא-הולונומיים → כופלי לגרנז' או משוואות לגרנז' מהצורה השנייה
+Newton:F=maL=T-VEuler-LagrangeNoetherH=T+VPhaseSpaceQuantumLegendreבחירת קואורדינטות בחר קואורדינטות שמתאימות לסימטריה של הבעיה
 קואורדינטות שמבטלות אילוצים הן הכי טובות
 חפש קואורדינטות ציקליות - הן נותנות גדלים שמורים בחינם! בדיקת התוצאה בדוק יחידות בכל שלב
 בדוק מקרי קצה (מסה אפסית, אורך אינסופי, וכו')
-ודא שמשוואות התנועה הן מסדר 2 בזמן סיכום זה נכתב על בסיס תמלולי ההרצאות והספר Analytical Mechanics מאת Hand &amp; Finch]]></description><link>מכניקה-אנליטית/סיכום-הרצאות.html</link><guid isPermaLink="false">מכניקה אנליטית/סיכום הרצאות.md</guid><pubDate>Mon, 29 Dec 2025 19:35:43 GMT</pubDate></item><item><title><![CDATA[טרנספורמי פורייה 2]]></title><description><![CDATA[a.
+ודא שמשוואות התנועה הן מסדר 2 בזמן סיכום זה נכתב על בסיס תמלולי ההרצאות והספר Analytical Mechanics מאת Hand &amp; Finch]]></description><link>מכניקה-אנליטית/סיכום-הרצאות.html</link><guid isPermaLink="false">מכניקה אנליטית/סיכום הרצאות.md</guid><pubDate>Tue, 30 Dec 2025 11:19:01 GMT</pubDate></item><item><title><![CDATA[טרנספורמי פורייה 2]]></title><description><![CDATA[a.
 נניח אות בעל תחום תדרים סופי ותדר מקסימלי טרנספורם הפורייה שלו: הצגתו בתור טור פורייה:
 b. c.
 אנחנו יודעים שכל שייך לשלמים ולכן הsinc יתאפס.
@@ -348,15 +535,11 @@ c.חלק פלצני שניתן לדלג עליו:לפני שנתחיל להצי�
 וההסתברות שלו להיות בכל מצב היא 50%.
 בכל מקרה, אי לכך ובהתאם לזאת התנע הזוויתי הוא אופרטור הספין: נציב את אופרטור הספין באופרטור הסיבוב ונקבל: הפלא ופלא קיבלנו את הביטוי של סעיף ב׳, נשתמש בזהות שהוכחנו וסגרנו את הבסטה.הנה הפתרון שיותר מתאים לקורס:
 מאחר ויש לנו SU(2) לכן כדי לסובב ב- עלינו להציב: .
-]]></description><link>ממפיס-3/שיעורי-בית/טרנספורמי-פורייה-2.html</link><guid isPermaLink="false">ממפיס 3/שיעורי בית/טרנספורמי פורייה 2.md</guid><pubDate>Mon, 29 Dec 2025 19:35:32 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted]]></title><link>מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html</link><guid isPermaLink="false">מכניקה אנליטית/Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf</guid><pubDate>Mon, 29 Dec 2025 18:25:12 GMT</pubDate></item><item><title><![CDATA[טרנספורמציות קנוניות]]></title><description><![CDATA[להמילטוניין יש יתרון על הלגרגנזיאן כי הוא מתאר את הבעיה באופן סימטרי
-עם זאת, להימלטוניין יש מעין חיסרון: אם נרצה לעבור מקוארדינטות קרטזיות לפולאריות:
-אז נצטרך לשנות את שני הקוארדינטות: וזה לא תמיד קל.בקוארדינטות פולריות:בלה בלה בלה יוצא מגעיל אז נשתמש ב:
-טרנספורמציה נקודתית טרנספורמציית מגע כאשר המטרה היא למצוא:
-]]></description><link>מכניקה-אנליטית/הרצאות/טרנספורמציות-קנוניות.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/טרנספורמציות קנוניות.md</guid><pubDate>Mon, 29 Dec 2025 14:25:18 GMT</pubDate></item><item><title><![CDATA[2025-10-23]]></title><description><![CDATA[כלי מתמטי שעוזר לי להביע התבדרות בנקודה.
+]]></description><link>ממפיס-3/שיעורי-בית/טרנספורמי-פורייה-2.html</link><guid isPermaLink="false">ממפיס 3/שיעורי בית/טרנספורמי פורייה 2.md</guid><pubDate>Mon, 29 Dec 2025 19:40:46 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted]]></title><link>מכניקה-אנליטית/analytical-mechanics-(louis-n.-hand,-janet-d.-finch)-highlighted.html</link><guid isPermaLink="false">מכניקה אנליטית/Analytical mechanics (Louis N. Hand, Janet D. Finch) - Highlighted.pdf</guid><pubDate>Mon, 29 Dec 2025 18:25:12 GMT</pubDate></item><item><title><![CDATA[2025-10-23]]></title><description><![CDATA[כלי מתמטי שעוזר לי להביע התבדרות בנקודה.
 הגדרה: 4.
 ייצוג ראשון: ייצוג שני:
 תכונות של של הפונקצייה: הוכחה 5:
-קשור: <a data-tooltip-position="top" aria-label="פונקציית דלטא של דיראק ובניו" data-href="פונקציית דלטא של דיראק ובניו" href="ממפיס-3/שיעורי-בית/פונקציית-דלטא-של-דיראק-ובניו.html" class="internal-link" target="_self" rel="noopener nofollow">פונקציית דלטא של דיראק ובניו</a><br><a href=".?query=tag:ממפיס-3" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#ממפיס-3">#ממפיס-3</a> <a href=".?query=tag:תרגולים" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#תרגולים">#תרגולים</a>]]></description><link>ממפיס-3/תרגולים/2025-10-23.html</link><guid isPermaLink="false">ממפיס 3/תרגולים/2025-10-23.md</guid><pubDate>Mon, 29 Dec 2025 13:33:39 GMT</pubDate></item><item><title><![CDATA[משפט ליוביל]]></title><description><![CDATA[קשור: <a data-tooltip-position="top" aria-label="דינמיקה המילטונית" data-href="דינמיקה המילטונית" href="מכניקה-אנליטית/הרצאות/דינמיקה-המילטונית.html" class="internal-link" target="_self" rel="noopener nofollow">דינמיקה המילטונית</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:משפט-ליוביל" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#משפט-ליוביל">#משפט-ליוביל</a>]]></description><link>מכניקה-אנליטית/הרצאות/משפט-ליוביל.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/משפט ליוביל.md</guid><pubDate>Mon, 29 Dec 2025 13:33:39 GMT</pubDate></item><item><title><![CDATA[מד״ח עם הפרדת משתנים]]></title><description><![CDATA[
+קשור: <a data-tooltip-position="top" aria-label="פונקציית דלטא של דיראק ובניו" data-href="פונקציית דלטא של דיראק ובניו" href="ממפיס-3/שיעורי-בית/פונקציית-דלטא-של-דיראק-ובניו.html" class="internal-link" target="_self" rel="noopener nofollow">פונקציית דלטא של דיראק ובניו</a><br><a href=".?query=tag:ממפיס-3" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#ממפיס-3">#ממפיס-3</a> <a href=".?query=tag:תרגולים" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#תרגולים">#תרגולים</a>]]></description><link>ממפיס-3/תרגולים/2025-10-23.html</link><guid isPermaLink="false">ממפיס 3/תרגולים/2025-10-23.md</guid><pubDate>Mon, 29 Dec 2025 13:33:39 GMT</pubDate></item><item><title><![CDATA[מד״ח עם הפרדת משתנים]]></title><description><![CDATA[
 בוחרים מערכת קוארדינטות מתאימה לתנאי שפה
 ננחש פתרון בצורה של הפרדת משתנים: תנאי שפה: נניח פתרון בצורת הפרדת משתנים:
 נציב במשוואת החום:
@@ -378,8 +561,7 @@ c.חלק פלצני שניתן לדלג עליו:לפני שנתחיל להצי�
 נהדר לא מאמין שההוכחה הצליחה לי על הפעם הראשונה על עיוור.בואו נתקדם: פונקציית גאמא היא יותר כללית מרק לקבל מספרים טבעיים.
 בואו ננסה להציב : אבל רגע למה שווה ?
 ניזכר כי: ונציב : נציב: בגלל ש: אז: לכן:
-זאת השיטה של מדר שמציבים במשוואה טור של פולינומים עם מקדמים מתאימים.קשור: <a data-tooltip-position="top" aria-label="פולינומים" data-href="פולינומים" href="ממפיס-3/הרצאות/פולינומים.html" class="internal-link" target="_self" rel="noopener nofollow">פולינומים</a>, <a data-tooltip-position="top" aria-label="שיטת הפונקציות העצמיות ותורת שטורם ליוביל" data-href="שיטת הפונקציות העצמיות ותורת שטורם ליוביל" href="ממפיס-3/שיעורי-בית/שיטת-הפונקציות-העצמיות-ותורת-שטורם-ליוביל.html" class="internal-link" target="_self" rel="noopener nofollow">שיטת הפונקציות העצמיות ותורת שטורם ליוביל</a><br><a href=".?query=tag:ממפיס-3" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#ממפיס-3">#ממפיס-3</a> <a href=".?query=tag:תרגולים" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#תרגולים">#תרגולים</a>]]></description><link>ממפיס-3/תרגולים/מתרגל-0.html</link><guid isPermaLink="false">ממפיס 3/תרגולים/מתרגל 0.md</guid><pubDate>Mon, 29 Dec 2025 13:33:39 GMT</pubDate></item><item><title><![CDATA[דינמיקה המילטונית]]></title><description><![CDATA[ איבדנו מידע ולכן לא טוב לכן נניח פונקציה
-דורשים: ננחש פונקציה אשר עונה על הנדרש: הטרנספורמציה לא מאבדת מידע כי אם נפעיל על לגרנזיאן נקבל המילטניאן ולהפך.קשור: <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a>, <a data-tooltip-position="top" aria-label="1" data-href="1" href="מכניקה-אנליטית/הרצאות/1.html" class="internal-link" target="_self" rel="noopener nofollow">נושאי הקורס</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:המילטוניאן" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#המילטוניאן">#המילטוניאן</a>נתון: משוואות תנועה חדשות: מכאן מקבלים את משוואות התנועה כי כל איבר בנפרד צריך להתאפס.]]></description><link>מכניקה-אנליטית/הרצאות/דינמיקה-המילטונית.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/דינמיקה המילטונית.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[התמרת לורנזיאן]]></title><description><![CDATA[קשור: <a data-tooltip-position="top" aria-label="טרנספורמי פורייה" data-href="טרנספורמי פורייה" href="ממפיס-3/שיעורי-בית/טרנספורמי-פורייה.html" class="internal-link" target="_self" rel="noopener nofollow">טרנספורמי פורייה</a>, <a data-tooltip-position="top" aria-label="משפט פרסבל" data-href="משפט פרסבל" href="בנק/משפט-פרסבל.html" class="internal-link" target="_self" rel="noopener nofollow">משפט פרסבל</a><br><a href=".?query=tag:בנק" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#בנק">#בנק</a> <a href=".?query=tag:נוסחאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#נוסחאות">#נוסחאות</a> <a href=".?query=tag:ממפיס-3" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#ממפיס-3">#ממפיס-3</a> <a href=".?query=tag:טרנספורמי-פורייה" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#טרנספורמי-פורייה">#טרנספורמי-פורייה</a>]]></description><link>בנק/התמרת-לורנזיאן.html</link><guid isPermaLink="false">בנק/התמרת לורנזיאן.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[זהות בלתרמי]]></title><description><![CDATA[קשור: <a data-tooltip-position="top" aria-label="משוואת אוילר לגרנז" data-href="משוואת אוילר לגרנז" href="בנק/משוואת-אוילר-לגרנז.html" class="internal-link" target="_self" rel="noopener nofollow">משוואת אוילר לגרנז</a>, <a data-tooltip-position="top" aria-label="תנאי לג׳נדר" data-href="תנאי לג׳נדר" href="בנק/תנאי-לג׳נדר.html" class="internal-link" target="_self" rel="noopener nofollow">תנאי לג׳נדר</a><br><a href=".?query=tag:בנק" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#בנק">#בנק</a> <a href=".?query=tag:נוסחאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#נוסחאות">#נוסחאות</a> <a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a>]]></description><link>בנק/זהות-בלתרמי.html</link><guid isPermaLink="false">בנק/זהות בלתרמי.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[משוואת אוילר לגרנז]]></title><description><![CDATA[קשור: <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a>, <a data-tooltip-position="top" aria-label="תנאי לג׳נדר" data-href="תנאי לג׳נדר" href="בנק/תנאי-לג׳נדר.html" class="internal-link" target="_self" rel="noopener nofollow">תנאי לג׳נדר</a><br><a href=".?query=tag:בנק" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#בנק">#בנק</a> <a href=".?query=tag:נוסחאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#נוסחאות">#נוסחאות</a> <a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a>]]></description><link>בנק/משוואת-אוילר-לגרנז.html</link><guid isPermaLink="false">בנק/משוואת אוילר לגרנז.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[משפט פלנשרל]]></title><description><![CDATA[קשור: <a data-tooltip-position="top" aria-label="משפט פרסבל" data-href="משפט פרסבל" href="בנק/משפט-פרסבל.html" class="internal-link" target="_self" rel="noopener nofollow">משפט פרסבל</a>, <a data-tooltip-position="top" aria-label="טרנספורמי פורייה" data-href="טרנספורמי פורייה" href="ממפיס-3/שיעורי-בית/טרנספורמי-פורייה.html" class="internal-link" target="_self" rel="noopener nofollow">טרנספורמי פורייה</a><br><a href=".?query=tag:בנק" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#בנק">#בנק</a> <a href=".?query=tag:נוסחאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#נוסחאות">#נוסחאות</a> <a href=".?query=tag:ממפיס-3" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#ממפיס-3">#ממפיס-3</a> <a href=".?query=tag:טרנספורמי-פורייה" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#טרנספורמי-פורייה">#טרנספורמי-פורייה</a>]]></description><link>בנק/משפט-פלנשרל.html</link><guid isPermaLink="false">בנק/משפט פלנשרל.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[משפט פרסבל]]></title><description><![CDATA[קשור: <a data-tooltip-position="top" aria-label="משפט פלנשרל" data-href="משפט פלנשרל" href="בנק/משפט-פלנשרל.html" class="internal-link" target="_self" rel="noopener nofollow">משפט פלנשרל</a>, <a data-tooltip-position="top" aria-label="טרנספורמי פורייה" data-href="טרנספורמי פורייה" href="ממפיס-3/שיעורי-בית/טרנספורמי-פורייה.html" class="internal-link" target="_self" rel="noopener nofollow">טרנספורמי פורייה</a><br><a href=".?query=tag:בנק" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#בנק">#בנק</a> <a href=".?query=tag:נוסחאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#נוסחאות">#נוסחאות</a> <a href=".?query=tag:ממפיס-3" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#ממפיס-3">#ממפיס-3</a> <a href=".?query=tag:טרנספורמי-פורייה" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#טרנספורמי-פורייה">#טרנספורמי-פורייה</a>]]></description><link>בנק/משפט-פרסבל.html</link><guid isPermaLink="false">בנק/משפט פרסבל.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[תנאי לג׳נדר]]></title><description><![CDATA[קשור: <a data-tooltip-position="top" aria-label="משוואת אוילר לגרנז" data-href="משוואת אוילר לגרנז" href="בנק/משוואת-אוילר-לגרנז.html" class="internal-link" target="_self" rel="noopener nofollow">משוואת אוילר לגרנז</a>, <a data-tooltip-position="top" aria-label="זהות בלתרמי" data-href="זהות בלתרמי" href="בנק/זהות-בלתרמי.html" class="internal-link" target="_self" rel="noopener nofollow">זהות בלתרמי</a><br><a href=".?query=tag:בנק" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#בנק">#בנק</a> <a href=".?query=tag:נוסחאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#נוסחאות">#נוסחאות</a> <a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a>]]></description><link>בנק/תנאי-לג׳נדר.html</link><guid isPermaLink="false">בנק/תנאי לג׳נדר.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[1]]></title><description><![CDATA[לגרנג׳יאן, המילטוניאן, טרנספורמציית לז׳נדר, פעולה , עקרון הפעולה המינימליקשור: <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a>, <a data-tooltip-position="top" aria-label="דינמיקה המילטונית" data-href="דינמיקה המילטונית" href="מכניקה-אנליטית/הרצאות/דינמיקה-המילטונית.html" class="internal-link" target="_self" rel="noopener nofollow">דינמיקה המילטונית</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a>]]></description><link>מכניקה-אנליטית/הרצאות/1.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/1.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[אחרי לגרנזיאן]]></title><description><![CDATA[כל הסתה מהמסלול הפיזיקלי תגרום להגדלה או הקטנה של הפעולה, הגדרה:
+זאת השיטה של מדר שמציבים במשוואה טור של פולינומים עם מקדמים מתאימים.קשור: <a data-tooltip-position="top" aria-label="פולינומים" data-href="פולינומים" href="ממפיס-3/הרצאות/פולינומים.html" class="internal-link" target="_self" rel="noopener nofollow">פולינומים</a>, <a data-tooltip-position="top" aria-label="שיטת הפונקציות העצמיות ותורת שטורם ליוביל" data-href="שיטת הפונקציות העצמיות ותורת שטורם ליוביל" href="ממפיס-3/שיעורי-בית/שיטת-הפונקציות-העצמיות-ותורת-שטורם-ליוביל.html" class="internal-link" target="_self" rel="noopener nofollow">שיטת הפונקציות העצמיות ותורת שטורם ליוביל</a><br><a href=".?query=tag:ממפיס-3" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#ממפיס-3">#ממפיס-3</a> <a href=".?query=tag:תרגולים" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#תרגולים">#תרגולים</a>]]></description><link>ממפיס-3/תרגולים/מתרגל-0.html</link><guid isPermaLink="false">ממפיס 3/תרגולים/מתרגל 0.md</guid><pubDate>Mon, 29 Dec 2025 13:33:39 GMT</pubDate></item><item><title><![CDATA[התמרת לורנזיאן]]></title><description><![CDATA[קשור: <a data-tooltip-position="top" aria-label="טרנספורמי פורייה" data-href="טרנספורמי פורייה" href="ממפיס-3/שיעורי-בית/טרנספורמי-פורייה.html" class="internal-link" target="_self" rel="noopener nofollow">טרנספורמי פורייה</a>, <a data-tooltip-position="top" aria-label="משפט פרסבל" data-href="משפט פרסבל" href="בנק/משפט-פרסבל.html" class="internal-link" target="_self" rel="noopener nofollow">משפט פרסבל</a><br><a href=".?query=tag:בנק" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#בנק">#בנק</a> <a href=".?query=tag:נוסחאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#נוסחאות">#נוסחאות</a> <a href=".?query=tag:ממפיס-3" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#ממפיס-3">#ממפיס-3</a> <a href=".?query=tag:טרנספורמי-פורייה" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#טרנספורמי-פורייה">#טרנספורמי-פורייה</a>]]></description><link>בנק/התמרת-לורנזיאן.html</link><guid isPermaLink="false">בנק/התמרת לורנזיאן.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[זהות בלתרמי]]></title><description><![CDATA[קשור: <a data-tooltip-position="top" aria-label="משוואת אוילר לגרנז" data-href="משוואת אוילר לגרנז" href="בנק/משוואת-אוילר-לגרנז.html" class="internal-link" target="_self" rel="noopener nofollow">משוואת אוילר לגרנז</a>, <a data-tooltip-position="top" aria-label="תנאי לג׳נדר" data-href="תנאי לג׳נדר" href="בנק/תנאי-לג׳נדר.html" class="internal-link" target="_self" rel="noopener nofollow">תנאי לג׳נדר</a><br><a href=".?query=tag:בנק" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#בנק">#בנק</a> <a href=".?query=tag:נוסחאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#נוסחאות">#נוסחאות</a> <a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a>]]></description><link>בנק/זהות-בלתרמי.html</link><guid isPermaLink="false">בנק/זהות בלתרמי.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[משוואת אוילר לגרנז]]></title><description><![CDATA[קשור: <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a>, <a data-tooltip-position="top" aria-label="תנאי לג׳נדר" data-href="תנאי לג׳נדר" href="בנק/תנאי-לג׳נדר.html" class="internal-link" target="_self" rel="noopener nofollow">תנאי לג׳נדר</a><br><a href=".?query=tag:בנק" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#בנק">#בנק</a> <a href=".?query=tag:נוסחאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#נוסחאות">#נוסחאות</a> <a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a>]]></description><link>בנק/משוואת-אוילר-לגרנז.html</link><guid isPermaLink="false">בנק/משוואת אוילר לגרנז.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[משפט פלנשרל]]></title><description><![CDATA[קשור: <a data-tooltip-position="top" aria-label="משפט פרסבל" data-href="משפט פרסבל" href="בנק/משפט-פרסבל.html" class="internal-link" target="_self" rel="noopener nofollow">משפט פרסבל</a>, <a data-tooltip-position="top" aria-label="טרנספורמי פורייה" data-href="טרנספורמי פורייה" href="ממפיס-3/שיעורי-בית/טרנספורמי-פורייה.html" class="internal-link" target="_self" rel="noopener nofollow">טרנספורמי פורייה</a><br><a href=".?query=tag:בנק" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#בנק">#בנק</a> <a href=".?query=tag:נוסחאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#נוסחאות">#נוסחאות</a> <a href=".?query=tag:ממפיס-3" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#ממפיס-3">#ממפיס-3</a> <a href=".?query=tag:טרנספורמי-פורייה" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#טרנספורמי-פורייה">#טרנספורמי-פורייה</a>]]></description><link>בנק/משפט-פלנשרל.html</link><guid isPermaLink="false">בנק/משפט פלנשרל.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[משפט פרסבל]]></title><description><![CDATA[קשור: <a data-tooltip-position="top" aria-label="משפט פלנשרל" data-href="משפט פלנשרל" href="בנק/משפט-פלנשרל.html" class="internal-link" target="_self" rel="noopener nofollow">משפט פלנשרל</a>, <a data-tooltip-position="top" aria-label="טרנספורמי פורייה" data-href="טרנספורמי פורייה" href="ממפיס-3/שיעורי-בית/טרנספורמי-פורייה.html" class="internal-link" target="_self" rel="noopener nofollow">טרנספורמי פורייה</a><br><a href=".?query=tag:בנק" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#בנק">#בנק</a> <a href=".?query=tag:נוסחאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#נוסחאות">#נוסחאות</a> <a href=".?query=tag:ממפיס-3" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#ממפיס-3">#ממפיס-3</a> <a href=".?query=tag:טרנספורמי-פורייה" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#טרנספורמי-פורייה">#טרנספורמי-פורייה</a>]]></description><link>בנק/משפט-פרסבל.html</link><guid isPermaLink="false">בנק/משפט פרסבל.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[תנאי לג׳נדר]]></title><description><![CDATA[קשור: <a data-tooltip-position="top" aria-label="משוואת אוילר לגרנז" data-href="משוואת אוילר לגרנז" href="בנק/משוואת-אוילר-לגרנז.html" class="internal-link" target="_self" rel="noopener nofollow">משוואת אוילר לגרנז</a>, <a data-tooltip-position="top" aria-label="זהות בלתרמי" data-href="זהות בלתרמי" href="בנק/זהות-בלתרמי.html" class="internal-link" target="_self" rel="noopener nofollow">זהות בלתרמי</a><br><a href=".?query=tag:בנק" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#בנק">#בנק</a> <a href=".?query=tag:נוסחאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#נוסחאות">#נוסחאות</a> <a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a>]]></description><link>בנק/תנאי-לג׳נדר.html</link><guid isPermaLink="false">בנק/תנאי לג׳נדר.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[1]]></title><description><![CDATA[לגרנג׳יאן, המילטוניאן, טרנספורמציית לז׳נדר, פעולה , עקרון הפעולה המינימליקשור: <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a>, <a data-tooltip-position="top" aria-label="דינמיקה המילטונית" data-href="דינמיקה המילטונית" href="מכניקה-אנליטית/הרצאות/דינמיקה-המילטונית.html" class="internal-link" target="_self" rel="noopener nofollow">דינמיקה המילטונית</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a>]]></description><link>מכניקה-אנליטית/הרצאות/1.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/1.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[אחרי לגרנזיאן]]></title><description><![CDATA[כל הסתה מהמסלול הפיזיקלי תגרום להגדלה או הקטנה של הפעולה, הגדרה:
 סינוס פותר את משוואת אוילר לגרנז
 הגדרנו:
 נסתכל מהכיוון השני נגזור את הפעולה ונקבל את משוואות אוילר-לגרנז.
@@ -403,36 +585,7 @@ c.חלק פלצני שניתן לדלג עליו:לפני שנתחיל להצי�
 כלומר לכל יש גודל שמור: תנע קנוני:
 מכניקה ניוטונית:
 דינמיקה הימלטויונית: אם אזי -קבוע של תנועה אזי יש שימור אנרגיה.עבור דרגות חופש איך מוצאים את משוואת התנועה ההמלטוניות?
-נתון: קשור: <a data-tooltip-position="top" aria-label="משפט נתר" data-href="משפט נתר" href="מכניקה-אנליטית/הרצאות/משפט-נתר.html" class="internal-link" target="_self" rel="noopener nofollow">משפט נתר</a>, <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:משפט-נתר" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#משפט-נתר">#משפט-נתר</a>]]></description><link>מכניקה-אנליטית/הרצאות/אחרי-משפט-נתר.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/אחרי משפט נתר.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[בעיות כוח מרכזי]]></title><description><![CDATA[ גוזרים לפי : אנחנו רואים שהזמן מחזור תלוי רק ב- וקבועים!
-הגענו למשוואה שלישית של קפלר שזמן מחזור בריבוע פורפוציוני ל- בשלישית. אינגטרל עדיין מגעיל אז נעשה החלפת משתנים:
-אנחנו יכולים לחשב את המיקום של כוכב רחוק עם זמן מחזור ממש גדול, נראה כמה היא זזה אחרי שלושה זמנים שונים ומהשלושה משוואות נוכל למצוא מהו ה ומהו ה.במקרה ההיפרבולי: חתך פעולה דיפרנציאלי: עבור שטף:
-קשור: <a data-tooltip-position="top" aria-label="מרכז מסה" data-href="מרכז מסה" href="מכניקה-אנליטית/הרצאות/מרכז-מסה.html" class="internal-link" target="_self" rel="noopener nofollow">מרכז מסה</a>, <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:כוח-מרכזי" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#כוח-מרכזי">#כוח-מרכזי</a> ]]></description><link>מכניקה-אנליטית/הרצאות/בעיות-כוח-מרכזי.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/בעיות כוח מרכזי.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[וריאציה]]></title><description><![CDATA[כאשר ה- זה הוריאציה, בקצוות ערך הווריאציה צריך להתלכד עם ערכי הפונקציה.דוגמא: = נהפוך מבדיד לרציף:
-נשים לב כי לפי הגדרה:
-דוגמא:
-עוד דוגמא:
-דוגמא קריטית:
-הגענו למשוואת אוילר לגרנזניזכר כי:
-רק עבור בלתי תלויים:
-דוגמא לבעיה עם שני משתנים:
-המסלול הכי קצר בין שני נקודות על ספרה:
-אורך של מקטע :
-נציב הכל ונקבלקשור: <a data-tooltip-position="top" aria-label="אחרי לגרנזיאן" data-href="אחרי לגרנזיאן" href="מכניקה-אנליטית/הרצאות/אחרי-לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">אחרי לגרנזיאן</a>, <a data-tooltip-position="top" aria-label="בנק/משוואת אוילר לגרנז" data-href="בנק/משוואת אוילר לגרנז" href="בנק/משוואת-אוילר-לגרנז.html" class="internal-link" target="_self" rel="noopener nofollow">משוואת אוילר לגרנז</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:וריאציות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#וריאציות">#וריאציות</a>
-אילוץ:
-האיבר האמצעי נופל מאחר ולמדה קבוע לא תלוי באיקס לכן נגזרת לפי למדה תאג היא 0.
-מאחר ו- נציב במשוואה ונראה כי:
-דוגמא מסלולים גיאודזייםאילוץ:
-למען הנוחות:
-משוואת אוילר לגרנז:
-]]></description><link>מכניקה-אנליטית/הרצאות/וריאציה.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/וריאציה.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[מרכז מסה]]></title><description><![CDATA[מאחר והאנרגיה היא קבועה.
-נחלק את המשוואה ב-שזאת משוואה של אוסילטור הרמוני עם כוח חיצוניקשור: <a data-tooltip-position="top" aria-label="בעיות כוח מרכזי" data-href="בעיות כוח מרכזי" href="מכניקה-אנליטית/הרצאות/בעיות-כוח-מרכזי.html" class="internal-link" target="_self" rel="noopener nofollow">בעיות כוח מרכזי</a>, <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:מרכז-מסה" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מרכז-מסה">#מרכז-מסה</a>]]></description><link>מכניקה-אנליטית/הרצאות/מרכז-מסה.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/מרכז מסה.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[משפט נתר]]></title><description><![CDATA[המשפט בפשטות: לכל סימטריה שנוכל למצוא בחוקי הפיזיקה, קיים חוק שימור המייצג גודל שאינו משתנה עם התפתחות המערכת הפיזיקלית.בעוד יותר פשטות: על כל סימטריה רציפה -&gt; יש גודל שמור
-סימטריה להזזות - שימור תנע סימטריה לסיבוב - שימור תנע זוויתי סימטריה לשיקוף: <a data-href="משוואת אוילר לגרנז" href="בנק/משוואת-אוילר-לגרנז.html" class="internal-link" target="_self" rel="noopener nofollow">משוואת אוילר לגרנז</a>:
-עבור חלקיק חופשי:
-סיבוב אינפיטיסימלי: לכן:
-<br><a data-href="משוואת אוילר לגרנז" href="בנק/משוואת-אוילר-לגרנז.html" class="internal-link" target="_self" rel="noopener nofollow">משוואת אוילר לגרנז</a>:
-<br>קשור: <a data-tooltip-position="top" aria-label="אחרי משפט נתר" data-href="אחרי משפט נתר" href="מכניקה-אנליטית/הרצאות/אחרי-משפט-נתר.html" class="internal-link" target="_self" rel="noopener nofollow">אחרי משפט נתר</a>, <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:משפט-נתר" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#משפט-נתר">#משפט-נתר</a>קוארדינטות: עבור הזזה: עבור כל : כלומר: זהו תנאי הסימטריה.
-נחשב עוד קצת כי למה לא:
-<br>
-<a data-href="משוואת אוילר לגרנז" href="בנק/משוואת-אוילר-לגרנז.html" class="internal-link" target="_self" rel="noopener nofollow">משוואת אוילר לגרנז</a>: ]]></description><link>מכניקה-אנליטית/הרצאות/משפט-נתר.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/משפט נתר.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[אוסילטור הרמוני מרוסן ומאולץ]]></title><description><![CDATA[
+נתון: קשור: <a data-tooltip-position="top" aria-label="משפט נתר" data-href="משפט נתר" href="מכניקה-אנליטית/הרצאות/משפט-נתר.html" class="internal-link" target="_self" rel="noopener nofollow">משפט נתר</a>, <a data-tooltip-position="top" aria-label="לגרנזיאן" data-href="לגרנזיאן" href="מכניקה-אנליטית/תרגולים/לגרנזיאן.html" class="internal-link" target="_self" rel="noopener nofollow">לגרנזיאן</a><br><a href=".?query=tag:מכניקה-אנליטית" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#מכניקה-אנליטית">#מכניקה-אנליטית</a> <a href=".?query=tag:הרצאות" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#הרצאות">#הרצאות</a> <a href=".?query=tag:משפט-נתר" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#משפט-נתר">#משפט-נתר</a>]]></description><link>מכניקה-אנליטית/הרצאות/אחרי-משפט-נתר.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/אחרי משפט נתר.md</guid><pubDate>Mon, 29 Dec 2025 13:31:43 GMT</pubDate></item><item><title><![CDATA[אוסילטור הרמוני מרוסן ומאולץ]]></title><description><![CDATA[
 מרוסן - יש כוח שגורם לי לדעיכה - כוחות דיסיפטיבית(כוח לא משמר)
 מאולץ - נגרם באמצעות כוח חיצוני , , , תדירות זה תדר זה (ansatz) - ניחוש פתרון או דילוג על חישוביםאני אשלים אחרכך מהמערך תרגול היה לו טעות בהתחלה.
 בסוף צריכים להגיע לזה: , , , בואו נזכר דקה: האקספוננט הוא הגורם לדעיכה ובעצם הכוח המרסן, זאת ההתנהגות של האוסילטור.כל פעם שיש שורש צריך לחשוב מתי זה מרוכב - כי זה משנה לנו את ההתנהגות של הפונקציה כאשר: זה אומר ש ממשי. זה נראה כמו דעיכה בלי אוסילציות
@@ -594,10 +747,7 @@ we can derive that<a href=".?query=tag:גלים" class="tag is-unresolved" targe
 הפרש הפאזה לא מקיים את התנאים של קיטוב מעגלי או לינארי ולכן יש לנו קיטוב אליפטי. הנוסחא למעלה היא נתונה ואמורה להיות ידועה.
 מוצאים את ערך השדה המקסימלי כאשר משווים בין:
 גל א״מ מקוטב אליפטית ונתון ע״י: הגל עובר דרך מקטב קווי אידיאלי, שציר ההעברה שלו נטוי ב 45 מעלות.
-כתבו ביטוי לגל היוצא ומצאו את יחס העוצמה של הגל היוצא ביחס לגל הנכנס.נמצא את הביטוי לכיוון המקטב הקווי: נשתמש בזהות של סכום סינוסים: כאשר: , חשוב לשים לב כי שניהם באותו תווך ולכן ה אותו דבר בגל ההתחלתי והמועבר.<br>קשור: <a data-tooltip-position="top" aria-label="גלים אלקטרומגנטיים" data-href="גלים אלקטרומגנטיים" href="גלים/גלים-אלקטרומגנטיים.html" class="internal-link" target="_self" rel="noopener nofollow">גלים אלקטרומגנטיים</a>, <a data-tooltip-position="top" aria-label="סיכום ביניים של גלים א״מ" data-href="סיכום ביניים של גלים א״מ" href="גלים/סיכום-ביניים-של-גלים-א״מ.html" class="internal-link" target="_self" rel="noopener nofollow">סיכום ביניים של גלים א״מ</a><br><a href=".?query=tag:גלים" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#גלים">#גלים</a> <a href=".?query=tag:תרגילים" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#תרגילים">#תרגילים</a>]]></description><link>גלים/תרגילים-גלים-א״מ.html</link><guid isPermaLink="false">גלים/תרגילים - גלים א״מ.md</guid><pubDate>Mon, 29 Dec 2025 13:25:04 GMT</pubDate></item><item><title><![CDATA[מערכות חד מימדיות]]></title><description><![CDATA[
-דוגמא: באיזור ההרמוני: דוגמא מטוטלת:
-חישוב זמן מחזורנניח שהפוטנציאל סימטרי:
-בגלל שהפוטנציאל סימטרי:]]></description><link>מכניקה-אנליטית/הרצאות/מערכות-חד-מימדיות.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/מערכות חד מימדיות.md</guid><pubDate>Mon, 29 Dec 2025 13:25:04 GMT</pubDate></item><item><title><![CDATA[1]]></title><description><![CDATA[בהינתן מערכת המורכבת משתי מסות על משטח ללא חיכוך המחוברות על ידי שלושה קפיצים באופן הבא:
+כתבו ביטוי לגל היוצא ומצאו את יחס העוצמה של הגל היוצא ביחס לגל הנכנס.נמצא את הביטוי לכיוון המקטב הקווי: נשתמש בזהות של סכום סינוסים: כאשר: , חשוב לשים לב כי שניהם באותו תווך ולכן ה אותו דבר בגל ההתחלתי והמועבר.<br>קשור: <a data-tooltip-position="top" aria-label="גלים אלקטרומגנטיים" data-href="גלים אלקטרומגנטיים" href="גלים/גלים-אלקטרומגנטיים.html" class="internal-link" target="_self" rel="noopener nofollow">גלים אלקטרומגנטיים</a>, <a data-tooltip-position="top" aria-label="סיכום ביניים של גלים א״מ" data-href="סיכום ביניים של גלים א״מ" href="גלים/סיכום-ביניים-של-גלים-א״מ.html" class="internal-link" target="_self" rel="noopener nofollow">סיכום ביניים של גלים א״מ</a><br><a href=".?query=tag:גלים" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#גלים">#גלים</a> <a href=".?query=tag:תרגילים" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#תרגילים">#תרגילים</a>]]></description><link>גלים/תרגילים-גלים-א״מ.html</link><guid isPermaLink="false">גלים/תרגילים - גלים א״מ.md</guid><pubDate>Mon, 29 Dec 2025 13:25:04 GMT</pubDate></item><item><title><![CDATA[1]]></title><description><![CDATA[בהינתן מערכת המורכבת משתי מסות על משטח ללא חיכוך המחוברות על ידי שלושה קפיצים באופן הבא:
 המסה מחוברת לקיר על ידי קפיץ בעל קבוע ולמסה על ידי קפיץ נוסף בעל קבוע .
 המסה מחוברת מצידה השני לקיר נוסף על ידי קפיץ בעל קבוע , כפי שמתואר באיור.<img alt="tarshim.png" src="מכניקה-אנליטית/תמונות/tarshim.png" target="_self" style="width: 400px; max-width: 100%;">
 א. כתבו את משוואות התנועה עבור המסות ובטאו אותן בצורה מטריציונית.
