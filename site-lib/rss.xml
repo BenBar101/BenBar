@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[BenBar]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>BenBar</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 05 Jan 2026 18:14:41 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 05 Jan 2026 18:14:39 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[7]]></title><description><![CDATA[
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[BenBar]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>BenBar</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 05 Jan 2026 19:17:54 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 05 Jan 2026 19:17:53 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[7]]></title><description><![CDATA[
 כשאני מגיע מהאינסוף יש לי את האנרגיה: עקב שימור אנרגיה + אני יודע כי כאשר אני במרחק המינימלי אין לי אנרגיה קינטית כי אני חייב לעצור לפני שאני משנה כיוון: נראה כי כאשר : נראה כי השורש יהיה שלילי ולכן לא מוגדר ולכן זווית הפיזור לא מוגדרת לכן אין לנו פיזור כלל.
 ואם אין לנו מספיק אנרגיה אנחנו פשוט נדחה אחורנית באותה זווית.אנחנו כדי שהחלקיק יוכל להגיע לרדיוס שיותר קטן מרדיוס מעטפת הפוטנציאל החלקיק חייב להגיע לקליפה עם מהירות רדיאלית כדי להמשיך את תנועתו ולכן:
 נשים לב כי:
@@ -20,7 +20,11 @@
 כאשר:
 מאחר ואנחנו מניחים כי בקושי יש שינוי בגובה אזי:
 ואנחנו יודעים כי לפי הגדרה:
-נציב הכל ונראה כי:]]></description><link>מכניקה-אנליטית/שיעורי-בית/7.html</link><guid isPermaLink="false">מכניקה אנליטית/שיעורי בית/7.md</guid><pubDate>Mon, 05 Jan 2026 18:12:15 GMT</pubDate></item><item><title><![CDATA[סוגרי פואסון]]></title><description><![CDATA[נתונות שני פונקציות: אם זאת טרנספורמציה קנונית:
+נציב הכל ונראה כי:
+אין על הטריק של פיינמן, עכשיו נרמה קצת באמצעות אינטגרלים של ארקטנגס: נגזור לפי : היי זה נראה ממש דומה לאינטגרל שלנו!
+עכשיו נגזור את התוצאה של האינטגרל הפשוט שלנו לפי הזמן לפי ונשווה לאינטגרל שאנחנו מחפשים:
+לא נשכח שאנחנו בכלל מחפשים את הכוח בציר אז נציב את התוצאה: נציב ונראה כי: לא נשכח כי: לכן:
+לכן בהינתן הפונטציאל להלן חתך הפעולה הכולל מתבדר בזוויות קטנות.]]></description><link>מכניקה-אנליטית/שיעורי-בית/7.html</link><guid isPermaLink="false">מכניקה אנליטית/שיעורי בית/7.md</guid><pubDate>Mon, 05 Jan 2026 19:17:12 GMT</pubDate></item><item><title><![CDATA[סוגרי פואסון]]></title><description><![CDATA[נתונות שני פונקציות: אם זאת טרנספורמציה קנונית:
 נגדיר:וזוהי משוואת הימלטון-יעקובי.עבור קוארדינטות:יש לנו משתנים חופשיים:נגדיר:הפרדת משתנים - נדרוש ש:]]></description><link>מכניקה-אנליטית/הרצאות/סוגרי-פואסון.html</link><guid isPermaLink="false">מכניקה אנליטית/הרצאות/סוגרי פואסון.md</guid><pubDate>Mon, 05 Jan 2026 17:15:14 GMT</pubDate></item><item><title><![CDATA[טרנספורמציות קנוניות]]></title><description><![CDATA[להמילטוניין יש יתרון על הלגרנז'יאן כי הוא מתאר את הבעיה באופן סימטרי.
 עם זאת, להמילטוניין יש מעין חיסרון: אם נרצה לעבור מקואורדינטות קרטזיות לפולריות,
 נצטרך לשנות את שני הקואורדינטות: וגם , וזה לא תמיד קל.הערת המרצה - מהי טרנספורמציה קנונית?
