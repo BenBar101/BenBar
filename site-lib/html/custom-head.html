@@ -1,11 +1,19 @@
 <!-- Ink Plugin CSS Fixes for HTML Export -->
 <style>
-/* Fix Ink plugin SVG visibility and sizing */
+/* Fix Ink plugin container to be in document flow */
+.el-pre .block-language-handwritten-ink {
+    display: block !important;
+    width: 100% !important;
+    margin: 20px 0 !important;
+    position: relative !important;
+    clear: both !important;
+}
+
 .ddc_ink_embed {
     display: block !important;
     width: 100% !important;
     max-width: 100% !important;
-    margin: 20px 0 !important;
+    margin: 0 !important;
     position: relative !important;
 }
 
@@ -14,6 +22,7 @@
     width: 100% !important;
     padding-bottom: 41.25% !important; /* 825/2000 aspect ratio */
     overflow: hidden !important;
+    margin: 0 !important;
 }
 
 .ddc_ink_writing-embed-preview {
@@ -34,9 +43,8 @@
 
 /* Ensure SVG paths are visible */
 .ddc_ink_writing-embed-preview svg path {
-    stroke: #000000 !important;
-    fill: #f2f2f2 !important;
-    stroke-width: 2 !important;
+    fill: #000000 !important;
+    stroke: none !important;
 }
 
 .ddc_ink_writing-embed-preview svg line {
@@ -44,8 +52,9 @@
     stroke-width: 1 !important;
 }
 
-/* Fix for block container */
-.block-language-handwritten-ink {
+/* Ensure parent pre element doesn't cause issues */
+.el-pre {
+    position: relative !important;
     display: block !important;
     width: 100% !important;
     margin: 20px 0 !important;
