@@ -1,231 +1,53 @@
-<!-- Ink Plugin Renderer for HTML Export -->
-<script src="https://cdn.jsdelivr.net/npm/@tldraw/core@2.4.3/dist/tldraw-core.umd.min.js"></script>
+<!-- Ink Plugin CSS Fixes for HTML Export -->
 <style>
-.ink-render-container {
-    width: 100%;
-    max-width: 100%;
-    margin: 20px 0;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-    background: white;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+/* Fix Ink plugin SVG visibility and sizing */
+.ddc_ink_embed {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 20px 0 !important;
+    position: relative !important;
 }
 
-.ink-render-container canvas {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
+.ddc_ink_resize-container {
+    position: relative !important;
+    width: 100% !important;
+    padding-bottom: 41.25% !important; /* 825/2000 aspect ratio */
+    overflow: hidden !important;
 }
 
-.ink-loading {
-    padding: 40px;
-    text-align: center;
-    color: #666;
-    font-style: italic;
+.ddc_ink_writing-embed-preview {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 
-.ink-error {
-    padding: 20px;
-    background: #fee;
-    border-left: 4px solid #f44;
-    color: #c33;
+.ddc_ink_writing-embed-preview svg {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+}
+
+/* Ensure SVG paths are visible */
+.ddc_ink_writing-embed-preview svg path {
+    stroke: #000000 !important;
+    fill: #f2f2f2 !important;
+    stroke-width: 2 !important;
+}
+
+.ddc_ink_writing-embed-preview svg line {
+    stroke: #e0e0e0 !important;
+    stroke-width: 1 !important;
+}
+
+/* Fix for block container */
+.block-language-handwritten-ink {
+    display: block !important;
+    width: 100% !important;
+    margin: 20px 0 !important;
 }
 </style>
-
-<script>
-(function() {
-    'use strict';
-    
-    // Wait for DOM to be ready
-    function initInkRenderer() {
-        const inkBlocks = document.querySelectorAll('code.language-handwritten-ink, pre code.language-handwritten-ink');
-        
-        if (inkBlocks.length === 0) {
-            // Also check for plain code blocks that might contain the data
-            const allCodeBlocks = document.querySelectorAll('pre code, code');
-            allCodeBlocks.forEach(block => {
-                const text = block.textContent.trim();
-                if (text.startsWith('{') && text.includes('"filepath"') && text.includes('Ink/Writing')) {
-                    try {
-                        const data = JSON.parse(text);
-                        if (data.filepath && data.filepath.includes('.writing')) {
-                            renderInkBlock(block, data);
-                        }
-                    } catch (e) {
-                        // Not JSON, skip
-                    }
-                }
-            });
-        } else {
-            inkBlocks.forEach(block => {
-                try {
-                    const data = JSON.parse(block.textContent);
-                    renderInkBlock(block, data);
-                } catch (e) {
-                    console.error('Error parsing Ink block:', e);
-                    showError(block, 'Failed to parse Ink data');
-                }
-            });
-        }
-    }
-    
-    function renderInkBlock(originalBlock, blockData) {
-        const filepath = blockData.filepath;
-        if (!filepath) {
-            showError(originalBlock, 'No filepath specified');
-            return;
-        }
-        
-        // Create container
-        const container = document.createElement('div');
-        container.className = 'ink-render-container';
-        
-        // Create loading indicator
-        const loading = document.createElement('div');
-        loading.className = 'ink-loading';
-        loading.textContent = 'Loading handwriting...';
-        container.appendChild(loading);
-        
-        // Find the parent pre element to replace
-        const parentPre = originalBlock.closest('pre') || originalBlock.parentElement;
-        
-        // Try to fetch the .writing file
-        // Adjust path based on your export structure
-        const writingPath = filepath.startsWith('/') ? filepath : '/' + filepath;
-        
-        fetch(writingPath)
-            .then(response => {
-                if (!response.ok) {
-                    // Try alternative paths
-                    const altPaths = [
-                        './' + filepath,
-                        '../' + filepath,
-                        filepath,
-                        './Ink/Writing/' + filepath.split('/').pop(),
-                        '../Ink/Writing/' + filepath.split('/').pop()
-                    ];
-                    
-                    return Promise.race(
-                        altPaths.map(path => 
-                            fetch(path).then(r => r.ok ? r : Promise.reject())
-                        )
-                    ).catch(() => Promise.reject(new Error('File not found')));
-                }
-                return response;
-            })
-            .then(response => response.json())
-            .then(writingData => {
-                loading.remove();
-                renderTldraw(container, writingData);
-                parentPre.replaceWith(container);
-            })
-            .catch(err => {
-                console.error('Error loading Ink file:', err, 'Path:', writingPath);
-                loading.remove();
-                showError(container, `Unable to load: ${filepath}`);
-                parentPre.replaceWith(container);
-            });
-    }
-    
-    function renderTldraw(container, writingData) {
-        try {
-            const tldrawData = writingData.tldraw?.document?.store;
-            if (!tldrawData) {
-                showError(container, 'Invalid tldraw data structure');
-                return;
-            }
-            
-            // Find the writing container to get dimensions
-            let width = 2000;
-            let height = 1125;
-            let shapes = [];
-            
-            for (const [key, value] of Object.entries(tldrawData)) {
-                if (value && typeof value === 'object') {
-                    if (value.type === 'writing-container' || (value.typeName === 'shape' && value.type === 'writing-container')) {
-                        const props = value.props || {};
-                        width = props.w || width;
-                        height = props.h || height;
-                    }
-                    if (value.type === 'draw' || (value.typeName === 'shape' && value.type === 'draw')) {
-                        shapes.push(value);
-                    }
-                }
-            }
-            
-            // Create canvas
-            const canvas = document.createElement('canvas');
-            const scale = Math.min(1, 800 / width); // Scale to fit 800px width max
-            canvas.width = width * scale;
-            canvas.height = height * scale;
-            canvas.style.width = '100%';
-            canvas.style.height = 'auto';
-            
-            const ctx = canvas.getContext('2d');
-            ctx.fillStyle = 'white';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-            
-            // Render shapes
-            shapes.forEach(shape => {
-                const props = shape.props || {};
-                const segments = props.segments || [];
-                const color = props.color || '#000000';
-                const size = (props.size || 2) * scale;
-                
-                ctx.strokeStyle = color;
-                ctx.lineWidth = size;
-                ctx.lineCap = 'round';
-                ctx.lineJoin = 'round';
-                
-                segments.forEach(segment => {
-                    const points = segment.points || [];
-                    if (points.length < 2) return;
-                    
-                    ctx.beginPath();
-                    const firstPoint = points[0];
-                    const x = (shape.x || 0) + (firstPoint.x || 0);
-                    const y = (shape.y || 0) + (firstPoint.y || 0);
-                    ctx.moveTo(x * scale, y * scale);
-                    
-                    for (let i = 1; i < points.length; i++) {
-                        const point = points[i];
-                        const px = (shape.x || 0) + (point.x || 0);
-                        const py = (shape.y || 0) + (point.y || 0);
-                        ctx.lineTo(px * scale, py * scale);
-                    }
-                    
-                    ctx.stroke();
-                });
-            });
-            
-            container.appendChild(canvas);
-        } catch (e) {
-            console.error('Error rendering tldraw:', e);
-            showError(container, 'Error rendering drawing: ' + e.message);
-        }
-    }
-    
-    function showError(container, message) {
-        const error = document.createElement('div');
-        error.className = 'ink-error';
-        error.textContent = message;
-        if (container.appendChild) {
-            container.appendChild(error);
-        } else {
-            container.innerHTML = '<div class="ink-error">' + message + '</div>';
-        }
-    }
-    
-    // Initialize when DOM is ready
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initInkRenderer);
-    } else {
-        initInkRenderer();
-    }
-    
-    // Also try after a short delay in case content loads dynamically
-    setTimeout(initInkRenderer, 500);
-})();
-</script>
