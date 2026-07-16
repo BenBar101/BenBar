@@ -1,0 +1,751 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="sonybookid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title>Mistborn Trilogy Boxed Set</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Sanderson, Brandon">Brandon Sanderson</dc:creator>
+    <dc:contributor>Brandon Sanderson</dc:contributor>
+    <dc:publisher>Gollancz</dc:publisher>
+    <dc:rights>Copyright © 2006 by Brandon Sanderson</dc:rights>
+    <dc:format/>
+    <dc:date>2009-01-01T00:00:00+00:00</dc:date>
+    <dc:description>&lt;p&gt;The &lt;em&gt;New York Times&lt;/em&gt; bestselling series from Brandon Sanderson.  &lt;/p&gt;
+&lt;p&gt;This boxed set contains:&lt;br&gt;
+&lt;em&gt; &lt;a title="Mistborn: The Final Empire" href="https://www.goodreads.com/book/show/243272.Mistborn__The_Final_Empire"&gt;Mistborn: The Final Empire&lt;/a&gt; &lt;/em&gt;&lt;br&gt;
+&lt;em&gt; &lt;a title="The Well of Ascension" href="https://www.goodreads.com/book/show/2115046.The_Well_of_Ascension"&gt;The Well of Ascension&lt;/a&gt; &lt;/em&gt;&lt;br&gt;
+* &lt;a title="The Hero of Ages" href="https://www.goodreads.com/book/show/3362870.The_Hero_of_Ages"&gt;The Hero of Ages&lt;/a&gt; *&lt;/p&gt;&lt;/html&gt;</dc:description>
+    <dc:identifier id="sonybookid" opf:scheme="sonybookid">CBUSCEHOL02VYD0X</dc:identifier>
+    <dc:subject>Fiction</dc:subject>
+    <dc:subject>General</dc:subject>
+    <dc:subject>Fantasy</dc:subject>
+    <dc:contributor opf:role="bkp">calibre (4.23.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:language>en</dc:language>
+    <dc:identifier opf:scheme="calibre">99bbdb52-293e-4641-ad35-cabe5e753bfa</dc:identifier>
+    <dc:identifier opf:scheme="GOODREADS">30120302</dc:identifier>
+    <dc:identifier opf:scheme="GOOGLE">vlc5BAAAQBAJ</dc:identifier>
+    <dc:identifier opf:scheme="ISBN">9781473211070</dc:identifier>
+    <meta content="" name="price"/>
+    <meta name="cover" content="my-cover-image"/>
+    <meta name="calibre:title_sort" content="Mistborn Trilogy Boxed Set"/>
+    <meta name="calibre:series" content="Mistborn"/>
+    <meta name="calibre:series_index" content="1.0"/>
+    <meta name="calibre:rating" content="10.0"/>
+    <meta name="calibre:author_link_map" content="{&quot;Brandon Sanderson&quot;: &quot;&quot;}"/>
+  </metadata>
+  <manifest>
+    <item href="9780765311788_cov.html" id="my-html-cover" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_con02.html" id="con02" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_htp01.html" id="htp01" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_tp01.html" id="tp01" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ded01.html" id="ded01" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ack01.html" id="ack01" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_fm01.html" id="fm01" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_htp02.html" id="htp02" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_con01.html" id="con01" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_fm02.html" id="fm02" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_pt01.html" id="pt01" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch01.html" id="ch01" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch02.html" id="ch02" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch03.html" id="ch03" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch04.html" id="ch04" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch05.html" id="ch05" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch06.html" id="ch06" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch07.html" id="ch07" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch08.html" id="ch08" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_pt02.html" id="pt02" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch09.html" id="ch09" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch10.html" id="ch10" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch11.html" id="ch11" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch12.html" id="ch12" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch13.html" id="ch13" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch14.html" id="ch14" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch15.html" id="ch15" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_pt03.html" id="pt03" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch16.html" id="ch16" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch17.html" id="ch17" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch18.html" id="ch18" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch19.html" id="ch19" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch20.html" id="ch20" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch21.html" id="ch21" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch22.html" id="ch22" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch23.html" id="ch23" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch24.html" id="ch24" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch25.html" id="ch25" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_pt04.html" id="pt04" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch26.html" id="ch26" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch27.html" id="ch27" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch28.html" id="ch28" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch29.html" id="ch29" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch30.html" id="ch30" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch31.html" id="ch31" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch32.html" id="ch32" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch33.html" id="ch33" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch34.html" id="ch34" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_pt05.html" id="pt05" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch35.html" id="ch35" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch36.html" id="ch36" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch37.html" id="ch37" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch38.html" id="ch38" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_ch39.html" id="ch39" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_bm01.html" id="bm01" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_adc01.html" id="adc01" media-type="application/xhtml+xml"/>
+    <item href="9780765311788_cop01.html" id="cop01" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_tp01.html" id="k2tp01" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_rev01.html" id="k2rev01" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ded01.html" id="k2ded01" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_fm01.html" id="k2fm01" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_con01.html" id="k2con01" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_pt01.html" id="k2pt01" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch01.html" id="k2ch01" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch02.html" id="k2ch02" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch03.html" id="k2ch03" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch04.html" id="k2ch04" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch05.html" id="k2ch05" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch06.html" id="k2ch06" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch07.html" id="k2ch07" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch08.html" id="k2ch08" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch09.html" id="k2ch09" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch10.html" id="k2ch10" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch11.html" id="k2ch11" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_pt02.html" id="k2pt02" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch12.html" id="k2ch12" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch13.html" id="k2ch13" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch14.html" id="k2ch14" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch15.html" id="k2ch15" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch16.html" id="k2ch16" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch17.html" id="k2ch17" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch18.html" id="k2ch18" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch19.html" id="k2ch19" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch20.html" id="k2ch20" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch21.html" id="k2ch21" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch22.html" id="k2ch22" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch23.html" id="k2ch23" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch24.html" id="k2ch24" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch25.html" id="k2ch25" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch26.html" id="k2ch26" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch27.html" id="k2ch27" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_pt03.html" id="k2pt03" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch28.html" id="k2ch28" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch29.html" id="k2ch29" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch30.html" id="k2ch30" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch31.html" id="k2ch31" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch32.html" id="k2ch32" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch33.html" id="k2ch33" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch34.html" id="k2ch34" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch35.html" id="k2ch35" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch36.html" id="k2ch36" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch37.html" id="k2ch37" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch38.html" id="k2ch38" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_pt04.html" id="k2pt04" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch39.html" id="k2ch39" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch40.html" id="k2ch40" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch41.html" id="k2ch41" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch42.html" id="k2ch42" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch43.html" id="k2ch43" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch44.html" id="k2ch44" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch45.html" id="k2ch45" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch46.html" id="k2ch46" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch47.html" id="k2ch47" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch48.html" id="k2ch48" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_pt05.html" id="k2pt05" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch49.html" id="k2ch49" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch50.html" id="k2ch50" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch51.html" id="k2ch51" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch52.html" id="k2ch52" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch53.html" id="k2ch53" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch54.html" id="k2ch54" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch55.html" id="k2ch55" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_pt06.html" id="k2pt06" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch56.html" id="k2ch56" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch57.html" id="k2ch57" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch58.html" id="k2ch58" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ch59.html" id="k2ch59" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_bm01.html" id="k2bm01" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_bm02.html" id="k2bm02" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_bm03.html" id="k2bm03" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_bm04.html" id="k2bm04" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_adc01.html" id="k2adc01" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_ack01.html" id="k2ack01" media-type="application/xhtml+xml"/>
+    <item href="9780765356130_cop01.html" id="k2cop01" media-type="application/xhtml+xml"/>
+    <item href="halftitle.html" id="halftitle" media-type="application/xhtml+xml"/>
+    <item href="abouttheauthor.html" id="abouttheauthor" media-type="application/xhtml+xml"/>
+    <item href="title.html" id="title" media-type="application/xhtml+xml"/>
+    <item href="copyright.html" id="copyright" media-type="application/xhtml+xml"/>
+    <item href="dedication.html" id="dedication" media-type="application/xhtml+xml"/>
+    <item href="contents.html" id="contents" media-type="application/xhtml+xml"/>
+    <item href="frontmatter01.html" id="frontmatter01" media-type="application/xhtml+xml"/>
+    <item href="frontmatter02.html" id="frontmatter02" media-type="application/xhtml+xml"/>
+    <item href="frontmatter03.html" id="frontmatter03" media-type="application/xhtml+xml"/>
+    <item href="part01.html" id="part01" media-type="application/xhtml+xml"/>
+    <item href="part01chapter01.html" id="part01chapter01" media-type="application/xhtml+xml"/>
+    <item href="part01chapter02.html" id="part01chapter02" media-type="application/xhtml+xml"/>
+    <item href="part01chapter03.html" id="part01chapter03" media-type="application/xhtml+xml"/>
+    <item href="part01chapter04.html" id="part01chapter04" media-type="application/xhtml+xml"/>
+    <item href="part01chapter05.html" id="part01chapter05" media-type="application/xhtml+xml"/>
+    <item href="part01chapter06.html" id="part01chapter06" media-type="application/xhtml+xml"/>
+    <item href="part01chapter07.html" id="part01chapter07" media-type="application/xhtml+xml"/>
+    <item href="part01chapter08.html" id="part01chapter08" media-type="application/xhtml+xml"/>
+    <item href="part01chapter09.html" id="part01chapter09" media-type="application/xhtml+xml"/>
+    <item href="part01chapter10.html" id="part01chapter10" media-type="application/xhtml+xml"/>
+    <item href="part01chapter11.html" id="part01chapter11" media-type="application/xhtml+xml"/>
+    <item href="part01chapter12.html" id="part01chapter12" media-type="application/xhtml+xml"/>
+    <item href="part01chapter13.html" id="part01chapter13" media-type="application/xhtml+xml"/>
+    <item href="part02.html" id="part02" media-type="application/xhtml+xml"/>
+    <item href="part02chapter14.html" id="part02chapter14" media-type="application/xhtml+xml"/>
+    <item href="part02chapter15.html" id="part02chapter15" media-type="application/xhtml+xml"/>
+    <item href="part02chapter16.html" id="part02chapter16" media-type="application/xhtml+xml"/>
+    <item href="part02chapter17.html" id="part02chapter17" media-type="application/xhtml+xml"/>
+    <item href="part02chapter18.html" id="part02chapter18" media-type="application/xhtml+xml"/>
+    <item href="part02chapter19.html" id="part02chapter19" media-type="application/xhtml+xml"/>
+    <item href="part02chapter20.html" id="part02chapter20" media-type="application/xhtml+xml"/>
+    <item href="part02chapter21.html" id="part02chapter21" media-type="application/xhtml+xml"/>
+    <item href="part02chapter22.html" id="part02chapter22" media-type="application/xhtml+xml"/>
+    <item href="part02chapter23.html" id="part02chapter23" media-type="application/xhtml+xml"/>
+    <item href="part02chapter24.html" id="part02chapter24" media-type="application/xhtml+xml"/>
+    <item href="part02chapter25.html" id="part02chapter25" media-type="application/xhtml+xml"/>
+    <item href="part02chapter26.html" id="part02chapter26" media-type="application/xhtml+xml"/>
+    <item href="part02chapter27.html" id="part02chapter27" media-type="application/xhtml+xml"/>
+    <item href="part02chapter28.html" id="part02chapter28" media-type="application/xhtml+xml"/>
+    <item href="part02chapter29.html" id="part02chapter29" media-type="application/xhtml+xml"/>
+    <item href="part02chapter30.html" id="part02chapter30" media-type="application/xhtml+xml"/>
+    <item href="part02chapter31.html" id="part02chapter31" media-type="application/xhtml+xml"/>
+    <item href="part02chapter32.html" id="part02chapter32" media-type="application/xhtml+xml"/>
+    <item href="part02chapter33.html" id="part02chapter33" media-type="application/xhtml+xml"/>
+    <item href="part03.html" id="part03" media-type="application/xhtml+xml"/>
+    <item href="part03chapter34.html" id="part03chapter34" media-type="application/xhtml+xml"/>
+    <item href="part03chapter35.html" id="part03chapter35" media-type="application/xhtml+xml"/>
+    <item href="part03chapter36.html" id="part03chapter36" media-type="application/xhtml+xml"/>
+    <item href="part03chapter37.html" id="part03chapter37" media-type="application/xhtml+xml"/>
+    <item href="part03chapter38.html" id="part03chapter38" media-type="application/xhtml+xml"/>
+    <item href="part03chapter39.html" id="part03chapter39" media-type="application/xhtml+xml"/>
+    <item href="part03chapter40.html" id="part03chapter40" media-type="application/xhtml+xml"/>
+    <item href="part03chapter41.html" id="part03chapter41" media-type="application/xhtml+xml"/>
+    <item href="part03chapter42.html" id="part03chapter42" media-type="application/xhtml+xml"/>
+    <item href="part03chapter43.html" id="part03chapter43" media-type="application/xhtml+xml"/>
+    <item href="part03chapter44.html" id="part03chapter44" media-type="application/xhtml+xml"/>
+    <item href="part04.html" id="part04" media-type="application/xhtml+xml"/>
+    <item href="part04chapter45.html" id="part04chapter45" media-type="application/xhtml+xml"/>
+    <item href="part04chapter46.html" id="part04chapter46" media-type="application/xhtml+xml"/>
+    <item href="part04chapter47.html" id="part04chapter47" media-type="application/xhtml+xml"/>
+    <item href="part04chapter48.html" id="part04chapter48" media-type="application/xhtml+xml"/>
+    <item href="part04chapter49.html" id="part04chapter49" media-type="application/xhtml+xml"/>
+    <item href="part04chapter50.html" id="part04chapter50" media-type="application/xhtml+xml"/>
+    <item href="part04chapter51.html" id="part04chapter51" media-type="application/xhtml+xml"/>
+    <item href="part04chapter52.html" id="part04chapter52" media-type="application/xhtml+xml"/>
+    <item href="part04chapter53.html" id="part04chapter53" media-type="application/xhtml+xml"/>
+    <item href="part04chapter54.html" id="part04chapter54" media-type="application/xhtml+xml"/>
+    <item href="part04chapter55.html" id="part04chapter55" media-type="application/xhtml+xml"/>
+    <item href="part04chapter56.html" id="part04chapter56" media-type="application/xhtml+xml"/>
+    <item href="part04chapter57.html" id="part04chapter57" media-type="application/xhtml+xml"/>
+    <item href="part04chapter58.html" id="part04chapter58" media-type="application/xhtml+xml"/>
+    <item href="part05.html" id="part05" media-type="application/xhtml+xml"/>
+    <item href="part05chapter59.html" id="part05chapter59" media-type="application/xhtml+xml"/>
+    <item href="part05chapter60.html" id="part05chapter60" media-type="application/xhtml+xml"/>
+    <item href="part05chapter61.html" id="part05chapter61" media-type="application/xhtml+xml"/>
+    <item href="part05chapter62.html" id="part05chapter62" media-type="application/xhtml+xml"/>
+    <item href="part05chapter63.html" id="part05chapter63" media-type="application/xhtml+xml"/>
+    <item href="part05chapter64.html" id="part05chapter64" media-type="application/xhtml+xml"/>
+    <item href="part05chapter65.html" id="part05chapter65" media-type="application/xhtml+xml"/>
+    <item href="part05chapter66.html" id="part05chapter66" media-type="application/xhtml+xml"/>
+    <item href="part05chapter67.html" id="part05chapter67" media-type="application/xhtml+xml"/>
+    <item href="part05chapter68.html" id="part05chapter68" media-type="application/xhtml+xml"/>
+    <item href="part05chapter69.html" id="part05chapter69" media-type="application/xhtml+xml"/>
+    <item href="part05chapter70.html" id="part05chapter70" media-type="application/xhtml+xml"/>
+    <item href="part05chapter71.html" id="part05chapter71" media-type="application/xhtml+xml"/>
+    <item href="part05chapter72.html" id="part05chapter72" media-type="application/xhtml+xml"/>
+    <item href="part05chapter73.html" id="part05chapter73" media-type="application/xhtml+xml"/>
+    <item href="part05chapter74.html" id="part05chapter74" media-type="application/xhtml+xml"/>
+    <item href="part05chapter75.html" id="part05chapter75" media-type="application/xhtml+xml"/>
+    <item href="part05chapter76.html" id="part05chapter76" media-type="application/xhtml+xml"/>
+    <item href="part05chapter77.html" id="part05chapter77" media-type="application/xhtml+xml"/>
+    <item href="part05chapter78.html" id="part05chapter78" media-type="application/xhtml+xml"/>
+    <item href="part05chapter79.html" id="part05chapter79" media-type="application/xhtml+xml"/>
+    <item href="part05chapter80.html" id="part05chapter80" media-type="application/xhtml+xml"/>
+    <item href="part05chapter81.html" id="part05chapter81" media-type="application/xhtml+xml"/>
+    <item href="part05chapter82.html" id="part05chapter82" media-type="application/xhtml+xml"/>
+    <item href="backmatter01.html" id="backmatter01" media-type="application/xhtml+xml"/>
+    <item href="backmatter02.html" id="backmatter02" media-type="application/xhtml+xml"/>
+    <item href="backmatter03.html" id="backmatter03" media-type="application/xhtml+xml"/>
+    <item href="backmatter04.html" id="backmatter04" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="9780765311788.css" id="msrcss" media-type="text/css"/>
+    <item href="9780765356130.css" id="k2msrcss" media-type="text/css"/>
+    <item href="stylesheet.css" id="css" media-type="text/css"/>
+    <item href="Images/09.gif" id="image_0003" media-type="image/gif"/>
+    <item href="Images/10.gif" id="image_0004" media-type="image/gif"/>
+    <item href="Images/117.jpg" id="image_0014" media-type="image/jpeg"/>
+    <item href="Images/13.jpg" id="k2image_0002" media-type="image/jpeg"/>
+    <item href="Images/131.jpg" id="image_0015" media-type="image/jpeg"/>
+    <item href="Images/14.jpg" id="k2image_0003" media-type="image/jpeg"/>
+    <item href="Images/149.jpg" id="image_0016" media-type="image/jpeg"/>
+    <item href="Images/15.jpg" id="image_0006" media-type="image/jpeg"/>
+    <item href="Images/151.jpg" id="image_0017" media-type="image/jpeg"/>
+    <item href="Images/163.jpg" id="image_0018" media-type="image/jpeg"/>
+    <item href="Images/177.jpg" id="image_0019" media-type="image/jpeg"/>
+    <item href="Images/185.jpg" id="image_0020" media-type="image/jpeg"/>
+    <item href="Images/199.jpg" id="image_0021" media-type="image/jpeg"/>
+    <item href="Images/209.jpg" id="image_0022" media-type="image/jpeg"/>
+    <item href="Images/219.jpg" id="image_0023" media-type="image/jpeg"/>
+    <item href="Images/225.jpg" id="image_0024" media-type="image/jpeg"/>
+    <item href="Images/227.jpg" id="image_0025" media-type="image/jpeg"/>
+    <item href="Images/237.jpg" id="image_0027" media-type="image/jpeg"/>
+    <item href="Images/247.jpg" id="image_0028" media-type="image/jpeg"/>
+    <item href="Images/265.jpg" id="image_0029" media-type="image/jpeg"/>
+    <item href="Images/27.jpg" id="image_0007" media-type="image/jpeg"/>
+    <item href="Images/277.jpg" id="image_0030" media-type="image/jpeg"/>
+    <item href="Images/289.jpg" id="image_0031" media-type="image/jpeg"/>
+    <item href="Images/29.jpg" id="image_0008" media-type="image/jpeg"/>
+    <item href="Images/305.jpg" id="image_0032" media-type="image/jpeg"/>
+    <item href="Images/317.jpg" id="image_0033" media-type="image/jpeg"/>
+    <item href="Images/333.jpg" id="image_0034" media-type="image/jpeg"/>
+    <item href="Images/345.jpg" id="image_0035" media-type="image/jpeg"/>
+    <item href="Images/357.jpg" id="image_0036" media-type="image/jpeg"/>
+    <item href="Images/359.jpg" id="image_0037" media-type="image/jpeg"/>
+    <item href="Images/37.jpg" id="image_0009" media-type="image/jpeg"/>
+    <item href="Images/371.jpg" id="image_0038" media-type="image/jpeg"/>
+    <item href="Images/385.jpg" id="image_0039" media-type="image/jpeg"/>
+    <item href="Images/401.jpg" id="image_0040" media-type="image/jpeg"/>
+    <item href="Images/415.jpg" id="image_0041" media-type="image/jpeg"/>
+    <item href="Images/429.jpg" id="image_0042" media-type="image/jpeg"/>
+    <item href="Images/445.jpg" id="image_0043" media-type="image/jpeg"/>
+    <item href="Images/457.jpg" id="image_0044" media-type="image/jpeg"/>
+    <item href="Images/469.jpg" id="image_0045" media-type="image/jpeg"/>
+    <item href="Images/481.jpg" id="image_0046" media-type="image/jpeg"/>
+    <item href="Images/483.jpg" id="image_0047" media-type="image/jpeg"/>
+    <item href="Images/49.jpg" id="image_0010" media-type="image/jpeg"/>
+    <item href="Images/493.jpg" id="image_0048" media-type="image/jpeg"/>
+    <item href="Images/507.jpg" id="image_0049" media-type="image/jpeg"/>
+    <item href="Images/517.jpg" id="image_0050" media-type="image/jpeg"/>
+    <item href="Images/529.jpg" id="image_0051" media-type="image/jpeg"/>
+    <item href="Images/539.jpg" id="image_0052" media-type="image/jpeg"/>
+    <item href="Images/540.gif" id="image_0053" media-type="image/gif"/>
+    <item href="Images/63.jpg" id="image_0011" media-type="image/jpeg"/>
+    <item href="Images/782.jpg" id="k2image_0070" media-type="image/jpeg"/>
+    <item href="Images/782a.jpg" id="k2image_0071" media-type="image/jpeg"/>
+    <item href="Images/782b.jpg" id="k2image_0072" media-type="image/jpeg"/>
+    <item href="Images/81.jpg" id="image_0012" media-type="image/jpeg"/>
+    <item href="Images/97.jpg" id="image_0013" media-type="image/jpeg"/>
+    <item href="Images/bk01.jpg" id="k2image_0001a" media-type="image/jpeg"/>
+    <item href="Images/bm01.jpg" id="k2image_0069" media-type="image/jpeg"/>
+    <item href="Images/ch01.jpg" id="k2image_0005" media-type="image/jpeg"/>
+    <item href="Images/ch02.jpg" id="k2image_0006" media-type="image/jpeg"/>
+    <item href="Images/ch03.jpg" id="k2image_0007" media-type="image/jpeg"/>
+    <item href="Images/ch04.jpg" id="k2image_0008" media-type="image/jpeg"/>
+    <item href="Images/ch05.jpg" id="k2image_0009" media-type="image/jpeg"/>
+    <item href="Images/ch06.jpg" id="k2image_0010" media-type="image/jpeg"/>
+    <item href="Images/ch07.jpg" id="k2image_0011" media-type="image/jpeg"/>
+    <item href="Images/ch08.jpg" id="k2image_0012" media-type="image/jpeg"/>
+    <item href="Images/ch09.jpg" id="k2image_0013" media-type="image/jpeg"/>
+    <item href="Images/ch10.jpg" id="k2image_0014" media-type="image/jpeg"/>
+    <item href="Images/ch11.jpg" id="k2image_0015" media-type="image/jpeg"/>
+    <item href="Images/ch12.jpg" id="k2image_0017" media-type="image/jpeg"/>
+    <item href="Images/ch13.jpg" id="k2image_0018" media-type="image/jpeg"/>
+    <item href="Images/ch14.jpg" id="k2image_0019" media-type="image/jpeg"/>
+    <item href="Images/ch15.jpg" id="k2image_0020" media-type="image/jpeg"/>
+    <item href="Images/ch16.jpg" id="k2image_0021" media-type="image/jpeg"/>
+    <item href="Images/ch17.jpg" id="k2image_0022" media-type="image/jpeg"/>
+    <item href="Images/ch18.jpg" id="k2image_0023" media-type="image/jpeg"/>
+    <item href="Images/ch19.jpg" id="k2image_0024" media-type="image/jpeg"/>
+    <item href="Images/ch20.jpg" id="k2image_0025" media-type="image/jpeg"/>
+    <item href="Images/ch21.jpg" id="k2image_0026" media-type="image/jpeg"/>
+    <item href="Images/ch22.jpg" id="k2image_0027" media-type="image/jpeg"/>
+    <item href="Images/ch23.jpg" id="k2image_0028" media-type="image/jpeg"/>
+    <item href="Images/ch24.jpg" id="k2image_0029" media-type="image/jpeg"/>
+    <item href="Images/ch25.jpg" id="k2image_0030" media-type="image/jpeg"/>
+    <item href="Images/ch26.jpg" id="k2image_0031" media-type="image/jpeg"/>
+    <item href="Images/ch27.jpg" id="k2image_0032" media-type="image/jpeg"/>
+    <item href="Images/ch28.jpg" id="k2image_0034" media-type="image/jpeg"/>
+    <item href="Images/ch29.jpg" id="k2image_0035" media-type="image/jpeg"/>
+    <item href="Images/ch30.jpg" id="k2image_0036" media-type="image/jpeg"/>
+    <item href="Images/ch31.jpg" id="k2image_0037" media-type="image/jpeg"/>
+    <item href="Images/ch32.jpg" id="k2image_0038" media-type="image/jpeg"/>
+    <item href="Images/ch33.jpg" id="k2image_0039" media-type="image/jpeg"/>
+    <item href="Images/ch34.jpg" id="k2image_0040" media-type="image/jpeg"/>
+    <item href="Images/ch35.jpg" id="k2image_0041" media-type="image/jpeg"/>
+    <item href="Images/ch36.jpg" id="k2image_0042" media-type="image/jpeg"/>
+    <item href="Images/ch37.jpg" id="k2image_0043" media-type="image/jpeg"/>
+    <item href="Images/ch38.jpg" id="k2image_0044" media-type="image/jpeg"/>
+    <item href="Images/ch39.jpg" id="k2image_0046" media-type="image/jpeg"/>
+    <item href="Images/ch40.jpg" id="k2image_0047" media-type="image/jpeg"/>
+    <item href="Images/ch41.jpg" id="k2image_0048" media-type="image/jpeg"/>
+    <item href="Images/ch42.jpg" id="k2image_0049" media-type="image/jpeg"/>
+    <item href="Images/ch43.jpg" id="k2image_0050" media-type="image/jpeg"/>
+    <item href="Images/ch44.jpg" id="k2image_0051" media-type="image/jpeg"/>
+    <item href="Images/ch45.jpg" id="k2image_0052" media-type="image/jpeg"/>
+    <item href="Images/ch46.jpg" id="k2image_0053" media-type="image/jpeg"/>
+    <item href="Images/ch47.jpg" id="k2image_0054" media-type="image/jpeg"/>
+    <item href="Images/ch48.jpg" id="k2image_0055" media-type="image/jpeg"/>
+    <item href="Images/ch49.jpg" id="k2image_0057" media-type="image/jpeg"/>
+    <item href="Images/ch50.jpg" id="k2image_0058" media-type="image/jpeg"/>
+    <item href="Images/ch51.jpg" id="k2image_0059" media-type="image/jpeg"/>
+    <item href="Images/ch52.jpg" id="k2image_0060" media-type="image/jpeg"/>
+    <item href="Images/ch53.jpg" id="k2image_0061" media-type="image/jpeg"/>
+    <item href="Images/ch54.jpg" id="k2image_0062" media-type="image/jpeg"/>
+    <item href="Images/ch55.jpg" id="k2image_0063" media-type="image/jpeg"/>
+    <item href="Images/ch56.jpg" id="k2image_0065" media-type="image/jpeg"/>
+    <item href="Images/ch57.jpg" id="k2image_0066" media-type="image/jpeg"/>
+    <item href="Images/ch58.jpg" id="k2image_0067" media-type="image/jpeg"/>
+    <item href="Images/ch59.jpg" id="k2image_0068" media-type="image/jpeg"/>
+    <item href="Images/cover.jpg" id="my-cover-image" media-type="image/jpeg"/>
+    <item href="Images/f0011-01.jpg" id="k3image3" media-type="image/jpeg"/>
+    <item href="Images/f0012-01.jpg" id="k3image4" media-type="image/jpeg"/>
+    <item href="Images/f0013-01.jpg" id="k3image5" media-type="image/jpeg"/>
+    <item href="Images/f0015-01.jpg" id="k3image6" media-type="image/jpeg"/>
+    <item href="Images/f0017-01.jpg" id="k3image7" media-type="image/jpeg"/>
+    <item href="Images/f0019-01.jpg" id="k3image8" media-type="image/jpeg"/>
+    <item href="Images/f0028-01.jpg" id="k3image9" media-type="image/jpeg"/>
+    <item href="Images/f0032-01.jpg" id="k3image10" media-type="image/jpeg"/>
+    <item href="Images/f0042-01.jpg" id="k3image11" media-type="image/jpeg"/>
+    <item href="Images/f0049-01.jpg" id="k3image12" media-type="image/jpeg"/>
+    <item href="Images/f0062-01.jpg" id="k3image13" media-type="image/jpeg"/>
+    <item href="Images/f0064-01.jpg" id="k3image14" media-type="image/jpeg"/>
+    <item href="Images/f0068-01.jpg" id="k3image15" media-type="image/jpeg"/>
+    <item href="Images/f0103-01.jpg" id="k3image16" media-type="image/jpeg"/>
+    <item href="Images/f0107-01.jpg" id="k3image17" media-type="image/jpeg"/>
+    <item href="Images/f0109-01.jpg" id="k3image18" media-type="image/jpeg"/>
+    <item href="Images/f0116-01.jpg" id="k3image19" media-type="image/jpeg"/>
+    <item href="Images/f0121-01.jpg" id="k3image20" media-type="image/jpeg"/>
+    <item href="Images/f0132-01.jpg" id="k3image21" media-type="image/jpeg"/>
+    <item href="Images/f0136-01.jpg" id="k3image22" media-type="image/jpeg"/>
+    <item href="Images/f0141-01.jpg" id="k3image23" media-type="image/jpeg"/>
+    <item href="Images/f0145-01.jpg" id="k3image24" media-type="image/jpeg"/>
+    <item href="Images/f0150-01.jpg" id="k3image25" media-type="image/jpeg"/>
+    <item href="Images/f0159-1.jpg" id="k3image26" media-type="image/jpeg"/>
+    <item href="Images/f0162-1.jpg" id="k3image27" media-type="image/jpeg"/>
+    <item href="Images/f0165-1.jpg" id="k3image28" media-type="image/jpeg"/>
+    <item href="Images/f0168-1.jpg" id="k3image29" media-type="image/jpeg"/>
+    <item href="Images/f0174-1.jpg" id="k3image30" media-type="image/jpeg"/>
+    <item href="Images/f0180-1.jpg" id="k3image31" media-type="image/jpeg"/>
+    <item href="Images/f0190-1.jpg" id="k3image32" media-type="image/jpeg"/>
+    <item href="Images/f0196-01.jpg" id="k3image33" media-type="image/jpeg"/>
+    <item href="Images/f0204-01.jpg" id="k3image34" media-type="image/jpeg"/>
+    <item href="Images/f0214-01.jpg" id="k3image35" media-type="image/jpeg"/>
+    <item href="Images/f0221-01.jpg" id="k3image36" media-type="image/jpeg"/>
+    <item href="Images/f0234-01.jpg" id="k3image37" media-type="image/jpeg"/>
+    <item href="Images/f0239-01.jpg" id="k3image38" media-type="image/jpeg"/>
+    <item href="Images/f0241-01.jpg" id="k3image39" media-type="image/jpeg"/>
+    <item href="Images/f0244-01.jpg" id="k3image40" media-type="image/jpeg"/>
+    <item href="Images/f0249-01.jpg" id="k3image41" media-type="image/jpeg"/>
+    <item href="Images/f0257-01.jpg" id="k3image42" media-type="image/jpeg"/>
+    <item href="Images/f0266-01.jpg" id="k3image43" media-type="image/jpeg"/>
+    <item href="Images/f0272-01.jpg" id="k3image44" media-type="image/jpeg"/>
+    <item href="Images/f0275-01.jpg" id="k3image45" media-type="image/jpeg"/>
+    <item href="Images/f0283-01.jpg" id="k3image46" media-type="image/jpeg"/>
+    <item href="Images/f0291-01.jpg" id="k3image47" media-type="image/jpeg"/>
+    <item href="Images/f0296-01.jpg" id="k3image48" media-type="image/jpeg"/>
+    <item href="Images/f0304-01.jpg" id="k3image49" media-type="image/jpeg"/>
+    <item href="Images/f0313-01.jpg" id="k3image50" media-type="image/jpeg"/>
+    <item href="Images/f0315-01.jpg" id="k3image51" media-type="image/jpeg"/>
+    <item href="Images/f0319-01.jpg" id="k3image52" media-type="image/jpeg"/>
+    <item href="Images/f0329-01.jpg" id="k3image53" media-type="image/jpeg"/>
+    <item href="Images/f0335-01.jpg" id="k3image54" media-type="image/jpeg"/>
+    <item href="Images/f0340-01.jpg" id="k3image55" media-type="image/jpeg"/>
+    <item href="Images/f0350-01.jpg" id="k3image56" media-type="image/jpeg"/>
+    <item href="Images/f0355-01.jpg" id="k3image57" media-type="image/jpeg"/>
+    <item href="Images/f0361-01.jpg" id="k3image58" media-type="image/jpeg"/>
+    <item href="Images/f0367-01.jpg" id="k3image59" media-type="image/jpeg"/>
+    <item href="Images/f0375-01.jpg" id="k3image60" media-type="image/jpeg"/>
+    <item href="Images/f0380-01.jpg" id="k3image61" media-type="image/jpeg"/>
+    <item href="Images/f0386-01.jpg" id="k3image62" media-type="image/jpeg"/>
+    <item href="Images/f0393-01.jpg" id="k3image63" media-type="image/jpeg"/>
+    <item href="Images/f0398-01.jpg" id="k3image64" media-type="image/jpeg"/>
+    <item href="Images/f0411-01.jpg" id="k3image65" media-type="image/jpeg"/>
+    <item href="Images/f0413-01.jpg" id="k3image66" media-type="image/jpeg"/>
+    <item href="Images/f0417-01.jpg" id="k3image67" media-type="image/jpeg"/>
+    <item href="Images/f0426-01.jpg" id="k3image68" media-type="image/jpeg"/>
+    <item href="Images/f0429-01.jpg" id="k3image69" media-type="image/jpeg"/>
+    <item href="Images/f0436-01.jpg" id="k3image70" media-type="image/jpeg"/>
+    <item href="Images/f0445-01.jpg" id="k3image71" media-type="image/jpeg"/>
+    <item href="Images/f0448-01.jpg" id="k3image72" media-type="image/jpeg"/>
+    <item href="Images/f0456-01.jpg" id="k3image73" media-type="image/jpeg"/>
+    <item href="Images/f0460-01.jpg" id="k3image74" media-type="image/jpeg"/>
+    <item href="Images/f0464-01.jpg" id="k3image75" media-type="image/jpeg"/>
+    <item href="Images/f0469-01.jpg" id="k3image76" media-type="image/jpeg"/>
+    <item href="Images/f0473-01.jpg" id="k3image77" media-type="image/jpeg"/>
+    <item href="Images/f0478-01.jpg" id="k3image78" media-type="image/jpeg"/>
+    <item href="Images/f0484-01.jpg" id="k3image79" media-type="image/jpeg"/>
+    <item href="Images/f0492-01.jpg" id="k3image80" media-type="image/jpeg"/>
+    <item href="Images/f0499-01.jpg" id="k3image81" media-type="image/jpeg"/>
+    <item href="Images/f0502-01.jpg" id="k3image82" media-type="image/jpeg"/>
+    <item href="Images/f0510-01.jpg" id="k3image83" media-type="image/jpeg"/>
+    <item href="Images/f0515-01.jpg" id="k3image84" media-type="image/jpeg"/>
+    <item href="Images/f0518-01.jpg" id="k3image85" media-type="image/jpeg"/>
+    <item href="Images/f0524-01.jpg" id="k3image86" media-type="image/jpeg"/>
+    <item href="Images/f0528-01.jpg" id="k3image87" media-type="image/jpeg"/>
+    <item href="Images/f0535-01.jpg" id="k3image88" media-type="image/jpeg"/>
+    <item href="Images/f0548-01.jpg" id="k3image89" media-type="image/jpeg"/>
+    <item href="Images/f0553-01.jpg" id="k3image90" media-type="image/jpeg"/>
+    <item href="Images/f0558-01.jpg" id="k3image91" media-type="image/jpeg"/>
+    <item href="Images/f0558-02.jpg" id="k3image92" media-type="image/jpeg"/>
+    <item href="Images/f0558-03.jpg" id="k3image93" media-type="image/jpeg"/>
+    <item href="Images/f0558-04.jpg" id="k3image94" media-type="image/jpeg"/>
+    <item href="Images/f0558-05.jpg" id="k3image95" media-type="image/jpeg"/>
+    <item href="Images/f0558-06.jpg" id="k3image96" media-type="image/jpeg"/>
+    <item href="Images/f0558-07.jpg" id="k3image97" media-type="image/jpeg"/>
+    <item href="Images/f0558-08.jpg" id="k3image98" media-type="image/jpeg"/>
+    <item href="Images/f0558-09.jpg" id="k3image99" media-type="image/jpeg"/>
+    <item href="Images/f0558-10.jpg" id="k3image100" media-type="image/jpeg"/>
+    <item href="Images/f0558-11.jpg" id="k3image101" media-type="image/jpeg"/>
+    <item href="Images/f0558-12.jpg" id="k3image102" media-type="image/jpeg"/>
+    <item href="Images/f0558-13.jpg" id="k3image103" media-type="image/jpeg"/>
+    <item href="Images/f0558-14.jpg" id="k3image104" media-type="image/jpeg"/>
+    <item href="Images/f0558-15.jpg" id="k3image105" media-type="image/jpeg"/>
+    <item href="Images/f076-01.jpg" id="k3image106" media-type="image/jpeg"/>
+    <item href="Images/f079-01.jpg" id="k3image107" media-type="image/jpeg"/>
+    <item href="Images/f087-01.jpg" id="k3image108" media-type="image/jpeg"/>
+    <item href="Images/f092-01.jpg" id="k3image109" media-type="image/jpeg"/>
+    <item href="Images/k1.gif" id="k3image110" media-type="image/gif"/>
+    <item href="Images/line.jpg" id="image_0026" media-type="image/jpeg"/>
+    <item href="Images/logo.jpg" id="image_0002" media-type="image/jpeg"/>
+    <item href="Images/pt01.jpg" id="k2image_0004" media-type="image/jpeg"/>
+    <item href="Images/pt02.jpg" id="k2image_0016" media-type="image/jpeg"/>
+    <item href="Images/pt03.jpg" id="k2image_0033" media-type="image/jpeg"/>
+    <item href="Images/pt04.jpg" id="k2image_0045" media-type="image/jpeg"/>
+    <item href="Images/pt05.jpg" id="k2image_0056" media-type="image/jpeg"/>
+    <item href="Images/pt06.jpg" id="k2image_0064" media-type="image/jpeg"/>
+    <item href="Images/publisher.jpg" id="k3image2" media-type="image/jpeg"/>
+    <item href="Images/tit.jpg" id="image_0001" media-type="image/jpeg"/>
+    <item href="Images/title.jpg" id="k3image1" media-type="image/jpeg"/>
+    <item href="Images/tp.jpg" id="k2image_0001" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="my-html-cover" linear="no"/>
+    <itemref idref="con02"/>
+    <itemref idref="htp01"/>
+    <itemref idref="tp01"/>
+    <itemref idref="ded01"/>
+    <itemref idref="ack01"/>
+    <itemref idref="fm01"/>
+    <itemref idref="htp02"/>
+    <itemref idref="con01"/>
+    <itemref idref="fm02"/>
+    <itemref idref="pt01"/>
+    <itemref idref="ch01"/>
+    <itemref idref="ch02"/>
+    <itemref idref="ch03"/>
+    <itemref idref="ch04"/>
+    <itemref idref="ch05"/>
+    <itemref idref="ch06"/>
+    <itemref idref="ch07"/>
+    <itemref idref="ch08"/>
+    <itemref idref="pt02"/>
+    <itemref idref="ch09"/>
+    <itemref idref="ch10"/>
+    <itemref idref="ch11"/>
+    <itemref idref="ch12"/>
+    <itemref idref="ch13"/>
+    <itemref idref="ch14"/>
+    <itemref idref="ch15"/>
+    <itemref idref="pt03"/>
+    <itemref idref="ch16"/>
+    <itemref idref="ch17"/>
+    <itemref idref="ch18"/>
+    <itemref idref="ch19"/>
+    <itemref idref="ch20"/>
+    <itemref idref="ch21"/>
+    <itemref idref="ch22"/>
+    <itemref idref="ch23"/>
+    <itemref idref="ch24"/>
+    <itemref idref="ch25"/>
+    <itemref idref="pt04"/>
+    <itemref idref="ch26"/>
+    <itemref idref="ch27"/>
+    <itemref idref="ch28"/>
+    <itemref idref="ch29"/>
+    <itemref idref="ch30"/>
+    <itemref idref="ch31"/>
+    <itemref idref="ch32"/>
+    <itemref idref="ch33"/>
+    <itemref idref="ch34"/>
+    <itemref idref="pt05"/>
+    <itemref idref="ch35"/>
+    <itemref idref="ch36"/>
+    <itemref idref="ch37"/>
+    <itemref idref="ch38"/>
+    <itemref idref="ch39"/>
+    <itemref idref="bm01"/>
+    <itemref idref="adc01"/>
+    <itemref idref="cop01"/>
+    <itemref idref="k2tp01"/>
+    <itemref idref="k2rev01"/>
+    <itemref idref="k2ded01"/>
+    <itemref idref="k2fm01"/>
+    <itemref idref="k2con01"/>
+    <itemref idref="k2pt01"/>
+    <itemref idref="k2ch01"/>
+    <itemref idref="k2ch02"/>
+    <itemref idref="k2ch03"/>
+    <itemref idref="k2ch04"/>
+    <itemref idref="k2ch05"/>
+    <itemref idref="k2ch06"/>
+    <itemref idref="k2ch07"/>
+    <itemref idref="k2ch08"/>
+    <itemref idref="k2ch09"/>
+    <itemref idref="k2ch10"/>
+    <itemref idref="k2ch11"/>
+    <itemref idref="k2pt02"/>
+    <itemref idref="k2ch12"/>
+    <itemref idref="k2ch13"/>
+    <itemref idref="k2ch14"/>
+    <itemref idref="k2ch15"/>
+    <itemref idref="k2ch16"/>
+    <itemref idref="k2ch17"/>
+    <itemref idref="k2ch18"/>
+    <itemref idref="k2ch19"/>
+    <itemref idref="k2ch20"/>
+    <itemref idref="k2ch21"/>
+    <itemref idref="k2ch22"/>
+    <itemref idref="k2ch23"/>
+    <itemref idref="k2ch24"/>
+    <itemref idref="k2ch25"/>
+    <itemref idref="k2ch26"/>
+    <itemref idref="k2ch27"/>
+    <itemref idref="k2pt03"/>
+    <itemref idref="k2ch28"/>
+    <itemref idref="k2ch29"/>
+    <itemref idref="k2ch30"/>
+    <itemref idref="k2ch31"/>
+    <itemref idref="k2ch32"/>
+    <itemref idref="k2ch33"/>
+    <itemref idref="k2ch34"/>
+    <itemref idref="k2ch35"/>
+    <itemref idref="k2ch36"/>
+    <itemref idref="k2ch37"/>
+    <itemref idref="k2ch38"/>
+    <itemref idref="k2pt04"/>
+    <itemref idref="k2ch39"/>
+    <itemref idref="k2ch40"/>
+    <itemref idref="k2ch41"/>
+    <itemref idref="k2ch42"/>
+    <itemref idref="k2ch43"/>
+    <itemref idref="k2ch44"/>
+    <itemref idref="k2ch45"/>
+    <itemref idref="k2ch46"/>
+    <itemref idref="k2ch47"/>
+    <itemref idref="k2ch48"/>
+    <itemref idref="k2pt05"/>
+    <itemref idref="k2ch49"/>
+    <itemref idref="k2ch50"/>
+    <itemref idref="k2ch51"/>
+    <itemref idref="k2ch52"/>
+    <itemref idref="k2ch53"/>
+    <itemref idref="k2ch54"/>
+    <itemref idref="k2ch55"/>
+    <itemref idref="k2pt06"/>
+    <itemref idref="k2ch56"/>
+    <itemref idref="k2ch57"/>
+    <itemref idref="k2ch58"/>
+    <itemref idref="k2ch59"/>
+    <itemref idref="k2bm01"/>
+    <itemref idref="k2bm02"/>
+    <itemref idref="k2bm03"/>
+    <itemref idref="k2bm04"/>
+    <itemref idref="k2adc01"/>
+    <itemref idref="k2ack01"/>
+    <itemref idref="k2cop01"/>
+    <itemref idref="halftitle"/>
+    <itemref idref="abouttheauthor"/>
+    <itemref idref="title"/>
+    <itemref idref="copyright"/>
+    <itemref idref="dedication"/>
+    <itemref idref="contents"/>
+    <itemref idref="frontmatter01"/>
+    <itemref idref="frontmatter02"/>
+    <itemref idref="frontmatter03"/>
+    <itemref idref="part01"/>
+    <itemref idref="part01chapter01"/>
+    <itemref idref="part01chapter02"/>
+    <itemref idref="part01chapter03"/>
+    <itemref idref="part01chapter04"/>
+    <itemref idref="part01chapter05"/>
+    <itemref idref="part01chapter06"/>
+    <itemref idref="part01chapter07"/>
+    <itemref idref="part01chapter08"/>
+    <itemref idref="part01chapter09"/>
+    <itemref idref="part01chapter10"/>
+    <itemref idref="part01chapter11"/>
+    <itemref idref="part01chapter12"/>
+    <itemref idref="part01chapter13"/>
+    <itemref idref="part02"/>
+    <itemref idref="part02chapter14"/>
+    <itemref idref="part02chapter15"/>
+    <itemref idref="part02chapter16"/>
+    <itemref idref="part02chapter17"/>
+    <itemref idref="part02chapter18"/>
+    <itemref idref="part02chapter19"/>
+    <itemref idref="part02chapter20"/>
+    <itemref idref="part02chapter21"/>
+    <itemref idref="part02chapter22"/>
+    <itemref idref="part02chapter23"/>
+    <itemref idref="part02chapter24"/>
+    <itemref idref="part02chapter25"/>
+    <itemref idref="part02chapter26"/>
+    <itemref idref="part02chapter27"/>
+    <itemref idref="part02chapter28"/>
+    <itemref idref="part02chapter29"/>
+    <itemref idref="part02chapter30"/>
+    <itemref idref="part02chapter31"/>
+    <itemref idref="part02chapter32"/>
+    <itemref idref="part02chapter33"/>
+    <itemref idref="part03"/>
+    <itemref idref="part03chapter34"/>
+    <itemref idref="part03chapter35"/>
+    <itemref idref="part03chapter36"/>
+    <itemref idref="part03chapter37"/>
+    <itemref idref="part03chapter38"/>
+    <itemref idref="part03chapter39"/>
+    <itemref idref="part03chapter40"/>
+    <itemref idref="part03chapter41"/>
+    <itemref idref="part03chapter42"/>
+    <itemref idref="part03chapter43"/>
+    <itemref idref="part03chapter44"/>
+    <itemref idref="part04"/>
+    <itemref idref="part04chapter45"/>
+    <itemref idref="part04chapter46"/>
+    <itemref idref="part04chapter47"/>
+    <itemref idref="part04chapter48"/>
+    <itemref idref="part04chapter49"/>
+    <itemref idref="part04chapter50"/>
+    <itemref idref="part04chapter51"/>
+    <itemref idref="part04chapter52"/>
+    <itemref idref="part04chapter53"/>
+    <itemref idref="part04chapter54"/>
+    <itemref idref="part04chapter55"/>
+    <itemref idref="part04chapter56"/>
+    <itemref idref="part04chapter57"/>
+    <itemref idref="part04chapter58"/>
+    <itemref idref="part05"/>
+    <itemref idref="part05chapter59"/>
+    <itemref idref="part05chapter60"/>
+    <itemref idref="part05chapter61"/>
+    <itemref idref="part05chapter62"/>
+    <itemref idref="part05chapter63"/>
+    <itemref idref="part05chapter64"/>
+    <itemref idref="part05chapter65"/>
+    <itemref idref="part05chapter66"/>
+    <itemref idref="part05chapter67"/>
+    <itemref idref="part05chapter68"/>
+    <itemref idref="part05chapter69"/>
+    <itemref idref="part05chapter70"/>
+    <itemref idref="part05chapter71"/>
+    <itemref idref="part05chapter72"/>
+    <itemref idref="part05chapter73"/>
+    <itemref idref="part05chapter74"/>
+    <itemref idref="part05chapter75"/>
+    <itemref idref="part05chapter76"/>
+    <itemref idref="part05chapter77"/>
+    <itemref idref="part05chapter78"/>
+    <itemref idref="part05chapter79"/>
+    <itemref idref="part05chapter80"/>
+    <itemref idref="part05chapter81"/>
+    <itemref idref="part05chapter82"/>
+    <itemref idref="backmatter01"/>
+    <itemref idref="backmatter02"/>
+    <itemref idref="backmatter03"/>
+    <itemref idref="backmatter04"/>
+  </spine>
+  <guide>
+    <reference href="9780765311788_cov.html" title="Cover Image" type="cover"/>
+    <reference href="9780765311788_cop01.html" title="Copyright" type="copyright"/>
+    <reference href="9780765311788_con02.html" title="Table of Contents" type="toc"/>
+  </guide>
+</package>
