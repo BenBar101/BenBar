@@ -67,7 +67,7 @@
         .speed-controls {
             display: flex;
             flex-direction: column;
-            width: 105px;
+            width: 110px;
             gap: 8px;
         }
         .speed-btn {
@@ -141,6 +141,37 @@
             color: #121212;
             border-color: #90caf9;
         }
+        .fullscreen-btn {
+            background: #1e1e1e;
+            border: 2px solid #383838;
+            border-radius: 10px;
+            color: #81c784;
+            cursor: pointer;
+            padding: 10px 4px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            transition: background 0.12s, border-color 0.12s, transform 0.08s;
+        }
+        .fullscreen-btn:hover, .fullscreen-btn:active {
+            background: #2a2a2a;
+            border-color: #81c784;
+            transform: scale(0.96);
+        }
+        .fullscreen-icon {
+            font-size: 1.35rem;
+            line-height: 1;
+            margin-bottom: 3px;
+        }
+        .fullscreen-label {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: #f1f1f1;
+        }
         .playlist {
             width: 100%;
             max-width: 860px;
@@ -204,7 +235,7 @@
 
     <div class="player-wrapper">
         <div class="player-container">
-            <iframe id="main-player" src="https://www.youtube.com/embed/cM6rawDwCYI?enablejsapi=1&playsinline=1&rel=0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <iframe id="main-player" src="https://www.youtube.com/embed/cM6rawDwCYI?enablejsapi=1&playsinline=1&rel=0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
         </div>
 
         <div class="speed-controls">
@@ -223,6 +254,10 @@
                 <button class="preset-btn" data-speed="1.75" onclick="setSpeed(1.75)">1.75x</button>
                 <button class="preset-btn" data-speed="2.0" onclick="setSpeed(2.0)">2.0x</button>
             </div>
+            <button class="fullscreen-btn" onclick="toggleFullscreen()" title="מסך מלא">
+                <span class="fullscreen-icon">⛶</span>
+                <span class="fullscreen-label">מסך מלא</span>
+            </button>
         </div>
     </div>
 
@@ -364,7 +399,7 @@
                     player.setPlaybackRate(currentSpeed);
                 } catch(e) {}
             }
-            // Method 2: Direct iframe postMessage with multiple formats
+            // Method 2: Direct iframe postMessage
             sendDirectCommand('setPlaybackRate', [currentSpeed]);
         }
 
@@ -378,7 +413,6 @@
         function setSpeed(speed) {
             currentSpeed = Number(speed);
             applySpeed();
-            // Staggered retries to guarantee speed locks into Gecko/Firefox audio context
             setTimeout(applySpeed, 50);
             setTimeout(applySpeed, 150);
             setTimeout(applySpeed, 400);
@@ -399,6 +433,36 @@
                     btn.classList.remove('active');
                 }
             });
+        }
+
+        function toggleFullscreen() {
+            const container = document.querySelector('.player-container');
+            const iframe = document.getElementById('main-player');
+            const target = iframe || container;
+
+            const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement;
+
+            if (!isFullscreen) {
+                if (target.requestFullscreen) {
+                    target.requestFullscreen();
+                } else if (target.webkitRequestFullscreen) {
+                    target.webkitRequestFullscreen();
+                } else if (target.mozRequestFullScreen) {
+                    target.mozRequestFullScreen();
+                } else if (target.msRequestFullscreen) {
+                    target.msRequestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
         }
 
         function loadVideo(id) {
