@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>טלוויזיית הליכון — אופטיקה</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
         body {
             background-color: #121212;
             color: #f1f1f1;
@@ -53,16 +56,18 @@
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+            position: relative;
         }
         .player-container iframe {
             width: 100%;
             height: 100%;
             border: 0;
+            display: block;
         }
         .speed-controls {
             display: flex;
             flex-direction: column;
-            width: 100px;
+            width: 105px;
             gap: 8px;
         }
         .speed-btn {
@@ -93,14 +98,14 @@
             margin-bottom: 4px;
         }
         .speed-label {
-            font-size: 0.82rem;
+            font-size: 0.85rem;
             font-weight: 700;
             color: #e0e0e0;
         }
         .speed-badge {
             background: #252525;
             color: #4fc3f7;
-            padding: 6px 2px;
+            padding: 8px 2px;
             border-radius: 8px;
             text-align: center;
             font-weight: 700;
@@ -111,22 +116,29 @@
         .speed-presets {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 4px;
+            gap: 5px;
         }
         .preset-btn {
-            background: #181818;
-            border: 1px solid #333;
-            color: #aaa;
+            background: #1e1e1e;
+            border: 1px solid #444;
+            color: #ccc;
             border-radius: 6px;
-            padding: 6px 2px;
-            font-size: 0.8rem;
+            padding: 8px 2px;
+            font-size: 0.85rem;
             font-weight: bold;
             cursor: pointer;
             text-align: center;
+            touch-action: manipulation;
+            transition: all 0.12s;
         }
         .preset-btn:hover, .preset-btn:active {
-            background: #282828;
+            background: #2a2a2a;
             color: #90caf9;
+            border-color: #90caf9;
+        }
+        .preset-btn.active {
+            background: #90caf9;
+            color: #121212;
             border-color: #90caf9;
         }
         .playlist {
@@ -184,7 +196,7 @@
 
     <div class="player-wrapper">
         <div class="player-container">
-            <iframe id="main-player" src="https://www.youtube.com/embed/cM6rawDwCYI?enablejsapi=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <iframe id="main-player" src="https://www.youtube.com/embed/cM6rawDwCYI?enablejsapi=1&playsinline=1&rel=0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
         </div>
 
         <div class="speed-controls">
@@ -198,8 +210,10 @@
                 <span class="speed-label">לאט -</span>
             </button>
             <div class="speed-presets">
-                <button class="preset-btn" onclick="setSpeed(1.5)">1.5x</button>
-                <button class="preset-btn" onclick="setSpeed(2)">2.0x</button>
+                <button class="preset-btn" data-speed="1.25" onclick="setSpeed(1.25)">1.25x</button>
+                <button class="preset-btn" data-speed="1.5" onclick="setSpeed(1.5)">1.5x</button>
+                <button class="preset-btn" data-speed="1.75" onclick="setSpeed(1.75)">1.75x</button>
+                <button class="preset-btn" data-speed="2.0" onclick="setSpeed(2.0)">2.0x</button>
             </div>
         </div>
     </div>
@@ -269,61 +283,107 @@
         </div>
     </div>
 
-    <!-- YouTube IFrame API for programmatic playback rate control -->
-    <script src="https://www.youtube.com/iframe_api"></script>
+    <!-- YouTube IFrame API & postMessage dual-layer speed control -->
     <script>
         let player = null;
-        const availableSpeeds = [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2];
-        let currentSpeed = 1;
+        let isPlayerReady = false;
+        const availableSpeeds = [0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0];
+        let currentSpeed = 1.0;
 
-        function onYouTubeIframeAPIReady() {
+        // Asynchronously load the YouTube IFrame API
+        const tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        const firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        function sendDirectCommand(func, args) {
+            const iframe = document.getElementById('main-player');
+            if (iframe && iframe.contentWindow) {
+                const message = JSON.stringify({
+                    event: 'command',
+                    func: func,
+                    args: args || []
+                });
+                iframe.contentWindow.postMessage(message, '*');
+            }
+        }
+
+        window.onYouTubeIframeAPIReady = function() {
             player = new YT.Player('main-player', {
                 events: {
-                    'onReady': onPlayerReady,
-                    'onStateChange': onPlayerStateChange
+                    'onReady': function(e) {
+                        isPlayerReady = true;
+                        applySpeed();
+                    },
+                    'onStateChange': function(e) {
+                        if (e.data === YT.PlayerState.PLAYING) {
+                            applySpeed();
+                        }
+                    },
+                    'onPlaybackRateChange': function(e) {
+                        if (e && typeof e.data === 'number') {
+                            currentSpeed = e.data;
+                            updateUI(currentSpeed);
+                        }
+                    }
                 }
             });
-        }
-
-        function onPlayerReady(event) {
-            applySpeed();
-        }
-
-        function onPlayerStateChange(event) {
-            if (event.data === YT.PlayerState.PLAYING) {
-                applySpeed();
-            }
-        }
+        };
 
         function applySpeed() {
+            // Method 1: Official YT API
             if (player && typeof player.setPlaybackRate === 'function') {
-                player.setPlaybackRate(currentSpeed);
+                try {
+                    player.setPlaybackRate(currentSpeed);
+                } catch(e) {}
             }
+            // Method 2: Direct iframe postMessage
+            sendDirectCommand('setPlaybackRate', [currentSpeed]);
         }
 
         function changeSpeed(delta) {
-            let idx = availableSpeeds.indexOf(currentSpeed);
+            let idx = availableSpeeds.findIndex(s => Math.abs(s - currentSpeed) < 0.05);
             if (idx === -1) idx = 2; // default 1.0
             let newIdx = Math.max(0, Math.min(availableSpeeds.length - 1, idx + delta));
             setSpeed(availableSpeeds[newIdx]);
         }
 
         function setSpeed(speed) {
-            currentSpeed = speed;
+            currentSpeed = Number(speed);
             applySpeed();
+            // Retry twice after brief delays to ensure video catches the rate
+            setTimeout(applySpeed, 100);
+            setTimeout(applySpeed, 350);
+            updateUI(currentSpeed);
+        }
+
+        function updateUI(speed) {
             const badge = document.getElementById('current-speed-display');
             if (badge) {
-                badge.textContent = speed.toFixed(speed % 1 === 0 ? 1 : 2) + 'x';
+                badge.textContent = (speed % 1 === 0 ? speed.toFixed(1) : speed) + 'x';
             }
+            document.querySelectorAll('.preset-btn').forEach(btn => {
+                const btnSpeed = parseFloat(btn.dataset.speed || btn.textContent);
+                if (Math.abs(btnSpeed - speed) < 0.05) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
         }
 
         function loadVideo(id) {
             if (player && typeof player.loadVideoById === 'function') {
                 player.loadVideoById(id);
-                setTimeout(applySpeed, 250);
             } else {
-                document.getElementById('main-player').src = 'https://www.youtube.com/embed/' + id + '?enablejsapi=1&autoplay=1';
+                const iframe = document.getElementById('main-player');
+                if (iframe) {
+                    iframe.src = 'https://www.youtube.com/embed/' + id + '?enablejsapi=1&playsinline=1&rel=0&autoplay=1';
+                }
             }
+            setTimeout(applySpeed, 300);
+            setTimeout(applySpeed, 800);
+            setTimeout(applySpeed, 1500);
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
     </script>
