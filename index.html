@@ -1,19 +1,186 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.6">
-  <style type="text/css">
-    body {background-color: #0f0f0f}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Lucida Grande'; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #000000; min-height: 15.0px}
-    span.s1 {font-kerning: none}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>טלוויזיית הליכון — אופטיקה</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #f1f1f1;
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .book-nav {
+            width: 100%;
+            max-width: 800px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        .book-btn {
+            background: #1e1e1e;
+            color: #90caf9;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px 4px;
+            border-radius: 8px;
+            font-size: 0.92rem;
+            font-weight: 500;
+            border: 1px solid #333;
+            transition: background 0.15s;
+        }
+        .book-btn:hover, .book-btn:active {
+            background: #2a2a2a;
+            border-color: #555;
+        }
+        .player-container {
+            width: 100%;
+            max-width: 800px;
+            aspect-ratio: 16 / 9;
+            background: #000;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+            margin-bottom: 24px;
+        }
+        .player-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .playlist {
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .playlist h2 {
+            margin: 0 0 8px 0;
+            font-size: 1.2rem;
+            color: #bbb;
+        }
+        .video-card {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            background: #1e1e1e;
+            padding: 10px 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            transition: background 0.2s, transform 0.1s;
+        }
+        .video-card:hover {
+            background: #2a2a2a;
+            transform: translateX(-2px);
+        }
+        .video-num {
+            font-weight: bold;
+            color: #888;
+            min-width: 24px;
+        }
+        .video-thumb {
+            width: 90px;
+            height: 50px;
+            border-radius: 4px;
+            object-fit: cover;
+        }
+        .video-title {
+            font-size: 0.95rem;
+            flex-grow: 1;
+        }
+    </style>
 </head>
 <body>
-<h1 dir="rtl" style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Lucida Grande'; color: #ffffff; -webkit-text-stroke: #ffffff; min-height: 28.0px"><span class="s1"><b></b></span><br></h1>
-<p dir="rtl" class="p2"><span class="s1"></span><br></p>
+
+    <div class="book-nav">
+        <a class="book-btn" href="https://benbar101.github.io/BenBar/read/mistborn/book1.html" target="_blank" rel="noopener">📖 ספר 1 (Final Empire)</a>
+        <a class="book-btn" href="https://benbar101.github.io/BenBar/read/mistborn/book2.html" target="_blank" rel="noopener">📖 ספר 2 (Well of Ascension)</a>
+        <a class="book-btn" href="https://benbar101.github.io/BenBar/read/mistborn/book3.html" target="_blank" rel="noopener">📖 ספר 3 (Hero of Ages)</a>
+    </div>
+
+    <div class="player-container">
+        <iframe id="main-player" src="https://www.youtube.com/embed/cM6rawDwCYI?enablejsapi=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    </div>
+
+    <div class="playlist">
+        <h2>רשימת הסרטונים (אופטיקה — פרופ' אבי פאר)</h2>
+        
+        <div class="video-card" onclick="loadVideo('cM6rawDwCYI')">
+            <span class="video-num">1</span>
+            <img class="video-thumb" src="https://i.ytimg.com/vi/cM6rawDwCYI/mqdefault.jpg" alt="1">
+            <span class="video-title">Geometric Optics: Introduction + Plane Mirrors</span>
+        </div>
+        <div class="video-card" onclick="loadVideo('W8EA139ZpOs')">
+            <span class="video-num">2</span>
+            <img class="video-thumb" src="https://i.ytimg.com/vi/W8EA139ZpOs/mqdefault.jpg" alt="2">
+            <span class="video-title">Geometric optics: the visualization formula</span>
+        </div>
+        <div class="video-card" onclick="loadVideo('qL9CJ9qNvRM')">
+            <span class="video-num">3</span>
+            <img class="video-thumb" src="https://i.ytimg.com/vi/qL9CJ9qNvRM/mqdefault.jpg" alt="3">
+            <span class="video-title">Refraction - simple principles and devices</span>
+        </div>
+        <div class="video-card" onclick="loadVideo('7-6ePrlDY7g')">
+            <span class="video-num">4</span>
+            <img class="video-thumb" src="https://i.ytimg.com/vi/7-6ePrlDY7g/mqdefault.jpg" alt="4">
+            <span class="video-title">Visual impairments and glasses</span>
+        </div>
+        <div class="video-card" onclick="loadVideo('Pronn-PEfac')">
+            <span class="video-num">5</span>
+            <img class="video-thumb" src="https://i.ytimg.com/vi/Pronn-PEfac/mqdefault.jpg" alt="5">
+            <span class="video-title">אופטיקה גיאומטרית: מכשירים אופטיים</span>
+        </div>
+        <div class="video-card" onclick="loadVideo('u6dXATVA0C4')">
+            <span class="video-num">6</span>
+            <img class="video-thumb" src="https://i.ytimg.com/vi/u6dXATVA0C4/mqdefault.jpg" alt="6">
+            <span class="video-title">התקדמות גלים הויגנס, פרנל, פראונהופר</span>
+        </div>
+        <div class="video-card" onclick="loadVideo('fjVJbbxwaF0')">
+            <span class="video-num">7</span>
+            <img class="video-thumb" src="https://i.ytimg.com/vi/fjVJbbxwaF0/mqdefault.jpg" alt="7">
+            <span class="video-title">טרנספורם פורייה אופטי, תכונות העדשה וגבולות הדיפרקציה</span>
+        </div>
+        <div class="video-card" onclick="loadVideo('WoWHMdaT7S4')">
+            <span class="video-num">8</span>
+            <img class="video-thumb" src="https://i.ytimg.com/vi/WoWHMdaT7S4/mqdefault.jpg" alt="8">
+            <span class="video-title">השריג האופטי - סדרי דיפרקציה, השריג המשונן</span>
+        </div>
+        <div class="video-card" onclick="loadVideo('O6h0k3otPY0')">
+            <span class="video-num">9</span>
+            <img class="video-thumb" src="https://i.ytimg.com/vi/O6h0k3otPY0/mqdefault.jpg" alt="9">
+            <span class="video-title">אינטרפרומטרים ומהודים</span>
+        </div>
+        <div class="video-card" onclick="loadVideo('UAB80oSDQ2s')">
+            <span class="video-num">10</span>
+            <img class="video-thumb" src="https://i.ytimg.com/vi/UAB80oSDQ2s/mqdefault.jpg" alt="10">
+            <span class="video-title">קיטוב</span>
+        </div>
+        <div class="video-card" onclick="loadVideo('QPf3zJ8nnII')">
+            <span class="video-num">11</span>
+            <img class="video-thumb" src="https://i.ytimg.com/vi/QPf3zJ8nnII/mqdefault.jpg" alt="11">
+            <span class="video-title">משוואות פרנל - קיטוב בהחזרה ממשטח</span>
+        </div>
+        <div class="video-card" onclick="loadVideo('F42dBAaEpWU')">
+            <span class="video-num">12</span>
+            <img class="video-thumb" src="https://i.ytimg.com/vi/F42dBAaEpWU/mqdefault.jpg" alt="12">
+            <span class="video-title">שבירה כפולה - היפרדות קיטובים</span>
+        </div>
+    </div>
+
+    <script>
+        function loadVideo(id) {
+            document.getElementById('main-player').src = 'https://www.youtube.com/embed/' + id + '?autoplay=1';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
