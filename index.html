@@ -10,14 +10,14 @@
             color: #f1f1f1;
             font-family: system-ui, -apple-system, sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 16px;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
         .book-nav {
             width: 100%;
-            max-width: 800px;
+            max-width: 860px;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 8px;
@@ -28,9 +28,9 @@
             color: #90caf9;
             text-decoration: none;
             text-align: center;
-            padding: 10px 4px;
+            padding: 12px 6px;
             border-radius: 8px;
-            font-size: 0.92rem;
+            font-size: 0.95rem;
             font-weight: 500;
             border: 1px solid #333;
             transition: background 0.15s;
@@ -39,24 +39,99 @@
             background: #2a2a2a;
             border-color: #555;
         }
-        .player-container {
+        .player-wrapper {
             width: 100%;
-            max-width: 800px;
+            max-width: 860px;
+            display: flex;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .player-container {
+            flex: 1;
             aspect-ratio: 16 / 9;
             background: #000;
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-            margin-bottom: 24px;
         }
         .player-container iframe {
             width: 100%;
             height: 100%;
             border: 0;
         }
+        .speed-controls {
+            display: flex;
+            flex-direction: column;
+            width: 100px;
+            gap: 8px;
+        }
+        .speed-btn {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #1e1e1e;
+            border: 2px solid #383838;
+            border-radius: 10px;
+            color: #90caf9;
+            cursor: pointer;
+            padding: 8px 4px;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            transition: background 0.12s, border-color 0.12s, transform 0.08s;
+        }
+        .speed-btn:hover, .speed-btn:active {
+            background: #2a2a2a;
+            border-color: #90caf9;
+            transform: scale(0.96);
+        }
+        .speed-icon {
+            font-size: 1.4rem;
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+        .speed-label {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: #e0e0e0;
+        }
+        .speed-badge {
+            background: #252525;
+            color: #4fc3f7;
+            padding: 6px 2px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.15rem;
+            border: 1px solid #444;
+            letter-spacing: 0.5px;
+        }
+        .speed-presets {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4px;
+        }
+        .preset-btn {
+            background: #181818;
+            border: 1px solid #333;
+            color: #aaa;
+            border-radius: 6px;
+            padding: 6px 2px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+        }
+        .preset-btn:hover, .preset-btn:active {
+            background: #282828;
+            color: #90caf9;
+            border-color: #90caf9;
+        }
         .playlist {
             width: 100%;
-            max-width: 800px;
+            max-width: 860px;
             display: flex;
             flex-direction: column;
             gap: 10px;
@@ -107,8 +182,26 @@
         <a class="book-btn" href="https://benbar101.github.io/BenBar/read/mistborn/book3.html" target="_blank" rel="noopener">📖 ספר 3 (Hero of Ages)</a>
     </div>
 
-    <div class="player-container">
-        <iframe id="main-player" src="https://www.youtube.com/embed/cM6rawDwCYI?enablejsapi=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    <div class="player-wrapper">
+        <div class="player-container">
+            <iframe id="main-player" src="https://www.youtube.com/embed/cM6rawDwCYI?enablejsapi=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+
+        <div class="speed-controls">
+            <button class="speed-btn" onclick="changeSpeed(1)" title="הגבר מהירות">
+                <span class="speed-icon">▲</span>
+                <span class="speed-label">מהר +</span>
+            </button>
+            <div class="speed-badge" id="current-speed-display">1.0x</div>
+            <button class="speed-btn" onclick="changeSpeed(-1)" title="האט מהירות">
+                <span class="speed-icon">▼</span>
+                <span class="speed-label">לאט -</span>
+            </button>
+            <div class="speed-presets">
+                <button class="preset-btn" onclick="setSpeed(1.5)">1.5x</button>
+                <button class="preset-btn" onclick="setSpeed(2)">2.0x</button>
+            </div>
+        </div>
     </div>
 
     <div class="playlist">
@@ -176,9 +269,61 @@
         </div>
     </div>
 
+    <!-- YouTube IFrame API for programmatic playback rate control -->
+    <script src="https://www.youtube.com/iframe_api"></script>
     <script>
+        let player = null;
+        const availableSpeeds = [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2];
+        let currentSpeed = 1;
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('main-player', {
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            applySpeed();
+        }
+
+        function onPlayerStateChange(event) {
+            if (event.data === YT.PlayerState.PLAYING) {
+                applySpeed();
+            }
+        }
+
+        function applySpeed() {
+            if (player && typeof player.setPlaybackRate === 'function') {
+                player.setPlaybackRate(currentSpeed);
+            }
+        }
+
+        function changeSpeed(delta) {
+            let idx = availableSpeeds.indexOf(currentSpeed);
+            if (idx === -1) idx = 2; // default 1.0
+            let newIdx = Math.max(0, Math.min(availableSpeeds.length - 1, idx + delta));
+            setSpeed(availableSpeeds[newIdx]);
+        }
+
+        function setSpeed(speed) {
+            currentSpeed = speed;
+            applySpeed();
+            const badge = document.getElementById('current-speed-display');
+            if (badge) {
+                badge.textContent = speed.toFixed(speed % 1 === 0 ? 1 : 2) + 'x';
+            }
+        }
+
         function loadVideo(id) {
-            document.getElementById('main-player').src = 'https://www.youtube.com/embed/' + id + '?autoplay=1';
+            if (player && typeof player.loadVideoById === 'function') {
+                player.loadVideoById(id);
+                setTimeout(applySpeed, 250);
+            } else {
+                document.getElementById('main-player').src = 'https://www.youtube.com/embed/' + id + '?enablejsapi=1&autoplay=1';
+            }
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
     </script>
