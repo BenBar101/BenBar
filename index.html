@@ -163,16 +163,24 @@
             cursor: pointer;
             text-decoration: none;
             color: white;
-            transition: background 0.2s, transform 0.1s;
+            border: 1px solid transparent;
+            transition: background 0.2s, transform 0.1s, border-color 0.2s;
         }
         .video-card:hover {
             background: #2a2a2a;
             transform: translateX(-2px);
         }
+        .video-card.active-video {
+            background: #1a2736;
+            border-color: #90caf9;
+        }
         .video-num {
             font-weight: bold;
             color: #888;
             min-width: 24px;
+        }
+        .video-card.active-video .video-num {
+            color: #90caf9;
         }
         .video-thumb {
             width: 90px;
@@ -221,62 +229,62 @@
     <div class="playlist">
         <h2>רשימת הסרטונים (אופטיקה — פרופ' אבי פאר)</h2>
         
-        <div class="video-card" onclick="loadVideo('cM6rawDwCYI')">
+        <div class="video-card active-video" data-id="cM6rawDwCYI" onclick="loadVideo('cM6rawDwCYI')">
             <span class="video-num">1</span>
             <img class="video-thumb" src="https://i.ytimg.com/vi/cM6rawDwCYI/mqdefault.jpg" alt="1">
             <span class="video-title">Geometric Optics: Introduction + Plane Mirrors</span>
         </div>
-        <div class="video-card" onclick="loadVideo('W8EA139ZpOs')">
+        <div class="video-card" data-id="W8EA139ZpOs" onclick="loadVideo('W8EA139ZpOs')">
             <span class="video-num">2</span>
             <img class="video-thumb" src="https://i.ytimg.com/vi/W8EA139ZpOs/mqdefault.jpg" alt="2">
             <span class="video-title">Geometric optics: the visualization formula</span>
         </div>
-        <div class="video-card" onclick="loadVideo('qL9CJ9qNvRM')">
+        <div class="video-card" data-id="qL9CJ9qNvRM" onclick="loadVideo('qL9CJ9qNvRM')">
             <span class="video-num">3</span>
             <img class="video-thumb" src="https://i.ytimg.com/vi/qL9CJ9qNvRM/mqdefault.jpg" alt="3">
             <span class="video-title">Refraction - simple principles and devices</span>
         </div>
-        <div class="video-card" onclick="loadVideo('7-6ePrlDY7g')">
+        <div class="video-card" data-id="7-6ePrlDY7g" onclick="loadVideo('7-6ePrlDY7g')">
             <span class="video-num">4</span>
             <img class="video-thumb" src="https://i.ytimg.com/vi/7-6ePrlDY7g/mqdefault.jpg" alt="4">
             <span class="video-title">Visual impairments and glasses</span>
         </div>
-        <div class="video-card" onclick="loadVideo('Pronn-PEfac')">
+        <div class="video-card" data-id="Pronn-PEfac" onclick="loadVideo('Pronn-PEfac')">
             <span class="video-num">5</span>
             <img class="video-thumb" src="https://i.ytimg.com/vi/Pronn-PEfac/mqdefault.jpg" alt="5">
             <span class="video-title">אופטיקה גיאומטרית: מכשירים אופטיים</span>
         </div>
-        <div class="video-card" onclick="loadVideo('u6dXATVA0C4')">
+        <div class="video-card" data-id="u6dXATVA0C4" onclick="loadVideo('u6dXATVA0C4')">
             <span class="video-num">6</span>
             <img class="video-thumb" src="https://i.ytimg.com/vi/u6dXATVA0C4/mqdefault.jpg" alt="6">
             <span class="video-title">התקדמות גלים הויגנס, פרנל, פראונהופר</span>
         </div>
-        <div class="video-card" onclick="loadVideo('fjVJbbxwaF0')">
+        <div class="video-card" data-id="fjVJbbxwaF0" onclick="loadVideo('fjVJbbxwaF0')">
             <span class="video-num">7</span>
             <img class="video-thumb" src="https://i.ytimg.com/vi/fjVJbbxwaF0/mqdefault.jpg" alt="7">
             <span class="video-title">טרנספורם פורייה אופטי, תכונות העדשה וגבולות הדיפרקציה</span>
         </div>
-        <div class="video-card" onclick="loadVideo('WoWHMdaT7S4')">
+        <div class="video-card" data-id="WoWHMdaT7S4" onclick="loadVideo('WoWHMdaT7S4')">
             <span class="video-num">8</span>
             <img class="video-thumb" src="https://i.ytimg.com/vi/WoWHMdaT7S4/mqdefault.jpg" alt="8">
             <span class="video-title">השריג האופטי - סדרי דיפרקציה, השריג המשונן</span>
         </div>
-        <div class="video-card" onclick="loadVideo('O6h0k3otPY0')">
+        <div class="video-card" data-id="O6h0k3otPY0" onclick="loadVideo('O6h0k3otPY0')">
             <span class="video-num">9</span>
             <img class="video-thumb" src="https://i.ytimg.com/vi/O6h0k3otPY0/mqdefault.jpg" alt="9">
             <span class="video-title">אינטרפרומטרים ומהודים</span>
         </div>
-        <div class="video-card" onclick="loadVideo('UAB80oSDQ2s')">
+        <div class="video-card" data-id="UAB80oSDQ2s" onclick="loadVideo('UAB80oSDQ2s')">
             <span class="video-num">10</span>
             <img class="video-thumb" src="https://i.ytimg.com/vi/UAB80oSDQ2s/mqdefault.jpg" alt="10">
             <span class="video-title">קיטוב</span>
         </div>
-        <div class="video-card" onclick="loadVideo('QPf3zJ8nnII')">
+        <div class="video-card" data-id="QPf3zJ8nnII" onclick="loadVideo('QPf3zJ8nnII')">
             <span class="video-num">11</span>
             <img class="video-thumb" src="https://i.ytimg.com/vi/QPf3zJ8nnII/mqdefault.jpg" alt="11">
             <span class="video-title">משוואות פרנל - קיטוב בהחזרה ממשטח</span>
         </div>
-        <div class="video-card" onclick="loadVideo('F42dBAaEpWU')">
+        <div class="video-card" data-id="F42dBAaEpWU" onclick="loadVideo('F42dBAaEpWU')">
             <span class="video-num">12</span>
             <img class="video-thumb" src="https://i.ytimg.com/vi/F42dBAaEpWU/mqdefault.jpg" alt="12">
             <span class="video-title">שבירה כפולה - היפרדות קיטובים</span>
@@ -287,8 +295,25 @@
     <script>
         let player = null;
         let isPlayerReady = false;
+        let currentVideoId = 'cM6rawDwCYI';
         const availableSpeeds = [0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0];
         let currentSpeed = 1.0;
+
+        function getPageOrigin() {
+            try {
+                if (window.location.origin && window.location.origin !== 'null' && window.location.origin !== 'file://') {
+                    return window.location.origin;
+                }
+            } catch(e) {}
+            return 'https://benbar101.github.io';
+        }
+
+        // Set proper origin on iframe src for Firefox/Zen Browser postMessage security
+        const initialOrigin = getPageOrigin();
+        const mainIframe = document.getElementById('main-player');
+        if (mainIframe) {
+            mainIframe.src = 'https://www.youtube.com/embed/' + currentVideoId + '?enablejsapi=1&origin=' + encodeURIComponent(initialOrigin) + '&playsinline=1&rel=0';
+        }
 
         // Asynchronously load the YouTube IFrame API
         const tag = document.createElement('script');
@@ -299,24 +324,26 @@
         function sendDirectCommand(func, args) {
             const iframe = document.getElementById('main-player');
             if (iframe && iframe.contentWindow) {
-                const message = JSON.stringify({
+                // Send handshake and command
+                iframe.contentWindow.postMessage(JSON.stringify({ event: 'listening' }), '*');
+                iframe.contentWindow.postMessage(JSON.stringify({
                     event: 'command',
                     func: func,
                     args: args || []
-                });
-                iframe.contentWindow.postMessage(message, '*');
+                }), '*');
             }
         }
 
         window.onYouTubeIframeAPIReady = function() {
             player = new YT.Player('main-player', {
+                host: 'https://www.youtube.com',
                 events: {
                     'onReady': function(e) {
                         isPlayerReady = true;
                         applySpeed();
                     },
                     'onStateChange': function(e) {
-                        if (e.data === YT.PlayerState.PLAYING) {
+                        if (e.data === YT.PlayerState.PLAYING || e.data === YT.PlayerState.BUFFERING) {
                             applySpeed();
                         }
                     },
@@ -337,7 +364,7 @@
                     player.setPlaybackRate(currentSpeed);
                 } catch(e) {}
             }
-            // Method 2: Direct iframe postMessage
+            // Method 2: Direct iframe postMessage with multiple formats
             sendDirectCommand('setPlaybackRate', [currentSpeed]);
         }
 
@@ -351,9 +378,11 @@
         function setSpeed(speed) {
             currentSpeed = Number(speed);
             applySpeed();
-            // Retry twice after brief delays to ensure video catches the rate
-            setTimeout(applySpeed, 100);
-            setTimeout(applySpeed, 350);
+            // Staggered retries to guarantee speed locks into Gecko/Firefox audio context
+            setTimeout(applySpeed, 50);
+            setTimeout(applySpeed, 150);
+            setTimeout(applySpeed, 400);
+            setTimeout(applySpeed, 1000);
             updateUI(currentSpeed);
         }
 
@@ -373,17 +402,33 @@
         }
 
         function loadVideo(id) {
+            currentVideoId = id;
+            const origin = getPageOrigin();
+            
             if (player && typeof player.loadVideoById === 'function') {
-                player.loadVideoById(id);
+                try {
+                    player.loadVideoById(id);
+                } catch(e) {
+                    const iframe = document.getElementById('main-player');
+                    if (iframe) {
+                        iframe.src = 'https://www.youtube.com/embed/' + id + '?enablejsapi=1&origin=' + encodeURIComponent(origin) + '&playsinline=1&rel=0&autoplay=1';
+                    }
+                }
             } else {
                 const iframe = document.getElementById('main-player');
                 if (iframe) {
-                    iframe.src = 'https://www.youtube.com/embed/' + id + '?enablejsapi=1&playsinline=1&rel=0&autoplay=1';
+                    iframe.src = 'https://www.youtube.com/embed/' + id + '?enablejsapi=1&origin=' + encodeURIComponent(origin) + '&playsinline=1&rel=0&autoplay=1';
                 }
             }
-            setTimeout(applySpeed, 300);
-            setTimeout(applySpeed, 800);
-            setTimeout(applySpeed, 1500);
+
+            document.querySelectorAll('.video-card').forEach(c => c.classList.remove('active-video'));
+            const card = document.querySelector('.video-card[data-id="' + id + '"]');
+            if (card) card.classList.add('active-video');
+
+            setTimeout(applySpeed, 200);
+            setTimeout(applySpeed, 600);
+            setTimeout(applySpeed, 1200);
+            setTimeout(applySpeed, 2000);
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
     </script>
